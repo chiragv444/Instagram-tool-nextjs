@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "title": "免费下载 Instagram 照片 - SaveInstaVideo",
+    "description": "Instagram 照片下载工具可帮助您在几秒钟内保存 Instagram 照片。免费、安全，无需注册即可在任何设备上使用，并保证 100% 原图质量。",
+    "keywords": "SaveInstaVideo、Instagram 照片下载、Instagram 照片下载器、Instagram 图片下载、Instagram 图片下载器、Instagram 图片下载器"
+  },
+  "hero": {
+    "title": "Instagram照片下载器",
+    "subtitle": "无需登录，即可轻松便捷地将高质量的 Instagram 图片即时保存到任何设备上。"
+  },
+  "nav": {
+    "video": "视频",
+    "image": "照片",
+    "reels": "短视频",
+    "story": "故事",
+    "viewer": "观看者"
+  },
+  "form": {
+    "placeholder": "粘贴 Instagram 照片网址",
+    "download_btn": "下载",
+    "paste": "粘贴",
+    "clear": "清除"
+  },
+  "page_introduction": {
+    "title": "Instagram照片下载器：立即保存图片",
+    "description": [
+      "SaveInstaVideo 是一款功能强大且易于使用的 Instagram 照片下载器。它旨在帮助用户在几秒钟内以高清画质保存他们喜爱的 Instagram 图片。无论您是想下载旅行照片、创意帖子，还是朋友和创作者分享的难忘瞬间，SaveInstaVideo 都能让您轻松、快速、安全地下载 Instagram 照片。",
+      "无需登录，完全兼容手机、平板电脑和台式机，我们的工具直接在浏览器中使用。您可以使用 SaveInstaVideo 下载 Instagram 图片，保存单张图片、轮播照片或公开的 Instagram 帖子，且不会损失画质。",
+      "与复杂的应用程序不同，SaveInstaVideo 注重简洁的界面和简单的用户体验，让任何人都能轻松下载 Instagram 图片。如果您正在寻找一款可靠、免费且用户友好的 Instagram 图片下载解决方案，SaveInstaVideo 正是您的理想之选。"
+    ]
+  },
+  "what_section": {
+    "title": "什么是Instagram照片下载器？",
+    "description": [
+      "Instagram Photo Downloader 是一款在线工具，允许用户将 Instagram 帖子中的图片直接保存到自己的设备上。Instagram 本身并没有提供下载照片的功能，因此才有了像 SaveInstaVideo 这样的工具。",
+      "使用 Instagram 图片下载器，您可以轻松保存喜爱的照片，以便离线访问、激发创作灵感、用于教育用途或个人收藏。无论是单张照片还是轮播照片，我们的下载器都能保持图像质量，且不带水印或压缩。",
+      "SaveInstaVideo 直接在您的浏览器中运行，让您可以安全、快速、随时随地下载 Instagram 图片——无需应用程序、无需登录、也无任何隐藏步骤。"
+    ]
+  },
+  "how_to_download": {
+    "title": "如何通过 3 个简单步骤下载 Instagram 照片",
+    "description": "SaveInstaVideo 的 Instagram 照片下载器使用起来非常简单。只需按照以下三个步骤操作即可：",
+    "steps": [
+      {
+        "title": "复制 Instagram 照片链接",
+        "description": "打开 Instagram，找到你想要的照片，然后复制它的帖子网址。",
+        "imageUrl": "/img/copy.webp",
+        "imageAlt": "Copy URL"
+      },
+      {
+        "title": "将链接粘贴到 SaveInstaVideo 中",
+        "description": "访问 SaveInstaVideo 网站，并将链接粘贴到下载框中。",
+        "imageUrl": "/img/paste.webp",
+        "imageAlt": "Paste Link"
+      },
+      {
+        "title": "下载照片",
+        "description": "点击下载按钮，即可立即将图片保存到您的设备。",
+        "imageUrl": "/img/download.webp",
+        "imageAlt": "Download File"
+      }
+    ]
+  },
+  "why_section": {
+    "title": "为什么选择 SaveInstaVideo 从 Instagram 下载视频？",
+    "description": "SaveInstaVideo 是一款可靠高效的 Instagram 照片下载器，在众多同类产品中脱颖而出。以下是用户喜爱我们的原因：",
+    "items": [
+      {
+        "title": "快速处理速度",
+        "description": "SaveInstaVideo 提供即时下载。我们优化的服务器即使在高流量时期也能在几秒钟内处理每张 Instagram 照片的下载。无需等待，绝不下载失败。",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><g stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5'><path d='M36.75 26.25v7a3.5 3.5 0 0 1-3.5 3.5H8.75a3.5 3.5 0 0 1-3.5-3.5v-7M12.25 17.5 21 26.25l8.75-8.75M21 26.25v-21'></path></g></svg>"
+      },
+      {
+        "title": "高质量下载",
+        "description": "高质量下载是用户选择 SaveInstaVideo 的最大原因之一。我们确保每张 Instagram 图片下载都保持其原始分辨率，因此您保存的照片看起来与在 Instagram 上一样清晰。",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 215 215' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M67.1875 116.458H85.1042V127.656C85.1042 129.597 85.7402 131.204 87.0123 132.476C88.2844 133.748 89.8879 134.381 91.8229 134.375C93.7579 134.369 95.3645 133.733 96.6425 132.467C97.9206 131.201 98.5536 129.597 98.5417 127.656V87.3438C98.5417 85.4028 97.9056 83.7993 96.6335 82.5332C95.3615 81.2671 93.7579 80.631 91.8229 80.625C89.8879 80.6191 88.2844 81.2551 87.0123 82.5332C85.7402 83.8112 85.1042 85.4148 85.1042 87.3438V103.021H67.1875V87.3438C67.1875 85.4028 66.5515 83.7993 65.2794 82.5332C64.0073 81.2671 62.4038 80.631 60.4688 80.625C58.5338 80.6191 56.9302 81.2551 55.6581 82.5332C54.386 83.8112 53.75 85.4148 53.75 87.3438V127.656C53.75 129.597 54.386 131.204 55.6581 132.476C56.9302 133.748 58.5338 134.381 60.4688 134.375C62.4038 134.369 64.0103 133.733 65.2883 132.467C66.5664 131.201 67.1995 129.597 67.1875 127.656V116.458ZM120.938 134.375H152.292C154.83 134.375 156.959 133.515 158.679 131.795C160.399 130.075 161.256 127.949 161.25 125.417V89.5834C161.25 87.0452 160.39 84.9191 158.67 83.205C156.95 81.491 154.824 80.631 152.292 80.625H120.938C119.743 80.625 118.698 81.073 117.802 81.9688C116.906 82.8646 116.458 83.9098 116.458 85.1042V129.896C116.458 131.09 116.906 132.135 117.802 133.031C118.698 133.927 119.743 134.375 120.938 134.375ZM129.896 120.938V94.0625H147.813V120.938H129.896ZM35.8333 179.167C30.9063 179.167 26.6899 177.414 23.1842 173.908C19.6785 170.402 17.9226 166.183 17.9167 161.25V53.75C17.9167 48.823 19.6725 44.6066 23.1842 41.1009C26.6958 37.5952 30.9122 35.8393 35.8333 35.8334H179.167C184.094 35.8334 188.313 37.5892 191.825 41.1009C195.336 44.6125 197.089 48.8289 197.083 53.75V161.25C197.083 166.177 195.331 170.396 191.825 173.908C188.319 177.42 184.1 179.173 179.167 179.167H35.8333ZM35.8333 161.25H179.167V53.75H35.8333V161.25Z' fill='black'/></svg>"
+      },
+      {
+        "title": "安全可靠的使用",
+        "description": "我们始终将用户安全放在首位。SaveInstaVideo 不会存储下载的内容或个人数据。所有 Instagram 图片下载均安全可靠，使我们的平台成为全球用户值得信赖的选择。",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 109 109' stroke-width='8' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M54.5 99.1877C54.5 99.1877 97 86.4466 97 54.5938' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M97 54.5939V16.3706C97 16.3706 82.8333 10 54.5 10' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M54.5 99.1877C54.5 99.1877 12 86.4466 12 54.5938' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M12 54.5939V16.3706C12 16.3706 26.1667 10 54.5 10' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M82.8333 29.1118C54.5 48.2235 47.4167 73.7057 47.4167 73.7057C47.4167 73.7057 40.3333 66.1018 33.25 60.9646' stroke='black' stroke-linecap='round' stroke-linejoin='round'/></svg>"
+      },
+      {
+        "title": "适用于所有设备和浏览器",
+        "description": "我们的 Instagram 照片下载器响应迅速，兼容所有现代设备。无论您使用的是 Android、iOS、Windows 还是 macOS，SaveInstaVideo 都能在 Chrome、Safari、Firefox 等浏览器上流畅运行。",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 87 87' stroke-width='2' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M27.1875 81.5625H10.875C9.43289 81.5625 8.04984 80.9896 7.03011 79.9699C6.01038 78.9502 5.4375 77.5671 5.4375 76.125V43.5C5.4375 42.0579 6.01038 40.6748 7.03011 39.6551C8.04984 38.6354 9.43289 38.0625 10.875 38.0625H27.1875C28.6296 38.0625 30.0127 38.6354 31.0324 39.6551C32.0521 40.6748 32.625 42.0579 32.625 43.5V76.125C32.625 77.5671 32.0521 78.9502 31.0324 79.9699C30.0127 80.9896 28.6296 81.5625 27.1875 81.5625ZM10.875 43.5V76.125H27.1875V43.5H10.875Z' fill='black'/><path d='M76.125 10.875H16.3125C14.8704 10.875 13.4873 11.4479 12.4676 12.4676C11.4479 13.4873 10.875 14.8704 10.875 16.3125V32.625H16.3125V16.3125H76.125V54.375H38.0625V59.8125H43.5V70.6875H38.0625V76.125H62.5312V70.6875H48.9375V59.8125H76.125C77.5671 59.8125 78.9502 59.2396 79.9699 58.2199C80.9896 57.2002 81.5625 55.8171 81.5625 54.375V16.3125C81.5625 14.8704 80.9896 13.4873 79.9699 12.4676C78.9502 11.4479 77.5671 10.875 76.125 10.875Z' fill='black'/></svg>"
+      },
+      {
+        "title": "无需登录",
+        "description": "我们尊重您的隐私和时间。您无需登录、关联 Instagram 账号或安装任何软件。我们的 Instagram 图片下载器直接在您的浏览器中运行，确保您的数据安全，并提供便捷的使用体验。",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><path stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5' d='M21 38.5s14-7 14-17.5V8.75L21 3.5 7 8.75V21c0 10.5 14 17.5 14 17.5Z'></path></svg>"
+      },
+      {
+        "title": "免费使用",
+        "description": "SaveInstaVideo 让您可以免费下载无限量的 Instagram 照片，无需任何费用或使用限制。我们的 Instagram 照片下载器完全免费，所有用户均可使用。没有订阅限制，也没有下载次数上限。",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><g stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5'><path d='M35 5.25H7a3.5 3.5 0 0 0-3.5 3.5v17.5a3.5 3.5 0 0 0 3.5 3.5h28a3.5 3.5 0 0 0 3.5-3.5V8.75a3.5 3.5 0 0 0-3.5-3.5ZM14 36.75h14M21 29.75v7'></path></g></svg>"
+      }
+    ]
+  },
+  "features": {
+    "title": "SaveInstaVideo 功能",
+    "description": "SaveInstaVideo 不仅仅是一款 Instagram 照片下载器，它是一个集所有功能于一体的 Instagram 媒体下载平台。",
+    "items": [
+      {
+        "title": "Instagram视频下载器",
+        "description": "<a href='/zh/' class='internal-link'>我们的 Instagram 视频下载器</a>让您轻松保存 Instagram 视频，处理速度快，并能保持原始分辨率。无需安装应用或登录。",
+        "imageUrl": "/img/reels_downloader.webp",
+        "imageAlt": "Reels Downloader"
+      },
+      {
+        "title": "Instagram Reels 下载器",
+        "description": "<a href='/zh/instagram-reels-downloader/' class='internal-link'>只需一个链接即可下载高清 Instagram Reels 短视频</a>。随时随地，离线观看或获取内容灵感。",
+        "imageUrl": "/img/carousel_downloader.webp",
+        "imageAlt": "Story Viewer"
+      },
+      {
+        "title": "Instagram 快拍下载器",
+        "description": "<a href='/zh/instagram-story-downloader/' class='internal-link'>在 Instagram 快拍消失前保存它们</a>。使用我们快速可靠的工具，轻松下载快拍中的照片和视频。",
+        "imageUrl": "/img/photos_downloader.webp",
+        "imageAlt": "Photo Downloader"
+      },
+      {
+        "title": "Instagram 快拍查看器",
+        "description": "<a href='/zh/instagram-story-viewer/' class='internal-link'>匿名浏览 Instagram 快拍</a>，无需通知用户。在保护隐私和自由浏览的同时，随时掌握最新动态。",
+        "imageUrl": "/img/igtv_downloader.webp",
+        "imageAlt": "Story Downloader"
+      }
+    ]
+  },
+  "faq": {
+    "title": "常见问题解答 – Instagram 照片下载器",
+    "description": "",
+    "items": [
+      {
+        "question": "下载Instagram照片安全吗？",
+        "answer": "是的。我们非常重视用户隐私和安全。我们不会收集个人数据，也不会存储下载的内容。"
+      },
+      {
+        "question": "SaveInstaVideo 可以免费使用吗？",
+        "answer": "是的！SaveInstaVideo 完全免费。您可以免费使用我们的 Instagram 照片下载器，无需订阅，也没有任何隐藏费用。"
+      },
+      {
+        "question": "这个Instagram照片下载器可以在手机上使用吗？",
+        "answer": "当然可以。SaveInstaVideo 在安卓和 iPhone 设备上通过移动浏览器都能完美运行。"
+      },
+      {
+        "question": "我可以下载Instagram上的私密照片吗？",
+        "answer": "不。我们的工具仅支持公开的 Instagram 内容，并尊重隐私和平台政策。"
+      },
+      {
+        "question": "照片质量会降低吗？",
+        "answer": "不。我们支持高分辨率 Instagram 照片下载，并尽可能保持图像质量接近原图。"
+      },
+      {
+        "question": "我需要安装任何软件吗？",
+        "answer": "无需安装。SaveInstaVideo 是一款基于浏览器的 Instagram 图片下载器，可在线即时使用。"
+      },
+      {
+        "question": "我可以下载多张Instagram照片吗？",
+        "answer": "是的。您可以下载任意数量的照片，只需对每个帖子链接重复此操作即可。"
+      }
+    ]
+  },
+  "footer": {
+    "description": "使用我们免费的 Instagram 视频下载器，即可立即下载 Instagram 视频、Reels 和 Stories。快速、安全地将任何 Instagram 链接中的高清内容保存到您的设备，无需注册。",
+    "pages": {
+      "pages_title": "页面",
+      "pages_link": [
+        {
+          "title": "视频",
+          "url": "/zh/"
+        },
+        {
+          "title": "照片",
+          "url": "/zh/instagram-photo-downloader/"
+        },
+        {
+          "title": "短视频",
+          "url": "/zh/instagram-reels-downloader/"
+        },
+        {
+          "title": "故事",
+          "url": "/zh/instagram-story-downloader/"
+        },
+        {
+          "title": "查看器",
+          "url": "/zh/instagram-story-viewer/"
+        }
+      ]
+    },
+    "quick_links": {
+      "quick_links_title": "快速链接",
+      "quick_links_link": [
+        {
+          "title": "网站地图",
+          "url": "/sitemap.xml"
+        },
+        {
+          "title": "关于我们",
+          "url": "/about-us/"
+        },
+        {
+          "title": "联系我们",
+          "url": "/contact-us/"
+        },
+        {
+          "title": "隐私政策",
+          "url": "/privacy-policy/"
+        },
+        {
+          "title": "条款及细则",
+          "url": "/terms-of-service/"
+        }
+      ]
+    },
+    "copyright": "© 2020-2026 SaveInstaVideo. 保留所有权利。"
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "title": "Downloader di Instagram Reels: Scarica gratuitamente i video di Instagram Reels tramite link",
+    "description": "Scarica i video di Instagram Reels in HD senza filigrana, gratuitamente. Un downloader di Instagram Reels veloce, sicuro e facile da usare, senza bisogno di effettuare l'accesso.",
+    "keywords": "SalvaInstaVideo, Scarica Instagram Reels, Scarica Instagram Reels, Scarica Instagram Reels, Scarica Instagram Reels, Scarica Instagram Reels Video, Scarica Insta Reels"
+  },
+  "hero": {
+    "title": "Scaricatore di rulli di Instagram",
+    "subtitle": "Scaricatore di rulli di Instagram"
+  },
+  "nav": {
+    "video": "Video",
+    "image": "Foto",
+    "reels": "Reels",
+    "story": "Storia",
+    "viewer": "Visualizzatore"
+  },
+  "form": {
+    "placeholder": "Incolla l'URL del Reel di Instagram",
+    "download_btn": "Scarica",
+    "paste": "Incolla",
+    "clear": "Cancella"
+  },
+  "page_introduction": {
+    "title": "Scaricatore di rulli di Instagram",
+    "description": [
+      "SaveInstaVideo è uno strumento per scaricare i Reel di Instagram veloce, affidabile e facile da usare, progettato per aiutare gli utenti a salvare i video Reels in alta qualità. Che tu voglia conservare clip divertenti, Reels di tendenza o contenuti creativi per un utilizzo successivo, il nostro strumento rende il download dei Reels di Instagram fluido e senza stress.",
+      "Con un semplice processo di copia e incolla, SaveInstaVideo ti consente di scaricare Instagram Reels direttamente dal tuo browser, senza bisogno di app, login o passaggi tecnici."
+    ]
+  },
+  "what_section": {
+    "title": "Che cos'è un downloader di Instagram Reels?",
+    "description": [
+      "Instagram Reels Downloader è uno strumento online che aiuta gli utenti a salvare i video Reels da Instagram sui propri dispositivi in ​​un formato scaricabile. Funziona elaborando il link pubblico di Reels e generando un file video preservando la risoluzione e la qualità audio originali.",
+      "SaveInstaVideo semplifica il download dei video di Instagram Reels per tutti gli utenti. Che tu voglia salvare contenuti per la visualizzazione offline, come riferimento o come ispirazione, il nostro strumento di download di Instagram Reels offre un'esperienza rapida, sicura e intuitiva."
+    ]
+  },
+  "how_to_download": {
+    "title": "Come scaricare Instagram Reels in 3 semplici passaggi",
+    "description": "SaveInstaVideo rende il download di Instagram Reels facile per tutti:",
+    "steps": [
+      {
+        "title": "Copia il link del reel",
+        "description": "Apri Instagram e trova il Reel che vuoi salvare. Tocca l'icona di condivisione e copia il link del Reel.",
+        "imageUrl": "/img/copy.webp",
+        "imageAlt": "Copy URL"
+      },
+      {
+        "title": "Incolla il collegamento in SaveInstaVideo",
+        "description": "Vai su SaveInstaVideo e incolla il link copiato nel campo di input per il download.",
+        "imageUrl": "/img/paste.webp",
+        "imageAlt": "Paste Link"
+      },
+      {
+        "title": "Scarica il video Reel",
+        "description": "Clicca sul pulsante Scarica e salva il Reel sul tuo dispositivo in alta qualità in pochi secondi.",
+        "imageUrl": "/img/download.webp",
+        "imageAlt": "Download File"
+      }
+    ]
+  },
+  "why_section": {
+    "title": "Perché scegliere SaveInstaVideo per il download di Instagram Reels?",
+    "description": "SaveInstaVideo è progettato per offrire un'esperienza di download di Instagram Reel affidabile e di alta qualità.",
+    "items": [
+      {
+        "title": "Download veloci e stabili",
+        "description": "Il nostro sistema è ottimizzato per elaborare rapidamente i link dei Reel, consentendo un download fluido dei Reel di Instagram senza ritardi o interruzioni.",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><g stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5'><path d='M36.75 26.25v7a3.5 3.5 0 0 1-3.5 3.5H8.75a3.5 3.5 0 0 1-3.5-3.5v-7M12.25 17.5 21 26.25l8.75-8.75M21 26.25v-21'></path></g></svg>"
+      },
+      {
+        "title": "Video di qualità originale",
+        "description": "SaveInstaVideo mantiene la risoluzione e l'audio originali, garantendo che ogni video scaricato da Instagram Reels abbia un aspetto nitido e professionale.",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 215 215' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M67.1875 116.458H85.1042V127.656C85.1042 129.597 85.7402 131.204 87.0123 132.476C88.2844 133.748 89.8879 134.381 91.8229 134.375C93.7579 134.369 95.3645 133.733 96.6425 132.467C97.9206 131.201 98.5536 129.597 98.5417 127.656V87.3438C98.5417 85.4028 97.9056 83.7993 96.6335 82.5332C95.3615 81.2671 93.7579 80.631 91.8229 80.625C89.8879 80.6191 88.2844 81.2551 87.0123 82.5332C85.7402 83.8112 85.1042 85.4148 85.1042 87.3438V103.021H67.1875V87.3438C67.1875 85.4028 66.5515 83.7993 65.2794 82.5332C64.0073 81.2671 62.4038 80.631 60.4688 80.625C58.5338 80.6191 56.9302 81.2551 55.6581 82.5332C54.386 83.8112 53.75 85.4148 53.75 87.3438V127.656C53.75 129.597 54.386 131.204 55.6581 132.476C56.9302 133.748 58.5338 134.381 60.4688 134.375C62.4038 134.369 64.0103 133.733 65.2883 132.467C66.5664 131.201 67.1995 129.597 67.1875 127.656V116.458ZM120.938 134.375H152.292C154.83 134.375 156.959 133.515 158.679 131.795C160.399 130.075 161.256 127.949 161.25 125.417V89.5834C161.25 87.0452 160.39 84.9191 158.67 83.205C156.95 81.491 154.824 80.631 152.292 80.625H120.938C119.743 80.625 118.698 81.073 117.802 81.9688C116.906 82.8646 116.458 83.9098 116.458 85.1042V129.896C116.458 131.09 116.906 132.135 117.802 133.031C118.698 133.927 119.743 134.375 120.938 134.375ZM129.896 120.938V94.0625H147.813V120.938H129.896ZM35.8333 179.167C30.9063 179.167 26.6899 177.414 23.1842 173.908C19.6785 170.402 17.9226 166.183 17.9167 161.25V53.75C17.9167 48.823 19.6725 44.6066 23.1842 41.1009C26.6958 37.5952 30.9122 35.8393 35.8333 35.8334H179.167C184.094 35.8334 188.313 37.5892 191.825 41.1009C195.336 44.6125 197.089 48.8289 197.083 53.75V161.25C197.083 166.177 195.331 170.396 191.825 173.908C188.319 177.42 184.1 179.173 179.167 179.167H35.8333ZM35.8333 161.25H179.167V53.75H35.8333V161.25Z' fill='black'/></svg>"
+      },
+      {
+        "title": "Sicuro, protetto e privato",
+        "description": "Non è richiesto alcun login o informazione personale. Tutte le azioni di download di Insta Reel rimangono private e sicure.",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 109 109' stroke-width='8' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M54.5 99.1877C54.5 99.1877 97 86.4466 97 54.5938' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M97 54.5939V16.3706C97 16.3706 82.8333 10 54.5 10' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M54.5 99.1877C54.5 99.1877 12 86.4466 12 54.5938' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M12 54.5939V16.3706C12 16.3706 26.1667 10 54.5 10' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M82.8333 29.1118C54.5 48.2235 47.4167 73.7057 47.4167 73.7057C47.4167 73.7057 40.3333 66.1018 33.25 60.9646' stroke='black' stroke-linecap='round' stroke-linejoin='round'/></svg>"
+      },
+      {
+        "title": "Compatibile con tutti i dispositivi",
+        "description": "Utilizza il nostro Instagram Reel Downloader senza problemi su Android, iPhone, tablet, Windows o macOS.",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 87 87' stroke-width='2' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M27.1875 81.5625H10.875C9.43289 81.5625 8.04984 80.9896 7.03011 79.9699C6.01038 78.9502 5.4375 77.5671 5.4375 76.125V43.5C5.4375 42.0579 6.01038 40.6748 7.03011 39.6551C8.04984 38.6354 9.43289 38.0625 10.875 38.0625H27.1875C28.6296 38.0625 30.0127 38.6354 31.0324 39.6551C32.0521 40.6748 32.625 42.0579 32.625 43.5V76.125C32.625 77.5671 32.0521 78.9502 31.0324 79.9699C30.0127 80.9896 28.6296 81.5625 27.1875 81.5625ZM10.875 43.5V76.125H27.1875V43.5H10.875Z' fill='black'/><path d='M76.125 10.875H16.3125C14.8704 10.875 13.4873 11.4479 12.4676 12.4676C11.4479 13.4873 10.875 14.8704 10.875 16.3125V32.625H16.3125V16.3125H76.125V54.375H38.0625V59.8125H43.5V70.6875H38.0625V76.125H62.5312V70.6875H48.9375V59.8125H76.125C77.5671 59.8125 78.9502 59.2396 79.9699 58.2199C80.9896 57.2002 81.5625 55.8171 81.5625 54.375V16.3125C81.5625 14.8704 80.9896 13.4873 79.9699 12.4676C78.9502 11.4479 77.5671 10.875 76.125 10.875Z' fill='black'/></svg>"
+      },
+      {
+        "title": "Comodità basata sul browser",
+        "description": "Scarica Reels direttamente dal tuo browser web senza installare app o estensioni.",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><path stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5' d='M21 38.5s14-7 14-17.5V8.75L21 3.5 7 8.75V21c0 10.5 14 17.5 14 17.5Z'></path></svg>"
+      },
+      {
+        "title": "Interfaccia semplice e pulita",
+        "description": "Grazie al nostro design intuitivo, scaricare Instagram Reels è semplice anche per gli utenti alle prime armi.",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><g stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5'><path d='M35 5.25H7a3.5 3.5 0 0 0-3.5 3.5v17.5a3.5 3.5 0 0 0 3.5 3.5h28a3.5 3.5 0 0 0 3.5-3.5V8.75a3.5 3.5 0 0 0-3.5-3.5ZM14 36.75h14M21 29.75v7'></path></g></svg>"
+      }
+    ]
+  },
+  "features": {
+    "title": "Caratteristiche di SaveInstaVideo Instagram Reels Downloader",
+    "description": "SaveInstaVideo è molto più di un semplice downloader di Reel. È una soluzione completa per salvare i contenuti di Instagram.",
+    "items": [
+      {
+        "title": "Scaricatore di video di Instagram",
+        "description": "<a href='/it/' class='internal-link'>Salva i video di Instagram</a> dai post in qualità originale. Perfetto per gli utenti che desiderano scaricare video di Instagram in modo affidabile e senza problemi.",
+        "imageUrl": "/img/reels_downloader.webp",
+        "imageAlt": "Reels Downloader"
+      },
+      {
+        "title": "Scaricatore di foto da Instagram",
+        "description": "<a href='/it/instagram-photo-downloader/' class='internal-link'>Scarica le foto di Instagram</a> nella loro risoluzione originale con un clic. Utile per salvare le immagini come fonte di ispirazione o per collezioni personali.",
+        "imageUrl": "/img/carousel_downloader.webp",
+        "imageAlt": "Story Viewer"
+      },
+      {
+        "title": "Visualizzatore di storie di Instagram",
+        "description": "<a href='/it/instagram-story-viewer/' class='internal-link'>Visualizzatore anonimo delle storie di Instagram</a> senza avvisare il proprietario dell'account. Goditi la privacy mentre esplori le Storie liberamente.",
+        "imageUrl": "/img/photos_downloader.webp",
+        "imageAlt": "Photo Downloader"
+      },
+      {
+        "title": "Scaricatore di storie di Instagram",
+        "description": "<a href='/it/instagram-story-downloader/' class='internal-link'>Scarica Instagram Story</a> in modo rapido e fluido con output di alta qualità, preservando la chiarezza, la risoluzione e l'audio, ove disponibili.",
+        "imageUrl": "/img/igtv_downloader.webp",
+        "imageAlt": "Story Downloader"
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ - Downloader di Instagram Reels",
+    "description": "",
+    "items": [
+      {
+        "question": "SaveInstaVideo è gratuito da scaricare su Instagram Reels?",
+        "answer": "Sì, SaveInstaVideo è completamente gratuito. Puoi scaricare Instagram Reels illimitatamente e senza costi aggiuntivi."
+      },
+      {
+        "question": "Ho bisogno di un account Instagram per scaricare Reels?",
+        "answer": "No. Il nostro Instagram Reel Downloader funziona senza richiedere l'accesso o la connessione di un account Instagram."
+      },
+      {
+        "question": "Quale qualità video posso aspettarmi scaricando Reels?",
+        "answer": "SaveInstaVideo scarica i Reels nella migliore qualità disponibile, garantendo una riproduzione fluida e un audio nitido."
+      },
+      {
+        "question": "Posso scaricare Instagram Reels sul mio dispositivo mobile?",
+        "answer": "Sì, il download di Insta Reel funziona perfettamente sui dispositivi Android e iOS utilizzando qualsiasi browser moderno."
+      },
+      {
+        "question": "I rulli scaricati sono dotati di filigrana?",
+        "answer": "No. Tutti i Reels scaricati tramite SaveInstaVideo sono privi di filigrana."
+      },
+      {
+        "question": "SaveInstaVideo è sicuro da usare?",
+        "answer": "Sì, la tua privacy è protetta. Non memorizziamo dati utente, link o cronologia dei download."
+      },
+      {
+        "question": "In quale formato vengono scaricati i Reels?",
+        "answer": "I video Reels vengono solitamente scaricati in formato MP4, compatibile con la maggior parte dei dispositivi e lettori multimediali."
+      },
+      {
+        "question": "Posso scaricare altri contenuti di Instagram utilizzando SaveInstaVideo?",
+        "answer": "Sì. SaveInstaVideo supporta il download di video Instagram, il download di foto, la visualizzazione di storie e il download di storie in un'unica piattaforma."
+      }
+    ]
+  },
+  "footer": {
+    "description": "Scarica video, Reel e Storie di Instagram all'istante con il nostro downloader video gratuito per Instagram. Salva i contenuti HD da qualsiasi link Instagram sul tuo dispositivo in modo rapido, sicuro e senza registrazione.",
+    "pages": {
+      "pages_title": "Pagine",
+      "pages_link": [
+        {
+          "title": "Video",
+          "url": "/it/"
+        },
+        {
+          "title": "Foto",
+          "url": "/it/instagram-photo-downloader/"
+        },
+        {
+          "title": "Reels",
+          "url": "/it/instagram-reels-downloader/"
+        },
+        {
+          "title": "Storia",
+          "url": "/it/instagram-story-downloader/"
+        },
+        {
+          "title": "Visualizzatore",
+          "url": "/it/instagram-story-viewer/"
+        }
+      ]
+    },
+    "quick_links": {
+      "quick_links_title": "Link rapidi",
+      "quick_links_link": [
+        {
+          "title": "Mappa del sito",
+          "url": "/sitemap.xml"
+        },
+        {
+          "title": "Chi siamo",
+          "url": "/about-us/"
+        },
+        {
+          "title": "Contattaci",
+          "url": "/contact-us/"
+        },
+        {
+          "title": "Informativa sulla privacy",
+          "url": "/privacy-policy/"
+        },
+        {
+          "title": "Termini e condizioni",
+          "url": "/terms-of-service/"
+        }
+      ]
+    },
+    "copyright": "© 2020-2026 SaveInstaVideo. Tutti i diritti riservati."
+  }
+}

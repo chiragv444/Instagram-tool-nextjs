@@ -1,0 +1,33 @@
+import { NextResponse } from "next/server";
+import { fetchInstagramUserInfoFromRapid } from "@/lib/fetch-instagram-user-info";
+import {
+  assertInstagramApiRequest,
+  jsonError,
+  resolveUsername,
+  upstreamOr500,
+} from "@/lib/instagram-route-common";
+
+export async function POST(request: Request) {
+  let body: Record<string, unknown>;
+  try {
+    body = (await request.json()) as Record<string, unknown>;
+  } catch {
+    return jsonError("Invalid JSON body", 400);
+  }
+
+  const auth = assertInstagramApiRequest(body);
+  if (auth) return auth;
+
+  const username = resolveUsername(body);
+  if (!username) {
+    return jsonError("Could not resolve an Instagram username from the input", 400);
+  }
+
+  try {
+    const data = await fetchInstagramUserInfoFromRapid(username);
+    return NextResponse.json({ success: true, data });
+  } catch (error) {
+    const { message, status } = upstreamOr500(error);
+    return jsonError(message, status);
+  }
+}

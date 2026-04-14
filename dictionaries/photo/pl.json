@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "title": "Darmowe pobieranie zdjęć z Instagrama - SaveInstaVideo",
+    "description": "Narzędzie do pobierania zdjęć z Instagrama pozwala zapisać zdjęcia z Instagrama w ciągu kilku sekund. Jest bezpłatne, bezpieczne i działa na każdym urządzeniu bez konieczności rejestracji, zachowując 100% oryginalną jakość obrazu.",
+    "keywords": "SaveInstaVideo, pobieranie zdjęć z Instagrama, program do pobierania zdjęć z Instagrama, pobieranie obrazów z Instagrama, pobieranie zdjęć z Instagrama, program do pobierania zdjęć z Instagrama"
+  },
+  "hero": {
+    "title": "Pobieranie zdjęć z Instagrama",
+    "subtitle": "Zapisuj wysokiej jakości zdjęcia z Instagrama natychmiast na dowolnym urządzeniu, bezproblemowo i bez konieczności logowania."
+  },
+  "nav": {
+    "video": "Wideo",
+    "image": "Zdjęcie",
+    "reels": "Rolki",
+    "story": "Relacja",
+    "viewer": "Przeglądający"
+  },
+  "form": {
+    "placeholder": "Wklej adres URL zdjęcia z Instagrama",
+    "download_btn": "Pobierz",
+    "paste": "Wklej",
+    "clear": "Wyczyść"
+  },
+  "page_introduction": {
+    "title": "Pobieranie zdjęć z Instagrama: natychmiastowe zapisywanie obrazów",
+    "description": [
+      "SaveInstaVideo to potężny i łatwy w obsłudze program do pobierania zdjęć z Instagrama. Zaprojektowany, aby pomóc użytkownikom w zapisaniu ulubionych zdjęć z Instagrama w wysokiej jakości w kilka sekund. Niezależnie od tego, czy chcesz pobrać zdjęcia z podróży, kreatywne posty, czy niezapomniane chwile udostępnione przez znajomych i twórców, SaveInstaVideo sprawia, że ​​pobieranie zdjęć z Instagrama jest proste, szybkie i bezpieczne.",
+      "Nasze narzędzie nie wymaga logowania i działa w pełni kompatybilnie z urządzeniami mobilnymi, tabletami i komputerami stacjonarnymi. Możesz używać SaveInstaVideo jako narzędzia do pobierania zdjęć z Instagrama, aby zapisywać pojedyncze obrazy, zdjęcia karuzelowe lub publiczne posty na Instagramie bez utraty jakości.",
+      "W przeciwieństwie do skomplikowanych aplikacji, SaveInstaVideo stawia na przejrzysty interfejs i prostotę użytkowania, umożliwiając każdemu łatwe pobieranie zdjęć z Instagrama. Jeśli szukasz niezawodnego, darmowego i przyjaznego dla użytkownika rozwiązania do pobierania zdjęć z Instagrama, SaveInstaVideo jest stworzone właśnie dla Ciebie."
+    ]
+  },
+  "what_section": {
+    "title": "Czym jest program do pobierania zdjęć z Instagrama?",
+    "description": [
+      "Instagram Photo Downloader to narzędzie online, które pozwala użytkownikom zapisywać zdjęcia z postów na Instagramie bezpośrednio na urządzeniu. Instagram nie oferuje wbudowanej opcji pobierania zdjęć, dlatego istnieją narzędzia takie jak SaveInstaVideo.",
+      "Dzięki Instagram Picture Downloader możesz łatwo przechowywać swoje ulubione zdjęcia, aby mieć do nich dostęp offline, inspirację twórczą, materiały edukacyjne lub kolekcję osobistą. Niezależnie od tego, czy chodzi o pojedynczy post ze zdjęciem, czy karuzelę, nasz program do pobierania zdjęć zachowuje jakość obrazu bez znaków wodnych i kompresji.",
+      "SaveInstaVideo działa bezpośrednio w przeglądarce, dzięki czemu pobieranie zdjęć z Instagrama jest bezpieczne, szybkie i dostępne z dowolnego miejsca – bez aplikacji, logowania i ukrytych kroków."
+    ]
+  },
+  "how_to_download": {
+    "title": "Jak pobrać zdjęcia z Instagrama w 3 prostych krokach",
+    "description": "Program do pobierania zdjęć z Instagrama SaveInstaVideo jest niezwykle prosty w obsłudze. Wystarczy wykonać trzy kroki:",
+    "steps": [
+      {
+        "title": "Skopiuj link do zdjęcia na Instagramie",
+        "description": "Otwórz Instagram, znajdź interesujące Cię zdjęcie i skopiuj adres URL jego wpisu.",
+        "imageUrl": "/img/copy.webp",
+        "imageAlt": "Copy URL"
+      },
+      {
+        "title": "Wklej link do SaveInstaVideo",
+        "description": "Wejdź na SaveInstaVideo i wklej link w polu pobierania.",
+        "imageUrl": "/img/paste.webp",
+        "imageAlt": "Paste Link"
+      },
+      {
+        "title": "Pobierz zdjęcie",
+        "description": "Kliknij przycisk pobierania i natychmiast zapisz obraz na swoim urządzeniu.",
+        "imageUrl": "/img/download.webp",
+        "imageAlt": "Download File"
+      }
+    ]
+  },
+  "why_section": {
+    "title": "Dlaczego warto wybrać SaveInstaVideo do pobrania z Instagrama?",
+    "description": "SaveInstaVideo wyróżnia się jako niezawodny i wydajny program do pobierania zdjęć z Instagrama. Oto, dlaczego użytkownicy nas kochają:",
+    "items": [
+      {
+        "title": "Szybka prędkość przetwarzania",
+        "description": "SaveInstaVideo zapewnia natychmiastowe rezultaty. Nasze zoptymalizowane serwery przetwarzają każde pobranie zdjęcia z Instagrama w kilka sekund, nawet przy dużym ruchu. Bez czekania i nieudanych pobrań.",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><g stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5'><path d='M36.75 26.25v7a3.5 3.5 0 0 1-3.5 3.5H8.75a3.5 3.5 0 0 1-3.5-3.5v-7M12.25 17.5 21 26.25l8.75-8.75M21 26.25v-21'></path></g></svg>"
+      },
+      {
+        "title": "Wysokiej jakości pliki do pobrania",
+        "description": "Wysoka jakość pobrań to jeden z głównych powodów, dla których użytkownicy wybierają SaveInstaVideo. Dbamy o to, aby każdy pobrany obraz z Instagrama zachował swoją oryginalną rozdzielczość, dzięki czemu zapisane zdjęcia będą równie ostre, jak na Instagramie.",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 215 215' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M67.1875 116.458H85.1042V127.656C85.1042 129.597 85.7402 131.204 87.0123 132.476C88.2844 133.748 89.8879 134.381 91.8229 134.375C93.7579 134.369 95.3645 133.733 96.6425 132.467C97.9206 131.201 98.5536 129.597 98.5417 127.656V87.3438C98.5417 85.4028 97.9056 83.7993 96.6335 82.5332C95.3615 81.2671 93.7579 80.631 91.8229 80.625C89.8879 80.6191 88.2844 81.2551 87.0123 82.5332C85.7402 83.8112 85.1042 85.4148 85.1042 87.3438V103.021H67.1875V87.3438C67.1875 85.4028 66.5515 83.7993 65.2794 82.5332C64.0073 81.2671 62.4038 80.631 60.4688 80.625C58.5338 80.6191 56.9302 81.2551 55.6581 82.5332C54.386 83.8112 53.75 85.4148 53.75 87.3438V127.656C53.75 129.597 54.386 131.204 55.6581 132.476C56.9302 133.748 58.5338 134.381 60.4688 134.375C62.4038 134.369 64.0103 133.733 65.2883 132.467C66.5664 131.201 67.1995 129.597 67.1875 127.656V116.458ZM120.938 134.375H152.292C154.83 134.375 156.959 133.515 158.679 131.795C160.399 130.075 161.256 127.949 161.25 125.417V89.5834C161.25 87.0452 160.39 84.9191 158.67 83.205C156.95 81.491 154.824 80.631 152.292 80.625H120.938C119.743 80.625 118.698 81.073 117.802 81.9688C116.906 82.8646 116.458 83.9098 116.458 85.1042V129.896C116.458 131.09 116.906 132.135 117.802 133.031C118.698 133.927 119.743 134.375 120.938 134.375ZM129.896 120.938V94.0625H147.813V120.938H129.896ZM35.8333 179.167C30.9063 179.167 26.6899 177.414 23.1842 173.908C19.6785 170.402 17.9226 166.183 17.9167 161.25V53.75C17.9167 48.823 19.6725 44.6066 23.1842 41.1009C26.6958 37.5952 30.9122 35.8393 35.8333 35.8334H179.167C184.094 35.8334 188.313 37.5892 191.825 41.1009C195.336 44.6125 197.089 48.8289 197.083 53.75V161.25C197.083 166.177 195.331 170.396 191.825 173.908C188.319 177.42 184.1 179.173 179.167 179.167H35.8333ZM35.8333 161.25H179.167V53.75H35.8333V161.25Z' fill='black'/></svg>"
+      },
+      {
+        "title": "Bezpieczne i pewne użytkowanie",
+        "description": "Bezpieczeństwo użytkowników jest dla nas priorytetem. SaveInstaVideo nie przechowuje pobranych treści ani danych osobowych. Każde pobranie zdjęcia z Instagrama odbywa się w sposób bezpieczny, co czyni naszą platformę godnym zaufania wyborem dla użytkowników na całym świecie.",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 109 109' stroke-width='8' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M54.5 99.1877C54.5 99.1877 97 86.4466 97 54.5938' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M97 54.5939V16.3706C97 16.3706 82.8333 10 54.5 10' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M54.5 99.1877C54.5 99.1877 12 86.4466 12 54.5938' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M12 54.5939V16.3706C12 16.3706 26.1667 10 54.5 10' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M82.8333 29.1118C54.5 48.2235 47.4167 73.7057 47.4167 73.7057C47.4167 73.7057 40.3333 66.1018 33.25 60.9646' stroke='black' stroke-linecap='round' stroke-linejoin='round'/></svg>"
+      },
+      {
+        "title": "Działa na wszystkich urządzeniach i przeglądarkach",
+        "description": "Nasz program do pobierania zdjęć z Instagrama jest w pełni responsywny i kompatybilny ze wszystkimi nowoczesnymi urządzeniami. Niezależnie od tego, czy korzystasz z Androida, iOS, Windowsa czy macOS, SaveInstaVideo działa bezproblemowo w przeglądarkach Chrome, Safari, Firefox i innych.",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 87 87' stroke-width='2' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M27.1875 81.5625H10.875C9.43289 81.5625 8.04984 80.9896 7.03011 79.9699C6.01038 78.9502 5.4375 77.5671 5.4375 76.125V43.5C5.4375 42.0579 6.01038 40.6748 7.03011 39.6551C8.04984 38.6354 9.43289 38.0625 10.875 38.0625H27.1875C28.6296 38.0625 30.0127 38.6354 31.0324 39.6551C32.0521 40.6748 32.625 42.0579 32.625 43.5V76.125C32.625 77.5671 32.0521 78.9502 31.0324 79.9699C30.0127 80.9896 28.6296 81.5625 27.1875 81.5625ZM10.875 43.5V76.125H27.1875V43.5H10.875Z' fill='black'/><path d='M76.125 10.875H16.3125C14.8704 10.875 13.4873 11.4479 12.4676 12.4676C11.4479 13.4873 10.875 14.8704 10.875 16.3125V32.625H16.3125V16.3125H76.125V54.375H38.0625V59.8125H43.5V70.6875H38.0625V76.125H62.5312V70.6875H48.9375V59.8125H76.125C77.5671 59.8125 78.9502 59.2396 79.9699 58.2199C80.9896 57.2002 81.5625 55.8171 81.5625 54.375V16.3125C81.5625 14.8704 80.9896 13.4873 79.9699 12.4676C78.9502 11.4479 77.5671 10.875 76.125 10.875Z' fill='black'/></svg>"
+      },
+      {
+        "title": "Logowanie nie jest wymagane",
+        "description": "Szanujemy Twoją prywatność i czas. Nie musisz się logować, podłączać konta na Instagramie ani instalować żadnego oprogramowania. Nasz program do pobierania zdjęć z Instagrama działa bezpośrednio w Twojej przeglądarce, zapewniając bezpieczeństwo Twoich danych i wygodę korzystania.",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><path stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5' d='M21 38.5s14-7 14-17.5V8.75L21 3.5 7 8.75V21c0 10.5 14 17.5 14 17.5Z'></path></svg>"
+      },
+      {
+        "title": "Bezpłatne w użyciu",
+        "description": "SaveInstaVideo pozwala na pobieranie nieograniczonej liczby zdjęć z Instagrama bez żadnych opłat ani opłat za użytkowanie. Nasz program do pobierania zdjęć z Instagrama jest w 100% darmowy i dostępny dla wszystkich użytkowników. Nie ma żadnych subskrypcji ani limitów pobierania.",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><g stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5'><path d='M35 5.25H7a3.5 3.5 0 0 0-3.5 3.5v17.5a3.5 3.5 0 0 0 3.5 3.5h28a3.5 3.5 0 0 0 3.5-3.5V8.75a3.5 3.5 0 0 0-3.5-3.5ZM14 36.75h14M21 29.75v7'></path></g></svg>"
+      }
+    ]
+  },
+  "features": {
+    "title": "Funkcje SaveInstaVideo",
+    "description": "SaveInstaVideo to coś więcej niż tylko aplikacja do pobierania zdjęć z Instagrama. To kompleksowa platforma do pobierania multimediów z Instagrama.",
+    "items": [
+      {
+        "title": "Pobieranie filmów z Instagrama",
+        "description": "Nasz <a href='/pl/' class='internal-link'>program do pobierania filmów z Instagrama</a> pozwala łatwo zapisywać filmy z Instagrama, zapewniając szybkie przetwarzanie i oryginalną rozdzielczość. Nie wymaga aplikacji ani logowania.",
+        "imageUrl": "/img/reels_downloader.webp",
+        "imageAlt": "Reels Downloader"
+      },
+      {
+        "title": "Pobieranie rolek z Instagrama",
+        "description": "<a href='/pl/instagram-reels-downloader/' class='internal-link'>Pobierz Instagram Reels</a> w wysokiej jakości za pomocą jednego linku. Idealne do oglądania offline lub inspiracji do tworzenia treści w dowolnym miejscu i czasie.",
+        "imageUrl": "/img/carousel_downloader.webp",
+        "imageAlt": "Story Viewer"
+      },
+      {
+        "title": "Pobieranie historii z Instagrama",
+        "description": "<a href='/pl/instagram-story-downloader/' class='internal-link'>Zapisz relacje na Instagramie</a>, zanim znikną. Łatwo pobieraj zdjęcia i filmy z relacji dzięki naszemu szybkiemu i niezawodnemu narzędziu.",
+        "imageUrl": "/img/photos_downloader.webp",
+        "imageAlt": "Photo Downloader"
+      },
+      {
+        "title": "Przeglądarka historii na Instagramie",
+        "description": "<a href='/pl/instagram-story-viewer/' class='internal-link'>Oglądaj relacje na Instagramie anonimowo</a>, bez powiadamiania użytkownika. Bądź na bieżąco, dbając o swoją prywatność i swobodnie przeglądając strony.",
+        "imageUrl": "/img/igtv_downloader.webp",
+        "imageAlt": "Story Downloader"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Najczęściej zadawane pytania – program do pobierania zdjęć z Instagrama",
+    "description": "",
+    "items": [
+      {
+        "question": "Czy pobieranie zdjęć z Instagrama jest bezpieczne?",
+        "answer": "Tak. Prywatność i bezpieczeństwo użytkowników są dla nas priorytetem. Nie gromadzimy danych osobowych ani nie przechowujemy pobranych treści."
+      },
+      {
+        "question": "Czy korzystanie z SaveInstaVideo jest darmowe?",
+        "answer": "Tak! SaveInstaVideo jest całkowicie darmowe. Możesz korzystać z naszego programu do pobierania zdjęć z Instagrama bez subskrypcji i ukrytych opłat."
+      },
+      {
+        "question": "Czy ten program do pobierania zdjęć z Instagrama działa na urządzeniach mobilnych?",
+        "answer": "Zdecydowanie. SaveInstaVideo działa doskonale na urządzeniach z Androidem i iPhone'ach w przeglądarkach mobilnych."
+      },
+      {
+        "question": "Czy mogę pobrać prywatne zdjęcia z Instagrama?",
+        "answer": "Nie. Nasze narzędzie obsługuje wyłącznie publiczne treści z Instagrama, szanując prywatność i politykę platformy."
+      },
+      {
+        "question": "Czy jakość zdjęć ulegnie pogorszeniu?",
+        "answer": "Nie. Obsługujemy pobieranie zdjęć z Instagrama w wysokiej rozdzielczości, zachowując jakość obrazu jak najbliższą oryginałowi."
+      },
+      {
+        "question": "Czy muszę instalować jakieś oprogramowanie?",
+        "answer": "Nie wymaga instalacji. SaveInstaVideo to oparta na przeglądarce aplikacja do pobierania zdjęć z Instagrama, która działa natychmiastowo online."
+      },
+      {
+        "question": "Czy mogę pobrać wiele zdjęć z Instagrama?",
+        "answer": "Tak. Możesz pobrać tyle zdjęć, ile chcesz, po prostu powtórz ten proces dla każdego linku do posta."
+      }
+    ]
+  },
+  "footer": {
+    "description": "Pobieraj filmy, rolki i relacje z Instagrama natychmiast dzięki naszemu darmowemu programowi do pobierania filmów z Instagrama. Zapisuj treści HD z dowolnego linku Instagrama na swoje urządzenie szybko, bezpiecznie i bez rejestracji.",
+    "pages": {
+      "pages_title": "Strony",
+      "pages_link": [
+        {
+          "title": "Film",
+          "url": "/pl/"
+        },
+        {
+          "title": "Zdjęcie",
+          "url": "/pl/instagram-photo-downloader/"
+        },
+        {
+          "title": "Rolki",
+          "url": "/pl/instagram-reels-downloader/"
+        },
+        {
+          "title": "Relacja",
+          "url": "/pl/instagram-story-downloader/"
+        },
+        {
+          "title": "Widz",
+          "url": "/pl/instagram-story-viewer/"
+        }
+      ]
+    },
+    "quick_links": {
+      "quick_links_title": "Szybkie linki",
+      "quick_links_link": [
+        {
+          "title": "Mapa witryny",
+          "url": "/sitemap.xml"
+        },
+        {
+          "title": "O nas",
+          "url": "/about-us/"
+        },
+        {
+          "title": "Kontakt",
+          "url": "/contact-us/"
+        },
+        {
+          "title": "Polityka prywatności",
+          "url": "/privacy-policy/"
+        },
+        {
+          "title": "Regulamin",
+          "url": "/terms-of-service/"
+        }
+      ]
+    },
+    "copyright": "© 2020-2026 SaveInstaVideo. Wszelkie prawa zastrzeżone."
+  }
+}

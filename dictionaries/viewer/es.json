@@ -1,0 +1,236 @@
+{
+  "meta": {
+    "title": "Visor anónimo de historias de Instagram - Visor de historias de Instagram",
+    "description": "Instagram Story Viewer es una herramienta en línea para ver y descargar contenido de Instagram de forma anónima. 100% gratis y seguro, uso ilimitado en cualquier dispositivo sin necesidad de iniciar sesión.",
+    "keywords": "SaveInstaVideo, Visor de historias de Instagram, Visor de historias de Instagram anónimo, Ver historias de Instagram, Visor de historias de Instagram"
+  },
+  "hero": {
+    "title": "Visor de historias de Instagram",
+    "subtitle": "Visor de historias de Instagram rápido, gratuito y seguro sin iniciar sesión."
+  },
+  "nav": {
+    "video": "Video",
+    "image": "Foto",
+    "reels": "Reels",
+    "story": "Historia",
+    "viewer": "Reoproductor"
+  },
+  "form": {
+    "placeholder": "Pega la URL de la historia de Instagram.",
+    "download_btn": "Descargar",
+    "paste": "Pegar",
+    "clear": "Borrar"
+  },
+  "page_introduction": {
+    "title": "Visor de historias anónimas de Instagram: mira historias de IG gratis",
+    "description": [
+      "SaveInstaVideo es un visualizador de historias de Instagram potente y fácil de usar, diseñado para usuarios que desean ver y descargar historias, videos, fotos y reels de Instagram sin limitaciones. Si buscas un visualizador de historias de Instagram confiable que combine simplicidad, velocidad y anonimato, SaveInstaVideo es la opción ideal.",
+      "Con SaveInstaVideo, puedes ver historias sin iniciar sesión, lo que lo convierte en un visor de historias de Instagram anónimo y confiable para usuarios que valoran la privacidad. Sin aplicaciones, sin registros ni pasos complicados. Simplemente pega el enlace y descárgalo en segundos. Nuestra herramienta funciona sin problemas en dispositivos móviles, tabletas y computadoras de escritorio."
+    ]
+  },
+  "what_section": {
+    "title": "¿Qué es un visor de historias de Instagram?",
+    "description": [
+      "El Visor de Historias de Instagram es una herramienta en línea que permite ver Historias de Instagram sin iniciar sesión. También permite descargar Historias, videos, reels y fotos directamente a tu dispositivo.",
+      "Lo que hace especial a SaveInstaVideo es que funciona como un visualizador anónimo de historias de Instagram, lo que significa que puedes ver historias públicas sin que tu nombre de usuario aparezca en la lista de visualizadores. Esto es especialmente útil para quienes valoran la privacidad o simplemente desean explorar el contenido con tranquilidad."
+    ]
+  },
+  "how_to_download": {
+    "title": "Cómo descargar historias de Instagram usando un visor de historias",
+    "description": "Usar un visualizador anónimo de historias de Instagram suele ser sencillo. Aquí tienes una guía paso a paso para ayudarte:",
+    "steps": [
+      {
+        "title": "Ingrese el nombre o pegue la URL",
+        "description": "Ingresa el nombre o pega la URL de la historia que deseas ver o descargar en SaveInstaVideo.",
+        "imageUrl": "/img/copy.webp",
+        "imageAlt": "Copy URL"
+      },
+      {
+        "title": "Haga clic en descargar",
+        "description": "La herramienta mostrará las historias activas vinculadas a esa cuenta. Luego, haz clic en el botón Descargar junto a la historia con foto o video.",
+        "imageUrl": "/img/paste.webp",
+        "imageAlt": "Paste Link"
+      },
+      {
+        "title": "Guardar en su dispositivo",
+        "description": "Después de la descarga, el archivo se guardará para verlo sin conexión.",
+        "imageUrl": "/img/download.webp",
+        "imageAlt": "Download File"
+      }
+    ]
+  },
+  "why_section": {
+    "title": "Características de nuestro visor anónimo de historias de Instagram",
+    "description": "SaveInstaVideo es un visualizador de historias de Instagram de alta calidad que suele tener muchas funciones que lo hacen destacar. Estas son algunas de las más comunes y útiles:",
+    "items": [
+      {
+        "title": "Interfaz rápida y fácil de usar",
+        "description": "El Visor de Historias de Instagram está optimizado para la velocidad. Las historias se cargan en segundos y la interfaz está diseñada para ser intuitiva incluso para usuarios nuevos. Sin botones innecesarios ni anuncios. Una experiencia sencilla y eficiente.",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><g stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5'><path d='M36.75 26.25v7a3.5 3.5 0 0 1-3.5 3.5H8.75a3.5 3.5 0 0 1-3.5-3.5v-7M12.25 17.5 21 26.25l8.75-8.75M21 26.25v-21'></path></g></svg>"
+      },
+      {
+        "title": "Visualización de historias de alta calidad",
+        "description": "La herramienta SaveInstaVideo restaura las historias de Instagram a su calidad original. Ya sean fotos o videos, puedes verlas y descargarlas sin perder calidad. Esto garantiza imágenes claras, texto nítido y una reproducción de video fluida en todo momento.",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 215 215' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M67.1875 116.458H85.1042V127.656C85.1042 129.597 85.7402 131.204 87.0123 132.476C88.2844 133.748 89.8879 134.381 91.8229 134.375C93.7579 134.369 95.3645 133.733 96.6425 132.467C97.9206 131.201 98.5536 129.597 98.5417 127.656V87.3438C98.5417 85.4028 97.9056 83.7993 96.6335 82.5332C95.3615 81.2671 93.7579 80.631 91.8229 80.625C89.8879 80.6191 88.2844 81.2551 87.0123 82.5332C85.7402 83.8112 85.1042 85.4148 85.1042 87.3438V103.021H67.1875V87.3438C67.1875 85.4028 66.5515 83.7993 65.2794 82.5332C64.0073 81.2671 62.4038 80.631 60.4688 80.625C58.5338 80.6191 56.9302 81.2551 55.6581 82.5332C54.386 83.8112 53.75 85.4148 53.75 87.3438V127.656C53.75 129.597 54.386 131.204 55.6581 132.476C56.9302 133.748 58.5338 134.381 60.4688 134.375C62.4038 134.369 64.0103 133.733 65.2883 132.467C66.5664 131.201 67.1995 129.597 67.1875 127.656V116.458ZM120.938 134.375H152.292C154.83 134.375 156.959 133.515 158.679 131.795C160.399 130.075 161.256 127.949 161.25 125.417V89.5834C161.25 87.0452 160.39 84.9191 158.67 83.205C156.95 81.491 154.824 80.631 152.292 80.625H120.938C119.743 80.625 118.698 81.073 117.802 81.9688C116.906 82.8646 116.458 83.9098 116.458 85.1042V129.896C116.458 131.09 116.906 132.135 117.802 133.031C118.698 133.927 119.743 134.375 120.938 134.375ZM129.896 120.938V94.0625H147.813V120.938H129.896ZM35.8333 179.167C30.9063 179.167 26.6899 177.414 23.1842 173.908C19.6785 170.402 17.9226 166.183 17.9167 161.25V53.75C17.9167 48.823 19.6725 44.6066 23.1842 41.1009C26.6958 37.5952 30.9122 35.8393 35.8333 35.8334H179.167C184.094 35.8334 188.313 37.5892 191.825 41.1009C195.336 44.6125 197.089 48.8289 197.083 53.75V161.25C197.083 166.177 195.331 170.396 191.825 173.908C188.319 177.42 184.1 179.173 179.167 179.167H35.8333ZM35.8333 161.25H179.167V53.75H35.8333V161.25Z' fill='black'/></svg>"
+      },
+      {
+        "title": "Seguro y privado",
+        "description": "Tu privacidad es nuestra prioridad. No almacenamos las historias que ves, ni rastreamos la actividad del usuario ni recopilamos datos personales. Cada sesión es privada, lo que la convierte en una de las herramientas para ver historias anónimas de Instagram más seguras disponibles en línea.",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 109 109' stroke-width='8' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M54.5 99.1877C54.5 99.1877 97 86.4466 97 54.5938' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M97 54.5939V16.3706C97 16.3706 82.8333 10 54.5 10' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M54.5 99.1877C54.5 99.1877 12 86.4466 12 54.5938' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M12 54.5939V16.3706C12 16.3706 26.1667 10 54.5 10' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M82.8333 29.1118C54.5 48.2235 47.4167 73.7057 47.4167 73.7057C47.4167 73.7057 40.3333 66.1018 33.25 60.9646' stroke='black' stroke-linecap='round' stroke-linejoin='round'/></svg>"
+      },
+      {
+        "title": "Funciona en todos los dispositivos",
+        "description": "Este visualizador de historias de Instagram está basado en la web, por lo que funciona en todos los dispositivos, incluyendo smartphones, tablets, portátiles y ordenadores de sobremesa. Es compatible con los principales navegadores, como Chrome, Safari, Firefox y Edge, lo que te permite ver historias en cualquier momento y lugar.",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 87 87' stroke-width='2' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M27.1875 81.5625H10.875C9.43289 81.5625 8.04984 80.9896 7.03011 79.9699C6.01038 78.9502 5.4375 77.5671 5.4375 76.125V43.5C5.4375 42.0579 6.01038 40.6748 7.03011 39.6551C8.04984 38.6354 9.43289 38.0625 10.875 38.0625H27.1875C28.6296 38.0625 30.0127 38.6354 31.0324 39.6551C32.0521 40.6748 32.625 42.0579 32.625 43.5V76.125C32.625 77.5671 32.0521 78.9502 31.0324 79.9699C30.0127 80.9896 28.6296 81.5625 27.1875 81.5625ZM10.875 43.5V76.125H27.1875V43.5H10.875Z' fill='black'/><path d='M76.125 10.875H16.3125C14.8704 10.875 13.4873 11.4479 12.4676 12.4676C11.4479 13.4873 10.875 14.8704 10.875 16.3125V32.625H16.3125V16.3125H76.125V54.375H38.0625V59.8125H43.5V70.6875H38.0625V76.125H62.5312V70.6875H48.9375V59.8125H76.125C77.5671 59.8125 78.9502 59.2396 79.9699 58.2199C80.9896 57.2002 81.5625 55.8171 81.5625 54.375V16.3125C81.5625 14.8704 80.9896 13.4873 79.9699 12.4676C78.9502 11.4479 77.5671 10.875 76.125 10.875Z' fill='black'/></svg>"
+      },
+      {
+        "title": "No se requiere inicio de sesión ni cuenta",
+        "description": "No necesitas iniciar sesión ni tener una cuenta de Instagram para usar nuestro visualizador de historias de Instagram en línea. Esto elimina el riesgo de rastreo de cuenta, alertas de inicio de sesión y problemas de privacidad. Simplemente introduce un nombre de usuario público en SaveInstaVideo y empieza a ver historias al instante.",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><path stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5' d='M21 38.5s14-7 14-17.5V8.75L21 3.5 7 8.75V21c0 10.5 14 17.5 14 17.5Z'></path></svg>"
+      },
+      {
+        "title": "Uso gratuito e ilimitado",
+        "description": "Disfruta de ver historias ilimitadas sin pagar. Sin suscripciones, cargos ocultos ni límites diarios para usar el visualizador anónimo de historias de Instagram.",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><g stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5'><path d='M35 5.25H7a3.5 3.5 0 0 0-3.5 3.5v17.5a3.5 3.5 0 0 0 3.5 3.5h28a3.5 3.5 0 0 0 3.5-3.5V8.75a3.5 3.5 0 0 0-3.5-3.5ZM14 36.75h14M21 29.75v7'></path></g></svg>"
+      }
+    ]
+  },
+  "features": {
+    "title": "Otras herramientas de descarga de Instagram de SaveInstaVideo",
+    "description": "Además de Insta Story Viewer, ofrecemos potentes herramientas de Instagram para mejorar tu experiencia. Todas las herramientas son gratuitas, fáciles de usar y se pueden usar desde el navegador. La plataforma SaveInstaVideo ofrece un conjunto completo de herramientas de Instagram diseñadas para ayudarte a ver y descargar contenido público de forma fácil y segura. Explora nuestras otras herramientas gratuitas a continuación:",
+    "items": [
+      {
+        "title": "Descargador de vídeos de Instagram",
+        "description": "<a href='/es/' class='internal-link'>Descarga videos de Instagram</a> en alta definición desde publicaciones, IGTV y contenido compartido con Instagram Video Downloader. Esta herramienta te permite guardar videos directamente en tu dispositivo para verlos sin conexión y sin marca de agua.",
+        "imageUrl": "/img/reels_downloader.webp",
+        "imageAlt": "Reels Downloader"
+      },
+      {
+        "title": "Descargador de fotos de Instagram",
+        "description": "<a href='/es/instagram-photo-downloader/' class='internal-link'>Guarda fotos de Instagram</a> en su tamaño y claridad originales. Instagram Photo Downloader es perfecto para diseñadores, profesionales del marketing o usuarios que desean archivar imágenes de alta calidad de perfiles públicos.",
+        "imageUrl": "/img/carousel_downloader.webp",
+        "imageAlt": "Story Viewer"
+      },
+      {
+        "title": "Descargador de Reels de Instagram",
+        "description": "Nuestro <a href='/es/instagram-reels-downloader/' class='internal-link'>descargador de Reels de Instagram</a> te permite descargar Reels de Instagram rápidamente sin marca de agua. Disfruta de tus Reels sin conexión o reutilízalos para inspirarte y analizarlos.",
+        "imageUrl": "/img/photos_downloader.webp",
+        "imageAlt": "Photo Downloader"
+      },
+      {
+        "title": "Descargador de historias de Instagram",
+        "description": "<a href='/es/instagram-story-downloader/' class='internal-link'>Descarga historias de Instagram</a> directamente a tu dispositivo. La herramienta Descargador de Historias de Instagram funciona junto con el Visor de Historias de Instagram, permitiéndote guardar historias en formato de foto y video con un solo clic.",
+        "imageUrl": "/img/igtv_downloader.webp",
+        "imageAlt": "Story Downloader"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Preguntas frecuentes (FAQ)",
+    "description": "Para ayudarle a comprender mejor estas herramientas, aquí encontrará respuestas a algunas preguntas frecuentes:",
+    "items": [
+      {
+        "question": "¿Insta Story Viewer es anónimo?",
+        "answer": "Sí, muchas herramientas para visualizar historias de Instagram permiten la visualización anónima, pero esto generalmente solo funciona para perfiles públicos."
+      },
+      {
+        "question": "¿Puedo ver historias privadas de Instagram?",
+        "answer": "No, esta herramienta solo funciona con cuentas públicas de Instagram. No se puede acceder al contenido privado."
+      },
+      {
+        "question": "¿Necesito instalar alguna aplicación para usar SaveInstaVideo?",
+        "answer": "No es necesario instalar ninguna aplicación para usar esta herramienta. Insta Story Viewer funciona directamente en tu navegador."
+      },
+      {
+        "question": "¿Son gratuitas las herramientas para visualizar historias anónimas de Instagram?",
+        "answer": "Muchos visualizadores de historias de Instagram ofrecen acceso gratuito a sus funciones básicas. Algunas versiones premium pueden incluir funciones adicionales, como mayor calidad de descarga o un rendimiento más rápido."
+      },
+      {
+        "question": "¿Es seguro utilizar el visor de historias de Insta?",
+        "answer": "Sí, la mayoría de los visualizadores de historias de Instagram legítimos son seguros. Puedes hacerlo si evitas compartir datos personales o credenciales de inicio de sesión y te limitas a plataformas confiables y con buenas reseñas."
+      },
+      {
+        "question": "¿Funciona en dispositivos móviles?",
+        "answer": "Sí, funciona en Android, iOS y navegadores de escritorio."
+      },
+      {
+        "question": "¿Puedo descargar historias de Instagram en SaveInstaVideo?",
+        "answer": "Sí, puedes descargar historias de perfiles públicos en alta calidad."
+      },
+      {
+        "question": "¿Necesito una cuenta de Instagram?",
+        "answer": "No, puedes usar el visor de historias de Instagram sin iniciar sesión."
+      },
+      {
+        "question": "¿Puedo ver cuentas privadas con un visor de historias de Instagram?",
+        "answer": "No, los visualizadores de historias de Instagram solo funcionan con cuentas públicas. El contenido de cuentas privadas permanece inaccesible a menos que seas un seguidor autorizado."
+      },
+      {
+        "question": "¿Es legal utilizar un visor de historias de Instagram?",
+        "answer": "Usar un Visor de Historias de Instagram generalmente es legal para ver cuentas públicas. Sin embargo, descargar o redistribuir contenido sin permiso puede infringir los derechos de autor o las condiciones de servicio de Instagram."
+      },
+      {
+        "question": "¿Necesito una cuenta de Instagram para usar SaveInstaVideo?",
+        "answer": "Oficialmente, sí. Algunas herramientas web pueden mostrar contenido limitado sin iniciar sesión."
+      },
+      {
+        "question": "¿Puedo descargar la historia de otra persona?",
+        "answer": "No está dentro de la app oficial de Instagram. Necesitas herramientas externas y la cuenta debe ser pública. Respeta siempre los derechos de autor."
+      }
+    ]
+  },
+  "footer": {
+    "description": "Descarga videos, Reels e Historias de Instagram al instante con nuestro Descargador de Videos de Instagram gratuito. Guarda contenido HD desde cualquier enlace de Instagram en tu dispositivo de forma rápida, segura y sin registro.",
+    "pages": {
+      "pages_title": "Páginas",
+      "pages_link": [
+        {
+          "title": "Video",
+          "url": "/es/"
+        },
+        {
+          "title": "Foto",
+          "url": "/es/instagram-photo-downloader/"
+        },
+        {
+          "title": "Reels",
+          "url": "/es/instagram-reels-downloader/"
+        },
+        {
+          "title": "Historia",
+          "url": "/es/instagram-story-downloader/"
+        },
+        {
+          "title": "Visualizador",
+          "url": "/es/instagram-story-viewer/"
+        }
+      ]
+    },
+    "quick_links": {
+      "quick_links_title": "Enlaces rápidos",
+      "quick_links_link": [
+        {
+          "title": "Mapa del sitio",
+          "url": "/sitemap.xml"
+        },
+        {
+          "title": "Sobre nosotros",
+          "url": "/about-us/"
+        },
+        {
+          "title": "Contáctanos",
+          "url": "/contact-us/"
+        },
+        {
+          "title": "Política de privacidad",
+          "url": "/privacy-policy/"
+        },
+        {
+          "title": "Términos y condiciones",
+          "url": "/terms-of-service/"
+        }
+      ]
+    },
+    "copyright": "© 2020-2026 SaveInstaVideo. Todos los derechos reservados."
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "meta": {
+    "title": "匿名 Instagram 快拍查看器 - Instagram 快拍查看工具",
+    "description": "Instagram 快拍查看器是一款在线工具，可匿名查看和下载 Instagram 内容。100% 免费安全，可在任何设备上无限使用，无需登录。",
+    "keywords": "SaveInstaVideo、Instagram 快拍查看器、匿名 Instagram 快拍查看器、观看 IG 快拍、Instagram 快拍查看器"
+  },
+  "hero": {
+    "title": "Instagram 快拍查看器",
+    "subtitle": "无需登录，即可快速、免费、安全地查看 Instagram 快拍。"
+  },
+  "nav": {
+    "video": "视频",
+    "image": "照片",
+    "reels": "短视频",
+    "story": "故事",
+    "viewer": "观看者"
+  },
+  "form": {
+    "placeholder": "粘贴 Instagram 快拍链接",
+    "download_btn": "下载",
+    "paste": "粘贴",
+    "clear": "清除"
+  },
+  "page_introduction": {
+    "title": "Instagram 匿名故事查看器：免费观看 Instagram 故事",
+    "description": [
+      "SaveInstaVideo 是一款功能强大且易于使用的 Instagram 快拍查看器，专为想要无限制地观看和下载 Instagram 快拍、视频、照片和 Reels 的用户而设计。如果您正在寻找一款兼具简洁性、速度和匿名性的可靠 Instagram 快拍查看器，SaveInstaVideo 是您的明智之选。",
+      "使用 SaveInstaVideo，无需登录即可观看 Instagram 快拍，对于注重隐私的用户来说，这是一款值得信赖的匿名快拍查看器。无需下载应用，无需注册，也无需繁琐的步骤。只需粘贴链接，即可在几秒钟内下载。我们的工具可在手机、平板电脑和台式电脑上流畅运行。"
+    ]
+  },
+  "what_section": {
+    "title": "什么是 Instagram 快拍查看器？",
+    "description": [
+      "Instagram Story Viewer 是一款在线工具，用户无需登录 Instagram 即可查看 Instagram 快拍。该工具还允许您将快拍、视频、短视频和照片直接下载到您的设备上。",
+      "SaveInstaVideo 的独特之处在于它是一款匿名 Instagram 快拍查看器，这意味着您可以查看公开的快拍，而无需在查看器列表中显示您的用户名。这对于重视隐私或只想安静浏览内容的用户来说尤其有用。"
+    ]
+  },
+  "how_to_download": {
+    "title": "如何使用故事查看器下载 Instagram 故事",
+    "description": "使用匿名 Instagram 快拍查看器通常很简单。以下是分步指南：",
+    "steps": [
+      {
+        "title": "输入名称或粘贴网址",
+        "description": "在 SaveInstaVideo 上输入您想观看或下载的故事名称或粘贴其网址。",
+        "imageUrl": "/img/copy.webp",
+        "imageAlt": "Copy URL"
+      },
+      {
+        "title": "点击下载",
+        "description": "该工具将显示与该帐户关联的活跃新闻。然后，点击照片或视频新闻旁边的“下载”按钮。",
+        "imageUrl": "/img/paste.webp",
+        "imageAlt": "Paste Link"
+      },
+      {
+        "title": "保存到您的设备",
+        "description": "下载完成后，文件将保存以供离线查看。",
+        "imageUrl": "/img/download.webp",
+        "imageAlt": "Download File"
+      }
+    ]
+  },
+  "why_section": {
+    "title": "我们的匿名 Instagram 快拍查看器具有以下功能",
+    "description": "SaveInstaVideo 是一款高质量的 Instagram 快拍查看器，它通常拥有许多使其脱颖而出的功能。以下是一些最常用和最有用的功能：",
+    "items": [
+      {
+        "title": "快速且用户友好的界面",
+        "description": "Insta Story Viewer 针对速度进行了优化。故事加载只需几秒，界面设计直观，即使是初次使用的用户也能轻松上手。没有多余的按钮，没有广告。只有简洁高效的使用体验。",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><g stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5'><path d='M36.75 26.25v7a3.5 3.5 0 0 1-3.5 3.5H8.75a3.5 3.5 0 0 1-3.5-3.5v-7M12.25 17.5 21 26.25l8.75-8.75M21 26.25v-21'></path></g></svg>"
+      },
+      {
+        "title": "高质量故事观看",
+        "description": "SaveInstaVideo 工具可以将 Instagram 快拍恢复到原始画质。无论是照片还是视频，您都可以观看和下载快拍而不会损失画质。这确保每次都能呈现清晰的画面、锐利的文字和流畅的视频播放。",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 215 215' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M67.1875 116.458H85.1042V127.656C85.1042 129.597 85.7402 131.204 87.0123 132.476C88.2844 133.748 89.8879 134.381 91.8229 134.375C93.7579 134.369 95.3645 133.733 96.6425 132.467C97.9206 131.201 98.5536 129.597 98.5417 127.656V87.3438C98.5417 85.4028 97.9056 83.7993 96.6335 82.5332C95.3615 81.2671 93.7579 80.631 91.8229 80.625C89.8879 80.6191 88.2844 81.2551 87.0123 82.5332C85.7402 83.8112 85.1042 85.4148 85.1042 87.3438V103.021H67.1875V87.3438C67.1875 85.4028 66.5515 83.7993 65.2794 82.5332C64.0073 81.2671 62.4038 80.631 60.4688 80.625C58.5338 80.6191 56.9302 81.2551 55.6581 82.5332C54.386 83.8112 53.75 85.4148 53.75 87.3438V127.656C53.75 129.597 54.386 131.204 55.6581 132.476C56.9302 133.748 58.5338 134.381 60.4688 134.375C62.4038 134.369 64.0103 133.733 65.2883 132.467C66.5664 131.201 67.1995 129.597 67.1875 127.656V116.458ZM120.938 134.375H152.292C154.83 134.375 156.959 133.515 158.679 131.795C160.399 130.075 161.256 127.949 161.25 125.417V89.5834C161.25 87.0452 160.39 84.9191 158.67 83.205C156.95 81.491 154.824 80.631 152.292 80.625H120.938C119.743 80.625 118.698 81.073 117.802 81.9688C116.906 82.8646 116.458 83.9098 116.458 85.1042V129.896C116.458 131.09 116.906 132.135 117.802 133.031C118.698 133.927 119.743 134.375 120.938 134.375ZM129.896 120.938V94.0625H147.813V120.938H129.896ZM35.8333 179.167C30.9063 179.167 26.6899 177.414 23.1842 173.908C19.6785 170.402 17.9226 166.183 17.9167 161.25V53.75C17.9167 48.823 19.6725 44.6066 23.1842 41.1009C26.6958 37.5952 30.9122 35.8393 35.8333 35.8334H179.167C184.094 35.8334 188.313 37.5892 191.825 41.1009C195.336 44.6125 197.089 48.8289 197.083 53.75V161.25C197.083 166.177 195.331 170.396 191.825 173.908C188.319 177.42 184.1 179.173 179.167 179.167H35.8333ZM35.8333 161.25H179.167V53.75H35.8333V161.25Z' fill='black'/></svg>"
+      },
+      {
+        "title": "安全私密",
+        "description": "您的隐私是我们的首要任务。我们不会存储您浏览的故事、追踪用户活动或收集个人数据。每次会话都是私密的，这使它成为目前网络上最安全的匿名 Instagram 故事查看工具之一。",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 109 109' stroke-width='8' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M54.5 99.1877C54.5 99.1877 97 86.4466 97 54.5938' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M97 54.5939V16.3706C97 16.3706 82.8333 10 54.5 10' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M54.5 99.1877C54.5 99.1877 12 86.4466 12 54.5938' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M12 54.5939V16.3706C12 16.3706 26.1667 10 54.5 10' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M82.8333 29.1118C54.5 48.2235 47.4167 73.7057 47.4167 73.7057C47.4167 73.7057 40.3333 66.1018 33.25 60.9646' stroke='black' stroke-linecap='round' stroke-linejoin='round'/></svg>"
+      },
+      {
+        "title": "适用于所有设备",
+        "description": "这款 Instagram 快拍查看器是基于网页的，因此可在包括智能手机、平板电脑、笔记本电脑和台式电脑在内的所有设备上运行。它支持所有主流浏览器，例如 Chrome、Safari、Firefox 和 Edge，让您可以随时随地查看快拍。",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 87 87' stroke-width='2' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M27.1875 81.5625H10.875C9.43289 81.5625 8.04984 80.9896 7.03011 79.9699C6.01038 78.9502 5.4375 77.5671 5.4375 76.125V43.5C5.4375 42.0579 6.01038 40.6748 7.03011 39.6551C8.04984 38.6354 9.43289 38.0625 10.875 38.0625H27.1875C28.6296 38.0625 30.0127 38.6354 31.0324 39.6551C32.0521 40.6748 32.625 42.0579 32.625 43.5V76.125C32.625 77.5671 32.0521 78.9502 31.0324 79.9699C30.0127 80.9896 28.6296 81.5625 27.1875 81.5625ZM10.875 43.5V76.125H27.1875V43.5H10.875Z' fill='black'/><path d='M76.125 10.875H16.3125C14.8704 10.875 13.4873 11.4479 12.4676 12.4676C11.4479 13.4873 10.875 14.8704 10.875 16.3125V32.625H16.3125V16.3125H76.125V54.375H38.0625V59.8125H43.5V70.6875H38.0625V76.125H62.5312V70.6875H48.9375V59.8125H76.125C77.5671 59.8125 78.9502 59.2396 79.9699 58.2199C80.9896 57.2002 81.5625 55.8171 81.5625 54.375V16.3125C81.5625 14.8704 80.9896 13.4873 79.9699 12.4676C78.9502 11.4479 77.5671 10.875 76.125 10.875Z' fill='black'/></svg>"
+      },
+      {
+        "title": "无需登录或注册账号",
+        "description": "您无需登录或拥有 Instagram 帐户即可在线使用我们的 Instagram 快拍查看器。这消除了帐户追踪、登录提醒或隐私泄露的风险。只需在 SaveInstaVideo 上输入公开用户名，即可立即开始观看快拍。",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><path stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5' d='M21 38.5s14-7 14-17.5V8.75L21 3.5 7 8.75V21c0 10.5 14 17.5 14 17.5Z'></path></svg>"
+      },
+      {
+        "title": "免费且无限制使用",
+        "description": "无需支付任何费用，即可无限畅享 Instagram 快拍观看功能。使用匿名 Instagram 快拍观看器，无需订阅，没有隐藏费用，也没有每日使用限制。",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><g stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5'><path d='M35 5.25H7a3.5 3.5 0 0 0-3.5 3.5v17.5a3.5 3.5 0 0 0 3.5 3.5h28a3.5 3.5 0 0 0 3.5-3.5V8.75a3.5 3.5 0 0 0-3.5-3.5ZM14 36.75h14M21 29.75v7'></path></g></svg>"
+      }
+    ]
+  },
+  "features": {
+    "title": "SaveInstaVideo 还提供其他 Instagram 下载工具",
+    "description": "除了 Insta Story Viewer，我们还提供强大的 Instagram 工具来提升您的使用体验。所有工具均免费、基于浏览器且易于使用。SaveInstaVideo 平台提供一套完整的 Instagram 工具，旨在帮助您轻松安全地查看和下载公开内容。请在下方探索我们的其他免费工具：",
+    "items": [
+      {
+        "title": "Instagram视频下载器",
+        "description": "<a href='/zh/' class='internal-link'>使用 Instagram 视频下载器</a>，您可以从帖子、IGTV 和分享内容中下载高清 Instagram 视频。此工具可让您将视频直接保存到设备，以便离线观看，且无水印。",
+        "imageUrl": "/img/reels_downloader.webp",
+        "imageAlt": "Reels Downloader"
+      },
+      {
+        "title": "Instagram照片下载器",
+        "description": "<a href='/zh/instagram-photo-downloader/' class='internal-link'>以原始尺寸和清晰度保存 Instagram 照片</a>。Instagram 照片下载器非常适合设计师、营销人员或希望从公开个人资料中存档高质量图片的用户。",
+        "imageUrl": "/img/carousel_downloader.webp",
+        "imageAlt": "Story Viewer"
+      },
+      {
+        "title": "Instagram Reels 下载器",
+        "description": "<a href='/zh/instagram-reels-downloader/' class='internal-link'>我们的 Instagram Reels 下载器</a>让您可以快速下载无水印的 Instagram Reels 短视频。您可以离线观看，也可以将其用于灵感启发和分析。",
+        "imageUrl": "/img/photos_downloader.webp",
+        "imageAlt": "Photo Downloader"
+      },
+      {
+        "title": "Instagram 快拍下载器",
+        "description": "<a href='/zh/instagram-story-downloader/' class='internal-link'>直接将 Instagram 快拍下载到您的设备</a>。Instagram 快拍下载器工具可与 Instagram 快拍查看器配合使用，让您只需单击一下即可将快拍保存为照片和视频格式。",
+        "imageUrl": "/img/igtv_downloader.webp",
+        "imageAlt": "Story Downloader"
+      }
+    ]
+  },
+  "faq": {
+    "title": "常见问题解答 (FAQ)",
+    "description": "为了帮助您更好地了解这些工具，以下是一些常见问题的解答：",
+    "items": [
+      {
+        "question": "Instagram Story 浏览者是匿名的吗？",
+        "answer": "是的，许多 Instagram 快拍查看工具允许匿名查看，但这通常只适用于公开账号。"
+      },
+      {
+        "question": "我可以查看Instagram的私密故事吗？",
+        "answer": "不，这个工具只能访问公开的Instagram账号，无法访问私密内容。"
+      },
+      {
+        "question": "我需要安装任何应用程序才能使用 SaveInstaVideo 吗？",
+        "answer": "使用此工具无需安装任何应用程序。Insta Story Viewer 直接在您的浏览器中运行。"
+      },
+      {
+        "question": "匿名Instagram故事查看工具是免费的吗？",
+        "answer": "许多 Instagram 快拍查看器都提供免费的基本功能。一些高级版本可能包含额外的功能，例如更高的下载质量或更快的运行速度。"
+      },
+      {
+        "question": "使用Instagram Story查看器安全吗？",
+        "answer": "是的，大多数正规的Instagram故事查看器都是可以安全使用的。只要你避免分享个人数据或登录凭证，并且选择信誉良好、评价高的平台，就可以放心使用。"
+      },
+      {
+        "question": "它能在移动设备上运行吗？",
+        "answer": "是的，它适用于安卓、iOS 和桌面浏览器。"
+      },
+      {
+        "question": "我可以在SaveInstaVideo上下载Instagram故事吗？",
+        "answer": "是的，您可以从公开个人资料中下载高质量的故事。"
+      },
+      {
+        "question": "我需要注册一个Instagram账号吗？",
+        "answer": "不，您无需登录即可使用 Instagram 快拍查看器。"
+      },
+      {
+        "question": "我可以用 Instagram 快拍查看器查看私密账号吗？",
+        "answer": "不，Instagram 快拍查看器仅适用于公开帐户。除非您是已获批准的关注者，否则您无法访问私密帐户的内容。"
+      },
+      {
+        "question": "使用 Instagram 快拍查看器合法吗？",
+        "answer": "使用 Instagram 快拍查看器查看公开账号的内容通常是合法的。但是，未经许可下载或重新分发内容可能侵犯版权或违反 Instagram 的服务条款。"
+      },
+      {
+        "question": "我需要Instagram账号才能使用SaveInstaVideo吗？",
+        "answer": "官方来说，是的。但有些网络工具可能需要登录才能查看部分内容。"
+      },
+      {
+        "question": "我可以下载别人的故事吗？",
+        "answer": "并非在官方 Instagram 应用内操作。您需要使用外部工具，并且账户必须设置为公开。请始终尊重版权。"
+      }
+    ]
+  },
+  "footer": {
+    "description": "使用我们免费的 Instagram 视频下载器，即可立即下载 Instagram 视频、Reels 和 Stories。快速、安全地将任何 Instagram 链接中的高清内容保存到您的设备，无需注册。",
+    "pages": {
+      "pages_title": "页面",
+      "pages_link": [
+        {
+          "title": "视频",
+          "url": "/zh/"
+        },
+        {
+          "title": "照片",
+          "url": "/zh/instagram-photo-downloader/"
+        },
+        {
+          "title": "短视频",
+          "url": "/zh/instagram-reels-downloader/"
+        },
+        {
+          "title": "故事",
+          "url": "/zh/instagram-story-downloader/"
+        },
+        {
+          "title": "查看器",
+          "url": "/zh/instagram-story-viewer/"
+        }
+      ]
+    },
+    "quick_links": {
+      "quick_links_title": "快速链接",
+      "quick_links_link": [
+        {
+          "title": "网站地图",
+          "url": "/sitemap.xml"
+        },
+        {
+          "title": "关于我们",
+          "url": "/about-us/"
+        },
+        {
+          "title": "联系我们",
+          "url": "/contact-us/"
+        },
+        {
+          "title": "隐私政策",
+          "url": "/privacy-policy/"
+        },
+        {
+          "title": "条款及细则",
+          "url": "/terms-of-service/"
+        }
+      ]
+    },
+    "copyright": "© 2020-2026 SaveInstaVideo. 保留所有权利。"
+  }
+}

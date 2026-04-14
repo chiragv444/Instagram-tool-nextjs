@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "title": "Descărcător Instagram Reels: Descarcă gratuit Insta Reel prin link",
+    "description": "Descarcă Instagram Reels în HD fără filigran gratuit. Descărcător Instagram Reels rapid, sigur și ușor, fără autentificare.",
+    "keywords": "Salvați videoclipuri Instagram, Descărcați role Instagram, Descărcați role Instagram, Descărcător role Instagram, Descărcător role Instagram, Descărcați videoclipuri Instagram, Descărcați role Instagram"
+  },
+  "hero": {
+    "title": "Descărcător de role Instagram",
+    "subtitle": "Descărcare Insta Reel rapidă, simplă și fiabilă cu un singur clic."
+  },
+  "nav": {
+    "video": "Video",
+    "image": "Fotografie",
+    "reels": "Filme video",
+    "story": "Poveste",
+    "viewer": "Vizualizator"
+  },
+  "form": {
+    "placeholder": "Lipire URL film video Instagram",
+    "download_btn": "Descărcare",
+    "paste": "Lipire",
+    "clear": "Ștergere"
+  },
+  "page_introduction": {
+    "title": "Descărcare Instagram Reels",
+    "description": [
+      "SaveInstaVideo este un program de descărcare Instagram Reel rapid, fiabil și ușor de utilizat, conceput pentru a ajuta utilizatorii să salveze videoclipuri Reels la calitate înaltă. Indiferent dacă doriți să păstrați clipuri distractive, Reels în tendințe sau conținut creativ pentru utilizare ulterioară, instrumentul nostru face ca descărcarea Instagram Reels să fie ușoară și fără stres.",
+      "Cu un simplu proces de copiere și lipire, SaveInstaVideo vă permite să descărcați Instagram Reels direct din browser, fără aplicații, fără autentificare și fără pași tehnici."
+    ]
+  },
+  "what_section": {
+    "title": "Ce este un program de descărcare pentru Instagram Reels?",
+    "description": [
+      "Instagram Reels Downloader este un instrument online care ajută utilizatorii să salveze videoclipuri Reels de pe Instagram pe dispozitivele lor într-un format descărcabil. Funcționează prin procesarea linkului public Reel și generarea unui fișier video, păstrând în același timp rezoluția și calitatea sunetului originale.",
+      "SaveInstaVideo simplifică descărcarea videoclipurilor Instagram Reels pentru toți utilizatorii. Indiferent dacă salvați conținut pentru vizualizare offline, referință sau inspirație, instrumentul nostru de descărcare a videoclipurilor Instagram Reels oferă o experiență rapidă, sigură și ușor de utilizat."
+    ]
+  },
+  "how_to_download": {
+    "title": "Cum să descarci Instagram Reels în 3 pași simpli",
+    "description": "SaveInstaVideo facilitează descărcarea Instagram Reels pentru toată lumea:",
+    "steps": [
+      {
+        "title": "Copiați linkul rolei",
+        "description": "Deschide Instagram și găsește Reel-ul pe care vrei să-l salvezi. Apasă pe pictograma de partajare și copiază linkul Reel-ului.",
+        "imageUrl": "/img/copy.webp",
+        "imageAlt": "Copy URL"
+      },
+      {
+        "title": "Lipește linkul în SaveInstaVideo",
+        "description": "Accesați SaveInstaVideo și lipiți linkul copiat în câmpul de introducere a datelor pentru descărcare.",
+        "imageUrl": "/img/paste.webp",
+        "imageAlt": "Paste Link"
+      },
+      {
+        "title": "Descărcați videoclipul",
+        "description": "Apasă butonul Descărcare și salvează Reel-ul pe dispozitivul tău la calitate înaltă în câteva secunde.",
+        "imageUrl": "/img/download.webp",
+        "imageAlt": "Download File"
+      }
+    ]
+  },
+  "why_section": {
+    "title": "De ce să alegi SaveInstaVideo pentru descărcarea de Instagram Reels?",
+    "description": "SaveInstaVideo este conceput pentru a oferi o experiență de descărcare Instagram Reel Downloader fiabilă și de înaltă calitate.",
+    "items": [
+      {
+        "title": "Descărcări rapide și stabile",
+        "description": "Sistemul nostru este optimizat să proceseze rapid linkurile Reel, permițând descărcarea fără probleme a Instagram Reels, fără întârzieri sau întreruperi.",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><g stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5'><path d='M36.75 26.25v7a3.5 3.5 0 0 1-3.5 3.5H8.75a3.5 3.5 0 0 1-3.5-3.5v-7M12.25 17.5 21 26.25l8.75-8.75M21 26.25v-21'></path></g></svg>"
+      },
+      {
+        "title": "Videoclipuri de calitate originală",
+        "description": "SaveInstaVideo menține rezoluția și sunetul originale, asigurându-se că fiecare descărcare de videoclipuri Instagram Reels arată clar și profesional.",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 215 215' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M67.1875 116.458H85.1042V127.656C85.1042 129.597 85.7402 131.204 87.0123 132.476C88.2844 133.748 89.8879 134.381 91.8229 134.375C93.7579 134.369 95.3645 133.733 96.6425 132.467C97.9206 131.201 98.5536 129.597 98.5417 127.656V87.3438C98.5417 85.4028 97.9056 83.7993 96.6335 82.5332C95.3615 81.2671 93.7579 80.631 91.8229 80.625C89.8879 80.6191 88.2844 81.2551 87.0123 82.5332C85.7402 83.8112 85.1042 85.4148 85.1042 87.3438V103.021H67.1875V87.3438C67.1875 85.4028 66.5515 83.7993 65.2794 82.5332C64.0073 81.2671 62.4038 80.631 60.4688 80.625C58.5338 80.6191 56.9302 81.2551 55.6581 82.5332C54.386 83.8112 53.75 85.4148 53.75 87.3438V127.656C53.75 129.597 54.386 131.204 55.6581 132.476C56.9302 133.748 58.5338 134.381 60.4688 134.375C62.4038 134.369 64.0103 133.733 65.2883 132.467C66.5664 131.201 67.1995 129.597 67.1875 127.656V116.458ZM120.938 134.375H152.292C154.83 134.375 156.959 133.515 158.679 131.795C160.399 130.075 161.256 127.949 161.25 125.417V89.5834C161.25 87.0452 160.39 84.9191 158.67 83.205C156.95 81.491 154.824 80.631 152.292 80.625H120.938C119.743 80.625 118.698 81.073 117.802 81.9688C116.906 82.8646 116.458 83.9098 116.458 85.1042V129.896C116.458 131.09 116.906 132.135 117.802 133.031C118.698 133.927 119.743 134.375 120.938 134.375ZM129.896 120.938V94.0625H147.813V120.938H129.896ZM35.8333 179.167C30.9063 179.167 26.6899 177.414 23.1842 173.908C19.6785 170.402 17.9226 166.183 17.9167 161.25V53.75C17.9167 48.823 19.6725 44.6066 23.1842 41.1009C26.6958 37.5952 30.9122 35.8393 35.8333 35.8334H179.167C184.094 35.8334 188.313 37.5892 191.825 41.1009C195.336 44.6125 197.089 48.8289 197.083 53.75V161.25C197.083 166.177 195.331 170.396 191.825 173.908C188.319 177.42 184.1 179.173 179.167 179.167H35.8333ZM35.8333 161.25H179.167V53.75H35.8333V161.25Z' fill='black'/></svg>"
+      },
+      {
+        "title": "Sigur, protejat și privat",
+        "description": "Nu este necesară nicio conectare sau informații personale. Toate acțiunile de descărcare a reelurilor Insta rămân private și securizate.",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 109 109' stroke-width='8' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M54.5 99.1877C54.5 99.1877 97 86.4466 97 54.5938' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M97 54.5939V16.3706C97 16.3706 82.8333 10 54.5 10' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M54.5 99.1877C54.5 99.1877 12 86.4466 12 54.5938' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M12 54.5939V16.3706C12 16.3706 26.1667 10 54.5 10' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M82.8333 29.1118C54.5 48.2235 47.4167 73.7057 47.4167 73.7057C47.4167 73.7057 40.3333 66.1018 33.25 60.9646' stroke='black' stroke-linecap='round' stroke-linejoin='round'/></svg>"
+      },
+      {
+        "title": "Compatibil cu toate dispozitivele",
+        "description": "Folosește instrumentul nostru Instagram Reel Downloader fără probleme pe Android, iPhone, tablete, Windows sau macOS.",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 87 87' stroke-width='2' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M27.1875 81.5625H10.875C9.43289 81.5625 8.04984 80.9896 7.03011 79.9699C6.01038 78.9502 5.4375 77.5671 5.4375 76.125V43.5C5.4375 42.0579 6.01038 40.6748 7.03011 39.6551C8.04984 38.6354 9.43289 38.0625 10.875 38.0625H27.1875C28.6296 38.0625 30.0127 38.6354 31.0324 39.6551C32.0521 40.6748 32.625 42.0579 32.625 43.5V76.125C32.625 77.5671 32.0521 78.9502 31.0324 79.9699C30.0127 80.9896 28.6296 81.5625 27.1875 81.5625ZM10.875 43.5V76.125H27.1875V43.5H10.875Z' fill='black'/><path d='M76.125 10.875H16.3125C14.8704 10.875 13.4873 11.4479 12.4676 12.4676C11.4479 13.4873 10.875 14.8704 10.875 16.3125V32.625H16.3125V16.3125H76.125V54.375H38.0625V59.8125H43.5V70.6875H38.0625V76.125H62.5312V70.6875H48.9375V59.8125H76.125C77.5671 59.8125 78.9502 59.2396 79.9699 58.2199C80.9896 57.2002 81.5625 55.8171 81.5625 54.375V16.3125C81.5625 14.8704 80.9896 13.4873 79.9699 12.4676C78.9502 11.4479 77.5671 10.875 76.125 10.875Z' fill='black'/></svg>"
+      },
+      {
+        "title": "Comoditate bazată pe browser",
+        "description": "Descarcă Reels direct din browserul tău web, fără a instala aplicații sau extensii.",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><path stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5' d='M21 38.5s14-7 14-17.5V8.75L21 3.5 7 8.75V21c0 10.5 14 17.5 14 17.5Z'></path></svg>"
+      },
+      {
+        "title": "Interfață simplă și curată",
+        "description": "Designul nostru ușor de utilizat face ca descărcarea Instagram Reels să fie ușoară chiar și pentru utilizatorii începători.",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><g stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5'><path d='M35 5.25H7a3.5 3.5 0 0 0-3.5 3.5v17.5a3.5 3.5 0 0 0 3.5 3.5h28a3.5 3.5 0 0 0 3.5-3.5V8.75a3.5 3.5 0 0 0-3.5-3.5ZM14 36.75h14M21 29.75v7'></path></g></svg>"
+      }
+    ]
+  },
+  "features": {
+    "title": "Funcțiile programului de descărcare SaveInstaVideo Instagram Reels",
+    "description": "SaveInstaVideo este mai mult decât un simplu program de descărcare a videoclipurilor. Este o soluție completă pentru salvarea conținutului Instagram.",
+    "items": [
+      {
+        "title": "Descărcător de videoclipuri Instagram",
+        "description": "<a href='/ro/' class='internal-link'>Salvați videoclipuri Instagram</a> din postări la calitate originală. Perfect pentru utilizatorii care doresc descărcare video Instagram fiabilă și fără probleme.",
+        "imageUrl": "/img/reels_downloader.webp",
+        "imageAlt": "Reels Downloader"
+      },
+      {
+        "title": "Descărcător de fotografii Instagram",
+        "description": "<a href='/ro/instagram-photo-downloader/' class='internal-link'>Descarcă fotografiile de pe Instagram</a> în rezoluția lor originală cu un singur clic. Util pentru salvarea imaginilor pentru inspirație sau colecții personale.",
+        "imageUrl": "/img/carousel_downloader.webp",
+        "imageAlt": "Story Viewer"
+      },
+      {
+        "title": "Vizualizator de povești Instagram",
+        "description": "<a href='/ro/instagram-story-viewer/' class='internal-link'>Vizualizator anonim de povești Instagram</a> fără a alerta proprietarul contului. Bucură-te de confidențialitate în timp ce explorezi liber Stories.",
+        "imageUrl": "/img/photos_downloader.webp",
+        "imageAlt": "Photo Downloader"
+      },
+      {
+        "title": "Descărcător de povești Instagram",
+        "description": "<a href='/ro/instagram-story-downloader/' class='internal-link'>Descărcă poveștile Instagram</a> de forma rapidă și fără probleme, atât în format foto, cât și video, fără pierderi de calitate.",
+        "imageUrl": "/img/igtv_downloader.webp",
+        "imageAlt": "Story Downloader"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Întrebări frecvente - Descărcător Instagram Reels",
+    "description": "",
+    "items": [
+      {
+        "question": "Este SaveInstaVideo gratuit pentru descărcarea Instagram Reels?",
+        "answer": "Da, SaveInstaVideo este complet gratuit. Poți descărca Instagram Reels nelimitat, fără nicio taxă."
+      },
+      {
+        "question": "Am nevoie de un cont de Instagram pentru a descărca Reels?",
+        "answer": "Nu. Instrumentul nostru de descărcare a videoclipurilor Instagram funcționează fără a fi nevoie să vă conectați sau să conectați un cont de Instagram."
+      },
+      {
+        "question": "La ce calitate video mă pot aștepta când descarc Reels?",
+        "answer": "SaveInstaVideo descarcă videoclipuri la cea mai bună calitate disponibilă, asigurând o redare fluidă și un sunet clar."
+      },
+      {
+        "question": "Pot descărca Instagram Reels pe dispozitivul meu mobil?",
+        "answer": "Da, descărcarea de insta reel funcționează perfect pe dispozitive Android și iOS folosind orice browser modern."
+      },
+      {
+        "question": "Rolele descărcate sunt filigranizate?",
+        "answer": "Nu. Toate videoclipurile descărcate folosind SaveInstaVideo nu conțin filigran."
+      },
+      {
+        "question": "Este SaveInstaVideo sigur de utilizat?",
+        "answer": "Da, confidențialitatea dvs. este protejată. Nu stocăm datele utilizatorilor, linkurile sau istoricul descărcărilor."
+      },
+      {
+        "question": "În ce format se descarcă Reels?",
+        "answer": "Videoclipurile Reels sunt de obicei descărcate în format MP4, care este compatibil cu majoritatea dispozitivelor și playerelor media."
+      },
+      {
+        "question": "Pot descărca alt conținut Instagram folosind SaveInstaVideo?",
+        "answer": "Da. SaveInstaVideo acceptă descărcarea de videoclipuri Instagram, descărcarea de fotografii, vizualizarea de Story-uri și descărcarea de Story-uri într-o singură platformă."
+      }
+    ]
+  },
+  "footer": {
+    "description": "Descărcați instantaneu videoclipuri, Reel-uri și Stories de pe Instagram cu ajutorul programului nostru gratuit de descărcare video Instagram. Salvați conținut HD de pe orice link Instagram pe dispozitivul dvs. rapid, sigur și fără înregistrare.",
+    "pages": {
+      "pages_title": "Pagini",
+      "pages_link": [
+        {
+          "title": "Video",
+          "url": "/ro/"
+        },
+        {
+          "title": "Fotografie",
+          "url": "/ro/instagram-photo-downloader/"
+        },
+        {
+          "title": "Reel-uri",
+          "url": "/ro/instagram-reels-downloader/"
+        },
+        {
+          "title": "Poveste",
+          "url": "/ro/instagram-story-downloader/"
+        },
+        {
+          "title": "Vizualizator",
+          "url": "/ro/instagram-story-viewer/"
+        }
+      ]
+    },
+    "quick_links": {
+      "quick_links_title": "Linkuri rapide",
+      "quick_links_link": [
+        {
+          "title": "Harta site-ului",
+          "url": "/sitemap.xml"
+        },
+        {
+          "title": "Despre noi",
+          "url": "/about-us/"
+        },
+        {
+          "title": "Contactați-ne",
+          "url": "/contact-us/"
+        },
+        {
+          "title": "Politică de confidențialitate",
+          "url": "/privacy-policy/"
+        },
+        {
+          "title": "Termeni și condiții",
+          "url": "/terms-of-service/"
+        }
+      ]
+    },
+    "copyright": "© 2020-2026 SaveInstaVideo. Toate drepturile rezervate."
+  }
+}

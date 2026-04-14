@@ -1,0 +1,236 @@
+{
+  "meta": {
+    "title": "匿名Instagramストーリービューアー - Instagramストーリービューアー",
+    "description": "Instagramストーリービューアーは、Instagramのコンテンツを匿名で閲覧・ダウンロードできるオンラインツールです。完全無料で安全、ログイン不要でどのデバイスでも無制限にご利用いただけます。",
+    "keywords": "SaveInstaVideo、Instagramストーリービューアー、匿名Instagramストーリービューアー、IGストーリーの視聴、Instaストーリービューアー"
+  },
+  "hero": {
+    "title": "Instagramストーリービューアー",
+    "subtitle": "ログイン不要、高速、無料、安全な Instagram ストーリー ビューアー。"
+  },
+  "nav": {
+    "video": "動画",
+    "image": "写真",
+    "reels": "リール",
+    "story": "ストーリー",
+    "viewer": "視聴者"
+  },
+  "form": {
+    "placeholder": "InstagramストーリーのURLを貼り付けてください",
+    "download_btn": "ダウンロード",
+    "paste": "貼り付け",
+    "clear": "クリア"
+  },
+  "page_introduction": {
+    "title": "Instagramの匿名ストーリービューアー：IGストーリーを無料で視聴",
+    "description": [
+      "SaveInstaVideoは、Instagramのストーリー、動画、写真、リールなどを制限なく視聴・ダウンロードしたいユーザーのために設計された、パワフルで使いやすいInstagramストーリービューアです。シンプルさ、スピード、匿名性を兼ね備えた信頼性の高いInstagramストーリービューアをお探しなら、SaveInstaVideoが最適です。",
+      "SaveInstaVideoを使えば、ログインなしでストーリーを視聴できるため、プライバシーを重視するユーザーにとって信頼できる匿名のInstagramストーリービューアーです。アプリやサインアップ、複雑な手順は一切不要です。リンクを貼り付けるだけで数秒でダウンロードできます。このツールは、モバイル、タブレット、デスクトップのどのデバイスでもスムーズに動作します。"
+    ]
+  },
+  "what_section": {
+    "title": "Instagram ストーリービューアーとは何ですか?",
+    "description": [
+      "Instagram Story Viewerは、InstagramにログインせずにInstagramストーリーを閲覧できるオンラインツールです。また、ストーリー、動画、リール、写真をデバイスに直接ダウンロードすることもできます。",
+      "SaveInstaVideo の特別な点は、匿名の Instagram ストーリービューアとして機能することです。つまり、公開ストーリーを閲覧する際に、ユーザー名が閲覧者リストに表示されることはありません。これは、プライバシーを重視するユーザーや、静かにコンテンツを閲覧したいユーザーにとって特に便利です。"
+    ]
+  },
+  "how_to_download": {
+    "title": "ストーリービューアを使ってInstagramストーリーをダウンロードする方法",
+    "description": "匿名のInstagramストーリービューアーの使い方は、基本的に簡単です。以下に、手順ごとのガイドをご紹介します。",
+    "steps": [
+      {
+        "title": "名前を入力するかURLを貼り付けてください",
+        "description": "SaveInstaVideo で視聴またはダウンロードしたいストーリーの名前を入力するか、URL を貼り付けます。",
+        "imageUrl": "/img/copy.webp",
+        "imageAlt": "Copy URL"
+      },
+      {
+        "title": "ダウンロードをクリック",
+        "description": "ツールには、そのアカウントにリンクされたアクティブなストーリーが表示されます。写真または動画のストーリーの横にある「ダウンロード」ボタンをクリックしてください。",
+        "imageUrl": "/img/paste.webp",
+        "imageAlt": "Paste Link"
+      },
+      {
+        "title": "デバイスに保存",
+        "description": "ダウンロード後、ファイルはオフラインで表示できるように保存されます。",
+        "imageUrl": "/img/download.webp",
+        "imageAlt": "Download File"
+      }
+    ]
+  },
+  "why_section": {
+    "title": "匿名Instagramストーリービューアの機能",
+    "description": "SaveInstaVideoは高品質なInstagramストーリービューアで、多くの優れた機能を備えています。以下に、最もよく使われる便利な機能をいくつかご紹介します。",
+    "items": [
+      {
+        "title": "高速でユーザーフレンドリーなインターフェース",
+        "description": "Insta Story Viewerはスピードに最適化されています。ストーリーは数秒で読み込まれ、インターフェースは初めてのユーザーでも直感的に操作できるように設計されています。不要なボタンや広告は一切ありません。シンプルで効率的な体験を提供します。",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><g stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5'><path d='M36.75 26.25v7a3.5 3.5 0 0 1-3.5 3.5H8.75a3.5 3.5 0 0 1-3.5-3.5v-7M12.25 17.5 21 26.25l8.75-8.75M21 26.25v-21'></path></g></svg>"
+      },
+      {
+        "title": "高品質なストーリーの視聴",
+        "description": "SaveInstaVideoツールは、Instagramストーリーを元の画質に戻します。写真でも動画でも、画質を損なうことなくストーリーを視聴・ダウンロードできます。これにより、常に鮮明な映像、シャープなテキスト、スムーズな動画再生が保証されます。",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 215 215' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M67.1875 116.458H85.1042V127.656C85.1042 129.597 85.7402 131.204 87.0123 132.476C88.2844 133.748 89.8879 134.381 91.8229 134.375C93.7579 134.369 95.3645 133.733 96.6425 132.467C97.9206 131.201 98.5536 129.597 98.5417 127.656V87.3438C98.5417 85.4028 97.9056 83.7993 96.6335 82.5332C95.3615 81.2671 93.7579 80.631 91.8229 80.625C89.8879 80.6191 88.2844 81.2551 87.0123 82.5332C85.7402 83.8112 85.1042 85.4148 85.1042 87.3438V103.021H67.1875V87.3438C67.1875 85.4028 66.5515 83.7993 65.2794 82.5332C64.0073 81.2671 62.4038 80.631 60.4688 80.625C58.5338 80.6191 56.9302 81.2551 55.6581 82.5332C54.386 83.8112 53.75 85.4148 53.75 87.3438V127.656C53.75 129.597 54.386 131.204 55.6581 132.476C56.9302 133.748 58.5338 134.381 60.4688 134.375C62.4038 134.369 64.0103 133.733 65.2883 132.467C66.5664 131.201 67.1995 129.597 67.1875 127.656V116.458ZM120.938 134.375H152.292C154.83 134.375 156.959 133.515 158.679 131.795C160.399 130.075 161.256 127.949 161.25 125.417V89.5834C161.25 87.0452 160.39 84.9191 158.67 83.205C156.95 81.491 154.824 80.631 152.292 80.625H120.938C119.743 80.625 118.698 81.073 117.802 81.9688C116.906 82.8646 116.458 83.9098 116.458 85.1042V129.896C116.458 131.09 116.906 132.135 117.802 133.031C118.698 133.927 119.743 134.375 120.938 134.375ZM129.896 120.938V94.0625H147.813V120.938H129.896ZM35.8333 179.167C30.9063 179.167 26.6899 177.414 23.1842 173.908C19.6785 170.402 17.9226 166.183 17.9167 161.25V53.75C17.9167 48.823 19.6725 44.6066 23.1842 41.1009C26.6958 37.5952 30.9122 35.8393 35.8333 35.8334H179.167C184.094 35.8334 188.313 37.5892 191.825 41.1009C195.336 44.6125 197.089 48.8289 197.083 53.75V161.25C197.083 166.177 195.331 170.396 191.825 173.908C188.319 177.42 184.1 179.173 179.167 179.167H35.8333ZM35.8333 161.25H179.167V53.75H35.8333V161.25Z' fill='black'/></svg>"
+      },
+      {
+        "title": "安全でプライベート",
+        "description": "お客様のプライバシーは最優先事項です。閲覧されたストーリーを保存したり、ユーザーのアクティビティを追跡したり、個人データを収集したりすることはありません。各セッションは非公開であるため、これはオンラインで利用できる最も安全な匿名Instagramストーリービューアツールの一つです。",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 109 109' stroke-width='8' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M54.5 99.1877C54.5 99.1877 97 86.4466 97 54.5938' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M97 54.5939V16.3706C97 16.3706 82.8333 10 54.5 10' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M54.5 99.1877C54.5 99.1877 12 86.4466 12 54.5938' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M12 54.5939V16.3706C12 16.3706 26.1667 10 54.5 10' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M82.8333 29.1118C54.5 48.2235 47.4167 73.7057 47.4167 73.7057C47.4167 73.7057 40.3333 66.1018 33.25 60.9646' stroke='black' stroke-linecap='round' stroke-linejoin='round'/></svg>"
+      },
+      {
+        "title": "すべてのデバイスで動作",
+        "description": "このInstagramストーリービューアはWebベースなので、スマートフォン、タブレット、ノートパソコン、デスクトップなど、あらゆるデバイスで動作します。Chrome、Safari、Firefox、Edgeなど、主要ブラウザに対応しており、いつでもどこでもストーリーを閲覧できます。",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 87 87' stroke-width='2' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M27.1875 81.5625H10.875C9.43289 81.5625 8.04984 80.9896 7.03011 79.9699C6.01038 78.9502 5.4375 77.5671 5.4375 76.125V43.5C5.4375 42.0579 6.01038 40.6748 7.03011 39.6551C8.04984 38.6354 9.43289 38.0625 10.875 38.0625H27.1875C28.6296 38.0625 30.0127 38.6354 31.0324 39.6551C32.0521 40.6748 32.625 42.0579 32.625 43.5V76.125C32.625 77.5671 32.0521 78.9502 31.0324 79.9699C30.0127 80.9896 28.6296 81.5625 27.1875 81.5625ZM10.875 43.5V76.125H27.1875V43.5H10.875Z' fill='black'/><path d='M76.125 10.875H16.3125C14.8704 10.875 13.4873 11.4479 12.4676 12.4676C11.4479 13.4873 10.875 14.8704 10.875 16.3125V32.625H16.3125V16.3125H76.125V54.375H38.0625V59.8125H43.5V70.6875H38.0625V76.125H62.5312V70.6875H48.9375V59.8125H76.125C77.5671 59.8125 78.9502 59.2396 79.9699 58.2199C80.9896 57.2002 81.5625 55.8171 81.5625 54.375V16.3125C81.5625 14.8704 80.9896 13.4873 79.9699 12.4676C78.9502 11.4479 77.5671 10.875 76.125 10.875Z' fill='black'/></svg>"
+      },
+      {
+        "title": "ログインやアカウントは不要です",
+        "description": "Instagramストーリービューアーをオンラインでご利用いただくのに、ログインやInstagramアカウントの登録は不要です。これにより、アカウントの追跡、ログインアラート、プライバシーに関する懸念といったリスクを回避できます。SaveInstaVideoで公開ユーザー名を入力するだけで、すぐにストーリーの視聴を開始できます。",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><path stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5' d='M21 38.5s14-7 14-17.5V8.75L21 3.5 7 8.75V21c0 10.5 14 17.5 14 17.5Z'></path></svg>"
+      },
+      {
+        "title": "無料で無制限にご利用いただけます",
+        "description": "料金は一切かかりません。Instagramストーリービューアーは、月額制、追加料金、1日あたりの利用制限などは一切ありません。",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><g stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5'><path d='M35 5.25H7a3.5 3.5 0 0 0-3.5 3.5v17.5a3.5 3.5 0 0 0 3.5 3.5h28a3.5 3.5 0 0 0 3.5-3.5V8.75a3.5 3.5 0 0 0-3.5-3.5ZM14 36.75h14M21 29.75v7'></path></g></svg>"
+      }
+    ]
+  },
+  "features": {
+    "title": "SaveInstaVideoの他のInstagramダウンロードツール",
+    "description": "Insta Story Viewerに加え、Instagramの体験を向上させる強力なツールもご用意しています。すべてのツールは無料で、ブラウザベースで簡単にご利用いただけます。SaveInstaVideoプラットフォームは、Instagramの公開コンテンツを簡単かつ安全に閲覧・ダウンロードできるよう設計された、包括的なツールセットを提供しています。その他の無料ツールも以下からご覧ください。",
+    "items": [
+      {
+        "title": "Instagramビデオダウンローダー",
+        "description": "<a href='/ja/' class='internal-link'>Instagram Video Downloader</a>を使えば、投稿、IGTV、シェアコンテンツから高画質でInstagram動画をダウンロードできます。このツールを使えば、動画をデバイスに直接保存し、ウォーターマークなしでオフラインで視聴できます。",
+        "imageUrl": "/img/reels_downloader.webp",
+        "imageAlt": "Reels Downloader"
+      },
+      {
+        "title": "Instagram写真ダウンローダー",
+        "description": "<a href='/ja/instagram-photo-downloader/' class='internal-link'>Instagramの写真</a>を元のサイズと鮮明さで保存できます。Instagram Photo Downloaderは、デザイナー、マーケター、または公開プロフィールから高品質の画像をアーカイブしたいユーザーに最適です。",
+        "imageUrl": "/img/carousel_downloader.webp",
+        "imageAlt": "Story Viewer"
+      },
+      {
+        "title": "Instagram Reels ダウンローダー",
+        "description": "<a href='/ja/instagram-reels-downloader/' class='internal-link'>Instagram Reelsダウンローダー</a>を使えば、透かしなしでInstagram Reelsを素早くダウンロードできます。オフラインでリールを楽しんだり、インスピレーションや分析のために再利用したりできます。",
+        "imageUrl": "/img/photos_downloader.webp",
+        "imageAlt": "Photo Downloader"
+      },
+      {
+        "title": "Instagramストーリーダウンローダー",
+        "description": "<a href='/ja/instagram-story-downloader/' class='internal-link'>Instagramストーリー</a>をデバイスに直接ダウンロードできます。InstagramストーリーダウンローダーツールはInsta Story Viewerと連携して動作し、ワンクリックで写真と動画の両方の形式でストーリーを保存できます。",
+        "imageUrl": "/img/igtv_downloader.webp",
+        "imageAlt": "Story Downloader"
+      }
+    ]
+  },
+  "faq": {
+    "title": "よくある質問（FAQ）",
+    "description": "これらのツールをよりよく理解していただくために、よくある質問への回答を以下に示します。",
+    "items": [
+      {
+        "question": "Insta Story Viewer は匿名ですか?",
+        "answer": "はい、多くの Instagram ストーリー ビューアー ツールでは匿名での閲覧が可能ですが、これは通常、公開プロフィールでのみ機能します。"
+      },
+      {
+        "question": "プライベートなInstagramストーリーを閲覧できますか？",
+        "answer": "いいえ、このツールはInstagramの公開アカウントでのみ機能します。非公開コンテンツにはアクセスできません。"
+      },
+      {
+        "question": "SaveInstaVideo を使用するにはアプリをインストールする必要がありますか?",
+        "answer": "このツールを使用するのにアプリのインストールは不要です。Insta Story Viewerはブラウザで直接動作します。"
+      },
+      {
+        "question": "匿名の Instagram ストーリービューアーツールは無料ですか?",
+        "answer": "多くのInstagramストーリービューアーは、基本機能を無料で提供しています。一部のプレミアムバージョンでは、ダウンロード品質の向上やパフォーマンスの高速化などの追加機能が含まれている場合があります。"
+      },
+      {
+        "question": "Insta Story Viewer を使用するのは安全ですか?",
+        "answer": "はい、ほとんどの正規のInstagramストーリービューアーは安全に使用できます。個人情報やログイン情報を共有せず、評判が良く、レビューも高いプラットフォームだけを利用すれば、安全に使用できます。"
+      },
+      {
+        "question": "モバイルデバイスでも動作しますか?",
+        "answer": "はい、Android、iOS、デスクトップブラウザで動作します。"
+      },
+      {
+        "question": "SaveInstaVideo で Instagram ストーリーをダウンロードできますか?",
+        "answer": "はい、公開プロフィールからストーリーを高画質でダウンロードできます。"
+      },
+      {
+        "question": "Instagramアカウントは必要ですか？",
+        "answer": "いいえ、Instagram ストーリービューアーはログインしなくても使用できます。"
+      },
+      {
+        "question": "Instagram ストーリービューアーで非公開アカウントを閲覧できますか?",
+        "answer": "いいえ、Instagramストーリービューアーは公開アカウントでのみご利用いただけます。承認されたフォロワーでない限り、非公開アカウントのコンテンツにはアクセスできません。"
+      },
+      {
+        "question": "Instagram ストーリービューアーの使用は合法ですか?",
+        "answer": "Instagramストーリービューアーの使用は、公開アカウントの閲覧においては原則として合法です。ただし、許可なくコンテンツをダウンロードまたは再配布すると、著作権またはInstagramの利用規約に違反する可能性があります。"
+      },
+      {
+        "question": "SaveInstaVideo を使用するには Instagram アカウントが必要ですか?",
+        "answer": "公式にはそうです。一部のWebツールでは、ログインしないと一部のコンテンツしか表示されない場合があります。"
+      },
+      {
+        "question": "他の人のストーリーをダウンロードできますか?",
+        "answer": "公式Instagramアプリ内では使用しないでください。外部ツールが必要で、アカウントは公開されている必要があります。著作権は常に尊重してください。"
+      }
+    ]
+  },
+  "footer": {
+    "description": "無料のInstagram動画ダウンローダーで、Instagramの動画、リール、ストーリーを瞬時にダウンロードできます。Instagramのリンクから高画質コンテンツを、高速、安全、そして登録不要でデバイスに保存できます。",
+    "pages": {
+      "pages_title": "ページ",
+      "pages_link": [
+        {
+          "title": "動画",
+          "url": "/ja/"
+        },
+        {
+          "title": "写真",
+          "url": "/ja/instagram-photo-downloader/"
+        },
+        {
+          "title": "リール",
+          "url": "/ja/instagram-reels-downloader/"
+        },
+        {
+          "title": "ストーリー",
+          "url": "/ja/instagram-story-downloader/"
+        },
+        {
+          "title": "ビューアー",
+          "url": "/ja/instagram-story-viewer/"
+        }
+      ]
+    },
+    "quick_links": {
+      "quick_links_title": "クイックリンク",
+      "quick_links_link": [
+        {
+          "title": "サイトマップ",
+          "url": "/sitemap.xml"
+        },
+        {
+          "title": "会社概要",
+          "url": "/about-us/"
+        },
+        {
+          "title": "お問い合わせ",
+          "url": "/contact-us/"
+        },
+        {
+          "title": "プライバシーポリシー",
+          "url": "/privacy-policy/"
+        },
+        {
+          "title": "利用規約",
+          "url": "/terms-of-service/"
+        }
+      ]
+    },
+    "copyright": "© 2020-2026 SaveInstaVideo. 無断転載を禁じます。"
+  }
+}

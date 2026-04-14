@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "title": "Pemuat Turun Video Instagram - Muat Turun Video Instagram Percuma",
+    "description": "SaveInstaVideo ialah pemuat turun Instagram percuma untuk memuat turun video, Reel, foto dan Cerita Instagram dalam talian. Berfungsi dengan lancar pada telefon bimbit, tablet dan desktop.",
+    "keywords": "SimpanInstaVideo, Pemuat Turun Video Instagram, Muat Turun Video Instagram, Pemuat Turun Instagram, Muat Turun Video Instagram, Muat Turun Video IG"
+  },
+  "hero": {
+    "title": "Pemuat Turun Video Instagram",
+    "subtitle": "Muat turun video Instagram berkualiti tinggi dipermudahkan, pantas dan selamat."
+  },
+  "nav": {
+    "video": "Video",
+    "image": "Foto",
+    "reels": "Gelendong",
+    "story": "Cerita",
+    "viewer": "Pemapar"
+  },
+  "form": {
+    "placeholder": "Tampal URL Gelendong Instagram",
+    "download_btn": "Muat Turun",
+    "paste": "Tampal",
+    "clear": "Kosongkan"
+  },
+  "page_introduction": {
+    "title": "SimpanInstaVideo: Muat Turun Video Instagram",
+    "description": [
+      "<a href='/ms/' class='internal-link'>SaveInstaVideo</a> ialah Pemuat Turun Video Instagram yang moden, andal dan mudah digunakan yang membantu anda memuat turun video, Gulungan, Cerita dan foto Instagram dalam kualiti tinggi. Direka untuk kemudahan dan kelajuan, platform kami membolehkan pengguna melakukan muat turun video Instagram yang lancar terus dari pelayar mereka tanpa komplikasi.",
+      "Sama ada anda menyimpan video untuk tontonan luar talian, inspirasi kandungan atau koleksi peribadi, SaveInstaVideo memastikan pengalaman yang lancar merentasi semua peranti."
+    ]
+  },
+  "what_section": {
+    "title": "Apakah itu Pemuat Turun Video Instagram?",
+    "description": [
+      "Instagram Video Downloader ialah alat berasaskan web yang membolehkan pengguna menyimpan video, Reel, Stories dan foto Instagram terus ke peranti mereka. Ia berfungsi dengan memproses pautan Instagram awam dan menukarnya kepada format yang boleh dimuat turun sambil mengekalkan kualiti asal.",
+      "Dengan SaveInstaVideo, pengguna boleh memuat turun video Instagram dengan yakin dengan cara yang cepat, selamat dan cekap. Pemuat turun Instagram kami direka bentuk untuk menjadi intuitif, memudahkan sesiapa sahaja memuat turun kandungan video IG tanpa pengetahuan teknikal."
+    ]
+  },
+  "how_to_download": {
+    "title": "Cara Muat Turun Video Instagram dalam 3 Langkah Mudah",
+    "description": "SaveInstaVideo menjadikan muat turun video Instagram pantas dan mudah:",
+    "steps": [
+      {
+        "title": "Salin Pautan Instagram",
+        "description": "Cari video, Reel, Story atau foto Instagram yang ingin anda simpan. Ketik pilihan kongsi dan salin pautan tersebut.",
+        "imageUrl": "/img/copy.webp",
+        "imageAlt": "Copy URL"
+      },
+      {
+        "title": "Tampal Pautan ke dalam SaveInstaVideo",
+        "description": "Buka SaveInstaVideo.io dan tampal pautan yang disalin ke dalam medan input yang disediakan.",
+        "imageUrl": "/img/paste.webp",
+        "imageAlt": "Paste Link"
+      },
+      {
+        "title": "Muat Turun Segera",
+        "description": "Klik butang Muat Turun dan simpan kandungan ke peranti anda dalam kualiti tinggi dalam beberapa saat.",
+        "imageUrl": "/img/download.webp",
+        "imageAlt": "Download File"
+      }
+    ]
+  },
+  "why_section": {
+    "title": "Mengapa Pilih SaveInstaVideo untuk Muat Turun dari Instagram?",
+    "description": "SaveInstaVideo dibina untuk memberikan prestasi, kualiti dan kemudahan dalam satu Pemuat Turun Video Instagram yang berkuasa.",
+    "items": [
+      {
+        "title": "Kelajuan Muat Turun Pantas",
+        "description": "Sistem kami yang dioptimumkan memproses pautan Instagram dengan cepat, membolehkan pengguna memuat turun video Instagram tanpa menunggu atau gangguan.",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><g stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5'><path d='M36.75 26.25v7a3.5 3.5 0 0 1-3.5 3.5H8.75a3.5 3.5 0 0 1-3.5-3.5v-7M12.25 17.5 21 26.25l8.75-8.75M21 26.25v-21'></path></g></svg>"
+      },
+      {
+        "title": "Video & Audio Berkualiti Tinggi",
+        "description": "SaveInstaVideo mengekalkan resolusi asal dan kejelasan bunyi, memastikan setiap muat turun video Instagram kelihatan dan kedengaran hebat.",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 215 215' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M67.1875 116.458H85.1042V127.656C85.1042 129.597 85.7402 131.204 87.0123 132.476C88.2844 133.748 89.8879 134.381 91.8229 134.375C93.7579 134.369 95.3645 133.733 96.6425 132.467C97.9206 131.201 98.5536 129.597 98.5417 127.656V87.3438C98.5417 85.4028 97.9056 83.7993 96.6335 82.5332C95.3615 81.2671 93.7579 80.631 91.8229 80.625C89.8879 80.6191 88.2844 81.2551 87.0123 82.5332C85.7402 83.8112 85.1042 85.4148 85.1042 87.3438V103.021H67.1875V87.3438C67.1875 85.4028 66.5515 83.7993 65.2794 82.5332C64.0073 81.2671 62.4038 80.631 60.4688 80.625C58.5338 80.6191 56.9302 81.2551 55.6581 82.5332C54.386 83.8112 53.75 85.4148 53.75 87.3438V127.656C53.75 129.597 54.386 131.204 55.6581 132.476C56.9302 133.748 58.5338 134.381 60.4688 134.375C62.4038 134.369 64.0103 133.733 65.2883 132.467C66.5664 131.201 67.1995 129.597 67.1875 127.656V116.458ZM120.938 134.375H152.292C154.83 134.375 156.959 133.515 158.679 131.795C160.399 130.075 161.256 127.949 161.25 125.417V89.5834C161.25 87.0452 160.39 84.9191 158.67 83.205C156.95 81.491 154.824 80.631 152.292 80.625H120.938C119.743 80.625 118.698 81.073 117.802 81.9688C116.906 82.8646 116.458 83.9098 116.458 85.1042V129.896C116.458 131.09 116.906 132.135 117.802 133.031C118.698 133.927 119.743 134.375 120.938 134.375ZM129.896 120.938V94.0625H147.813V120.938H129.896ZM35.8333 179.167C30.9063 179.167 26.6899 177.414 23.1842 173.908C19.6785 170.402 17.9226 166.183 17.9167 161.25V53.75C17.9167 48.823 19.6725 44.6066 23.1842 41.1009C26.6958 37.5952 30.9122 35.8393 35.8333 35.8334H179.167C184.094 35.8334 188.313 37.5892 191.825 41.1009C195.336 44.6125 197.089 48.8289 197.083 53.75V161.25C197.083 166.177 195.331 170.396 191.825 173.908C188.319 177.42 184.1 179.173 179.167 179.167H35.8333ZM35.8333 161.25H179.167V53.75H35.8333V161.25Z' fill='black'/></svg>"
+      },
+      {
+        "title": "Selamat, Terjamin & Swasta",
+        "description": "Privasi pengguna adalah keutamaan kami. Tiada pendaftaran, log masuk atau data peribadi diperlukan, menjadikan pemuat turun Instagram kami selamat digunakan.",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 109 109' stroke-width='8' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M54.5 99.1877C54.5 99.1877 97 86.4466 97 54.5938' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M97 54.5939V16.3706C97 16.3706 82.8333 10 54.5 10' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M54.5 99.1877C54.5 99.1877 12 86.4466 12 54.5938' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M12 54.5939V16.3706C12 16.3706 26.1667 10 54.5 10' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M82.8333 29.1118C54.5 48.2235 47.4167 73.7057 47.4167 73.7057C47.4167 73.7057 40.3333 66.1018 33.25 60.9646' stroke='black' stroke-linecap='round' stroke-linejoin='round'/></svg>"
+      },
+      {
+        "title": "Berfungsi pada Semua Peranti",
+        "description": "Sama ada anda menggunakan telefon pintar, tablet atau desktop, SaveInstaVideo berfungsi dengan lancar merentasi Android, iOS, Windows dan macOS.",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 87 87' stroke-width='2' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M27.1875 81.5625H10.875C9.43289 81.5625 8.04984 80.9896 7.03011 79.9699C6.01038 78.9502 5.4375 77.5671 5.4375 76.125V43.5C5.4375 42.0579 6.01038 40.6748 7.03011 39.6551C8.04984 38.6354 9.43289 38.0625 10.875 38.0625H27.1875C28.6296 38.0625 30.0127 38.6354 31.0324 39.6551C32.0521 40.6748 32.625 42.0579 32.625 43.5V76.125C32.625 77.5671 32.0521 78.9502 31.0324 79.9699C30.0127 80.9896 28.6296 81.5625 27.1875 81.5625ZM10.875 43.5V76.125H27.1875V43.5H10.875Z' fill='black'/><path d='M76.125 10.875H16.3125C14.8704 10.875 13.4873 11.4479 12.4676 12.4676C11.4479 13.4873 10.875 14.8704 10.875 16.3125V32.625H16.3125V16.3125H76.125V54.375H38.0625V59.8125H43.5V70.6875H38.0625V76.125H62.5312V70.6875H48.9375V59.8125H76.125C77.5671 59.8125 78.9502 59.2396 79.9699 58.2199C80.9896 57.2002 81.5625 55.8171 81.5625 54.375V16.3125C81.5625 14.8704 80.9896 13.4873 79.9699 12.4676C78.9502 11.4479 77.5671 10.875 76.125 10.875Z' fill='black'/></svg>"
+      },
+      {
+        "title": "Kemudahan Berasaskan Pelayar",
+        "description": "Tiada pemasangan atau sambungan perisian diperlukan. Anda boleh memuat turun kandungan video IG terus melalui pelayar web anda.",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><path stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5' d='M21 38.5s14-7 14-17.5V8.75L21 3.5 7 8.75V21c0 10.5 14 17.5 14 17.5Z'></path></svg>"
+      },
+      {
+        "title": "Antara Muka Mesra Pengguna",
+        "description": "SaveInstaVideo menampilkan antara muka yang bersih dan ringkas yang direka untuk semua pengguna. Butang yang jelas, langkah minimum dan reka bentuk responsif menjadikan muat turun video Instagram mudah walaupun untuk pengguna kali pertama.",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><g stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5'><path d='M35 5.25H7a3.5 3.5 0 0 0-3.5 3.5v17.5a3.5 3.5 0 0 0 3.5 3.5h28a3.5 3.5 0 0 0 3.5-3.5V8.75a3.5 3.5 0 0 0-3.5-3.5ZM14 36.75h14M21 29.75v7'></path></g></svg>"
+      }
+    ]
+  },
+  "features": {
+    "title": "Ciri-ciri SimpanInstaVideo",
+    "description": "",
+    "items": [
+      {
+        "title": "Pemuat Turun Kekili Instagram",
+        "description": "<a href='/ms/instagram-reels-downloader/' class='internal-link'>Muat turun Instagram Reels</a> dalam kualiti tinggi tanpa tanda air. Sesuai untuk menyimpan trending atau kegemaran untuk tontonan luar talian.",
+        "imageUrl": "/img/reels_downloader.webp",
+        "imageAlt": "Reels Downloader"
+      },
+      {
+        "title": "Penonton Cerita Tanpa Nama",
+        "description": "Lihat dan muat turun <a href='/ms/instagram-story-viewer/' class='internal-link'>Cerita Instagram secara anonim</a> sambil mengekalkan privasi dan budi bicara sepenuhnya.",
+        "imageUrl": "/img/carousel_downloader.webp",
+        "imageAlt": "Story Viewer"
+      },
+      {
+        "title": "Pemuat Turun Foto Instagram",
+        "description": "<a href='/ms/instagram-photo-downloader/' class='internal-link'>Simpan foto Instagram</a> dalam resolusi asalnya hanya dengan satu klik, sesuai untuk inspirasi atau kegunaan peribadi.",
+        "imageUrl": "/img/photos_downloader.webp",
+        "imageAlt": "Photo Downloader"
+      },
+      {
+        "title": "Pemuat Turun Cerita Instagram",
+        "description": "<a href='/ms/instagram-story-downloader/' class='internal-link'>Muat turun Instagram Stories</a> dengan cepat dan lancar, termasuk format foto dan video, tanpa kehilangan kualiti.",
+        "imageUrl": "/img/igtv_downloader.webp",
+        "imageAlt": "Story Downloader"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Soalan Lazim (FAQ)",
+    "description": "",
+    "items": [
+      {
+        "question": "Adakah SaveInstaVideo percuma untuk digunakan?",
+        "answer": "Ya, SaveInstaVideo adalah percuma sepenuhnya. Anda boleh menggunakan Pemuat Turun Video Instagram kami tanpa membayar sebarang yuran atau membuat akaun."
+      },
+      {
+        "question": "Perlukah saya log masuk untuk memuat turun video Instagram?",
+        "answer": "Log masuk tidak diperlukan. Hanya tampal pautan Instagram dan mulakan muat turun video Instagram anda serta-merta."
+      },
+      {
+        "question": "Apakah jenis kandungan Instagram yang boleh saya muat turun?",
+        "answer": "SaveInstaVideo menyokong video, Reel, Stories dan foto daripada profil Instagram awam dalam kualiti tinggi."
+      },
+      {
+        "question": "Adakah video yang dimuat turun disimpan dalam kualiti yang baik?",
+        "answer": "Ya, pemuat turun Instagram kami mengekalkan resolusi video asal dan kejelasan audio apabila tersedia."
+      },
+      {
+        "question": "Bolehkah saya menggunakan SaveInstaVideo pada peranti mudah alih?",
+        "answer": "Ya, SaveInstaVideo berfungsi dengan lancar pada kedua-dua peranti Android dan iOS menggunakan mana-mana pelayar moden."
+      },
+      {
+        "question": "Adakah data saya selamat semasa menggunakan SaveInstaVideo?",
+        "answer": "Sudah tentu. Kami tidak menyimpan data pengguna, sejarah muat turun atau pautan kongsi, bagi memastikan pengalaman yang selamat."
+      },
+      {
+        "question": "Apakah format video Instagram yang dimuat turun?",
+        "answer": "Kebanyakan video Instagram dimuat turun dalam format MP4, yang disokong secara meluas pada semua peranti."
+      },
+      {
+        "question": "Adakah terdapat sebarang had muat turun?",
+        "answer": "Tiada had harian. Anda boleh memuat turun video Instagram sekerap yang anda mahu, satu pautan pada satu masa."
+      }
+    ]
+  },
+  "footer": {
+    "description": "Muat turun video, Reel dan Stories Instagram serta-merta dengan Pemuat Turun Video Instagram percuma kami. Simpan kandungan HD daripada sebarang pautan Instagram ke peranti anda dengan pantas, selamat dan tanpa pendaftaran.",
+    "pages": {
+      "pages_title": "Halaman",
+      "pages_link": [
+        {
+          "title": "Video",
+          "url": "/ms/"
+        },
+        {
+          "title": "Foto",
+          "url": "/ms/instagram-photo-downloader/"
+        },
+        {
+          "title": "Reels",
+          "url": "/ms/instagram-reels-downloader/"
+        },
+        {
+          "title": "Cerita",
+          "url": "/ms/instagram-story-downloader/"
+        },
+        {
+          "title": "Pemapar",
+          "url": "/ms/instagram-story-viewer/"
+        }
+      ]
+    },
+    "quick_links": {
+      "quick_links_title": "Pautan Pantas",
+      "quick_links_link": [
+        {
+          "title": "Peta Laman",
+          "url": "/sitemap.xml"
+        },
+        {
+          "title": "Perihal Kami",
+          "url": "/about-us/"
+        },
+        {
+          "title": "Hubungi Kami",
+          "url": "/contact-us/"
+        },
+        {
+          "title": "Dasar Privasi",
+          "url": "/privacy-policy/"
+        },
+        {
+          "title": "Terma & Syarat",
+          "url": "/terms-of-service/"
+        }
+      ]
+    },
+    "copyright": "© 2020-2026 SaveInstaVideo. Semua hak terpelihara."
+  }
+}

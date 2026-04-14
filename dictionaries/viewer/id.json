@@ -1,0 +1,236 @@
+{
+  "meta": {
+    "title": "Penampil Cerita Instagram Anonim - Penampil Cerita Instagram",
+    "description": "Penampil Cerita Instagram adalah alat online untuk melihat dan mengunduh konten dari Instagram secara anonim. 100% gratis dan aman, penggunaan tanpa batas di perangkat apa pun tanpa perlu masuk akun.",
+    "keywords": "SaveInstaVideo, Penampil Instagram Story, Penampil Instagram Story Anonim, Tonton IG Stories, Penampil Insta Story"
+  },
+  "hero": {
+    "title": "Penampil Cerita Instagram",
+    "subtitle": "Aplikasi penampil Instagram Story yang cepat, gratis, dan aman tanpa perlu login."
+  },
+  "nav": {
+    "video": "Video",
+    "image": "Foto",
+    "reels": "Reels",
+    "story": "Cerita",
+    "viewer": "Penonton"
+  },
+  "form": {
+    "placeholder": "Tempel URL Instagram Story",
+    "download_btn": "Unduh",
+    "paste": "Tempel",
+    "clear": "Hapus"
+  },
+  "page_introduction": {
+    "title": "Penampil Cerita Instagram Anonim: Tonton Cerita IG Gratis",
+    "description": [
+      "SaveInstaVideo adalah aplikasi penampil Instagram Story yang canggih dan mudah digunakan, dirancang untuk pengguna yang ingin menonton dan mengunduh Instagram Story, video, foto, dan Reels tanpa batasan. Jika Anda mencari aplikasi penampil Instagram Story yang andal yang menggabungkan kesederhanaan, kecepatan, dan anonimitas, SaveInstaVideo adalah pilihan yang tepat.",
+      "Dengan SaveInstaVideo, Anda dapat melihat stories tanpa perlu login, menjadikannya aplikasi penampil story Instagram anonim yang terpercaya bagi pengguna yang menghargai privasi. Tanpa aplikasi, tanpa pendaftaran, dan tanpa langkah-langkah rumit. Cukup tempel tautan dan unduh dalam hitungan detik. Alat kami berfungsi dengan lancar di perangkat seluler, tablet, dan desktop."
+    ]
+  },
+  "what_section": {
+    "title": "Apa Itu Pemirsa Instagram Story?",
+    "description": [
+      "Instagram Story Viewer adalah alat online yang memungkinkan pengguna untuk melihat Instagram Stories tanpa perlu masuk ke Instagram. Alat ini juga memungkinkan Anda untuk mengunduh Stories, video, Reels, dan foto langsung ke perangkat Anda.",
+      "Yang membuat SaveInstaVideo istimewa adalah fungsinya sebagai penampil cerita Instagram anonim, artinya Anda dapat melihat cerita publik tanpa nama pengguna Anda muncul di daftar penampil. Ini sangat membantu bagi pengguna yang menghargai privasi atau hanya ingin menjelajahi konten secara diam-diam."
+    ]
+  },
+  "how_to_download": {
+    "title": "Cara Mengunduh Instagram Stories Menggunakan Story Viewer",
+    "description": "Menggunakan fitur Penonton Instagram Story Anonim umumnya mudah. ​​Berikut panduan langkah demi langkah untuk membantu Anda:",
+    "steps": [
+      {
+        "title": "Masukkan nama atau tempel URL",
+        "description": "Masukkan nama atau tempel URL cerita yang ingin Anda tonton atau unduh di SaveInstaVideo.",
+        "imageUrl": "/img/copy.webp",
+        "imageAlt": "Copy URL"
+      },
+      {
+        "title": "Klik unduh",
+        "description": "Alat ini akan menampilkan cerita aktif yang terkait dengan akun tersebut. Kemudian, klik tombol Unduh di samping foto atau cerita video.",
+        "imageUrl": "/img/paste.webp",
+        "imageAlt": "Paste Link"
+      },
+      {
+        "title": "Simpan ke perangkat Anda",
+        "description": "Setelah diunduh, file akan disimpan untuk dilihat secara offline.",
+        "imageUrl": "/img/download.webp",
+        "imageAlt": "Download File"
+      }
+    ]
+  },
+  "why_section": {
+    "title": "Fitur-Fitur Penampil Instagram Story Anonim Kami",
+    "description": "SaveInstaVideo adalah aplikasi penampil Instagram Story berkualitas tinggi yang biasanya memiliki banyak fitur yang membuatnya menonjol. Berikut beberapa fitur yang paling umum dan bermanfaat:",
+    "items": [
+      {
+        "title": "Antarmuka yang Cepat & Ramah Pengguna",
+        "description": "Insta Story Viewer dioptimalkan untuk kecepatan. Stories dimuat dalam hitungan detik, dan antarmuka dirancang agar intuitif bahkan untuk pengguna pertama kali. Tanpa tombol yang tidak perlu, tanpa iklan. Hanya pengalaman yang sederhana dan efisien.",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><g stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5'><path d='M36.75 26.25v7a3.5 3.5 0 0 1-3.5 3.5H8.75a3.5 3.5 0 0 1-3.5-3.5v-7M12.25 17.5 21 26.25l8.75-8.75M21 26.25v-21'></path></g></svg>"
+      },
+      {
+        "title": "Penayangan cerita berkualitas tinggi",
+        "description": "Fitur SaveInstaVideo mengembalikan kualitas asli Instagram Stories. Baik berupa foto maupun video, Anda dapat menonton dan mengunduh Stories tanpa kehilangan kualitas. Ini memastikan visual yang jernih, teks yang tajam, dan pemutaran video yang lancar setiap saat.",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 215 215' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M67.1875 116.458H85.1042V127.656C85.1042 129.597 85.7402 131.204 87.0123 132.476C88.2844 133.748 89.8879 134.381 91.8229 134.375C93.7579 134.369 95.3645 133.733 96.6425 132.467C97.9206 131.201 98.5536 129.597 98.5417 127.656V87.3438C98.5417 85.4028 97.9056 83.7993 96.6335 82.5332C95.3615 81.2671 93.7579 80.631 91.8229 80.625C89.8879 80.6191 88.2844 81.2551 87.0123 82.5332C85.7402 83.8112 85.1042 85.4148 85.1042 87.3438V103.021H67.1875V87.3438C67.1875 85.4028 66.5515 83.7993 65.2794 82.5332C64.0073 81.2671 62.4038 80.631 60.4688 80.625C58.5338 80.6191 56.9302 81.2551 55.6581 82.5332C54.386 83.8112 53.75 85.4148 53.75 87.3438V127.656C53.75 129.597 54.386 131.204 55.6581 132.476C56.9302 133.748 58.5338 134.381 60.4688 134.375C62.4038 134.369 64.0103 133.733 65.2883 132.467C66.5664 131.201 67.1995 129.597 67.1875 127.656V116.458ZM120.938 134.375H152.292C154.83 134.375 156.959 133.515 158.679 131.795C160.399 130.075 161.256 127.949 161.25 125.417V89.5834C161.25 87.0452 160.39 84.9191 158.67 83.205C156.95 81.491 154.824 80.631 152.292 80.625H120.938C119.743 80.625 118.698 81.073 117.802 81.9688C116.906 82.8646 116.458 83.9098 116.458 85.1042V129.896C116.458 131.09 116.906 132.135 117.802 133.031C118.698 133.927 119.743 134.375 120.938 134.375ZM129.896 120.938V94.0625H147.813V120.938H129.896ZM35.8333 179.167C30.9063 179.167 26.6899 177.414 23.1842 173.908C19.6785 170.402 17.9226 166.183 17.9167 161.25V53.75C17.9167 48.823 19.6725 44.6066 23.1842 41.1009C26.6958 37.5952 30.9122 35.8393 35.8333 35.8334H179.167C184.094 35.8334 188.313 37.5892 191.825 41.1009C195.336 44.6125 197.089 48.8289 197.083 53.75V161.25C197.083 166.177 195.331 170.396 191.825 173.908C188.319 177.42 184.1 179.173 179.167 179.167H35.8333ZM35.8333 161.25H179.167V53.75H35.8333V161.25Z' fill='black'/></svg>"
+      },
+      {
+        "title": "Aman dan Pribadi",
+        "description": "Privasi Anda adalah prioritas kami. Kami tidak menyimpan cerita yang dilihat, melacak aktivitas pengguna, atau mengumpulkan data pribadi. Setiap sesi bersifat pribadi, menjadikan ini salah satu alat penampil cerita Instagram anonim paling aman yang tersedia secara online.",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 109 109' stroke-width='8' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M54.5 99.1877C54.5 99.1877 97 86.4466 97 54.5938' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M97 54.5939V16.3706C97 16.3706 82.8333 10 54.5 10' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M54.5 99.1877C54.5 99.1877 12 86.4466 12 54.5938' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M12 54.5939V16.3706C12 16.3706 26.1667 10 54.5 10' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M82.8333 29.1118C54.5 48.2235 47.4167 73.7057 47.4167 73.7057C47.4167 73.7057 40.3333 66.1018 33.25 60.9646' stroke='black' stroke-linecap='round' stroke-linejoin='round'/></svg>"
+      },
+      {
+        "title": "Berfungsi di Semua Perangkat",
+        "description": "Aplikasi penampil cerita Instagram ini berbasis web, sehingga berfungsi di semua perangkat termasuk ponsel pintar, tablet, laptop, dan komputer desktop. Aplikasi ini mendukung semua browser utama seperti Chrome, Safari, Firefox, dan Edge, memungkinkan Anda untuk melihat cerita kapan saja, di mana saja.",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 87 87' stroke-width='2' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M27.1875 81.5625H10.875C9.43289 81.5625 8.04984 80.9896 7.03011 79.9699C6.01038 78.9502 5.4375 77.5671 5.4375 76.125V43.5C5.4375 42.0579 6.01038 40.6748 7.03011 39.6551C8.04984 38.6354 9.43289 38.0625 10.875 38.0625H27.1875C28.6296 38.0625 30.0127 38.6354 31.0324 39.6551C32.0521 40.6748 32.625 42.0579 32.625 43.5V76.125C32.625 77.5671 32.0521 78.9502 31.0324 79.9699C30.0127 80.9896 28.6296 81.5625 27.1875 81.5625ZM10.875 43.5V76.125H27.1875V43.5H10.875Z' fill='black'/><path d='M76.125 10.875H16.3125C14.8704 10.875 13.4873 11.4479 12.4676 12.4676C11.4479 13.4873 10.875 14.8704 10.875 16.3125V32.625H16.3125V16.3125H76.125V54.375H38.0625V59.8125H43.5V70.6875H38.0625V76.125H62.5312V70.6875H48.9375V59.8125H76.125C77.5671 59.8125 78.9502 59.2396 79.9699 58.2199C80.9896 57.2002 81.5625 55.8171 81.5625 54.375V16.3125C81.5625 14.8704 80.9896 13.4873 79.9699 12.4676C78.9502 11.4479 77.5671 10.875 76.125 10.875Z' fill='black'/></svg>"
+      },
+      {
+        "title": "Tidak Perlu Login atau Akun",
+        "description": "Anda tidak perlu masuk atau memiliki akun Instagram untuk menggunakan penampil cerita Instagram kami secara online. Ini menghilangkan risiko pelacakan akun, peringatan masuk, atau masalah privasi. Cukup masukkan nama pengguna publik di SaveInstaVideo dan mulai menonton cerita secara instan.",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><path stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5' d='M21 38.5s14-7 14-17.5V8.75L21 3.5 7 8.75V21c0 10.5 14 17.5 14 17.5Z'></path></svg>"
+      },
+      {
+        "title": "Penggunaan Gratis dan Tidak Terbatas",
+        "description": "Nikmati penayangan cerita tanpa batas tanpa biaya apa pun. Tidak ada langganan, biaya tersembunyi, atau batasan harian untuk menggunakan penampil cerita Instagram anonim.",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><g stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5'><path d='M35 5.25H7a3.5 3.5 0 0 0-3.5 3.5v17.5a3.5 3.5 0 0 0 3.5 3.5h28a3.5 3.5 0 0 0 3.5-3.5V8.75a3.5 3.5 0 0 0-3.5-3.5ZM14 36.75h14M21 29.75v7'></path></g></svg>"
+      }
+    ]
+  },
+  "features": {
+    "title": "Alat pengunduhan Instagram lainnya dari SaveInstaVideo",
+    "description": "Bersama dengan Insta Story Viewer, kami menawarkan alat Instagram canggih untuk meningkatkan pengalaman Anda. Semua alat gratis, berbasis browser, dan mudah digunakan. Platform SaveInstaVideo menawarkan serangkaian alat Instagram lengkap yang dirancang untuk membantu Anda melihat dan mengunduh konten publik dengan mudah dan aman. Jelajahi alat gratis kami lainnya di bawah ini:",
+    "items": [
+      {
+        "title": "Pengunduh Video Instagram",
+        "description": "<a href='/id/' class='internal-link'>Unduh video Instagram</a> dalam kualitas definisi tinggi dari postingan, IGTV, dan konten yang dibagikan dengan Instagram Video Downloader. Alat ini memungkinkan Anda untuk menyimpan video langsung ke perangkat Anda untuk ditonton secara offline tanpa tanda air.",
+        "imageUrl": "/img/reels_downloader.webp",
+        "imageAlt": "Reels Downloader"
+      },
+      {
+        "title": "Pengunduh Foto Instagram",
+        "description": "<a href='/id/instagram-photo-downloader/' class='internal-link'>Simpan foto Instagram</a> dalam ukuran dan kejernihan aslinya. Instagram Photo Downloader sangat cocok untuk desainer, pemasar, atau pengguna yang ingin mengarsipkan gambar berkualitas tinggi dari profil publik.",
+        "imageUrl": "/img/carousel_downloader.webp",
+        "imageAlt": "Story Viewer"
+      },
+      {
+        "title": "Pengunduh Instagram Reels",
+        "description": "<a href='/id/instagram-reels-downloader/' class='internal-link'>Pengunduh Instagram Reels</a> kami memungkinkan Anda mengunduh Instagram Reels dengan cepat tanpa tanda air. Nikmati Reels secara offline atau gunakan kembali untuk inspirasi dan analisis.",
+        "imageUrl": "/img/photos_downloader.webp",
+        "imageAlt": "Photo Downloader"
+      },
+      {
+        "title": "Pengunduh Cerita Instagram",
+        "description": "<a href='/id/instagram-story-downloader/' class='internal-link'>Unduh Instagram Stories</a> langsung ke perangkat Anda. Alat Pengunduh Instagram Story bekerja bersamaan dengan Penampil Insta Story, memungkinkan Anda menyimpan Stories dalam format foto dan video hanya dengan satu klik.",
+        "imageUrl": "/img/igtv_downloader.webp",
+        "imageAlt": "Story Downloader"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Pertanyaan yang Sering Diajukan (FAQ)",
+    "description": "Untuk membantu Anda memahami alat-alat ini dengan lebih baik, berikut adalah jawaban atas beberapa pertanyaan yang sering diajukan:",
+    "items": [
+      {
+        "question": "Apakah penonton Insta Story anonim?",
+        "answer": "Ya, banyak aplikasi penampil cerita Instagram memungkinkan pen viewing secara anonim, tetapi ini biasanya hanya berfungsi untuk profil publik."
+      },
+      {
+        "question": "Bisakah saya melihat Instagram Stories pribadi?",
+        "answer": "Tidak, alat ini hanya berfungsi dengan akun Instagram publik. Konten pribadi tidak dapat diakses."
+      },
+      {
+        "question": "Apakah saya perlu menginstal aplikasi apa pun untuk menggunakan SaveInstaVideo?",
+        "answer": "Tidak perlu menginstal aplikasi untuk menggunakan alat ini. Insta Story Viewer berfungsi langsung di browser Anda."
+      },
+      {
+        "question": "Apakah aplikasi penampil Instagram Story anonim gratis?",
+        "answer": "Banyak aplikasi Instagram Story Viewer menawarkan akses gratis ke fitur-fitur dasarnya. Beberapa versi premium mungkin menyertakan fungsionalitas tambahan, seperti kualitas unduhan yang lebih tinggi atau kinerja yang lebih cepat."
+      },
+      {
+        "question": "Apakah aman menggunakan aplikasi penampil Insta Story?",
+        "answer": "Ya, sebagian besar aplikasi pembaca Instagram Stories yang sah aman untuk digunakan. Hal ini dapat dilakukan jika Anda menghindari berbagi data pribadi atau kredensial login dan tetap menggunakan platform yang bereputasi baik dan memiliki ulasan bagus."
+      },
+      {
+        "question": "Apakah ini berfungsi di perangkat seluler?",
+        "answer": "Ya, ini berfungsi di Android, iOS, dan browser desktop."
+      },
+      {
+        "question": "Bisakah saya mengunduh Instagram Stories di SaveInstaVideo?",
+        "answer": "Ya, Anda dapat mengunduh cerita dari profil publik dalam kualitas tinggi."
+      },
+      {
+        "question": "Apakah saya perlu akun Instagram?",
+        "answer": "Tidak, Anda dapat menggunakan penampil cerita Instagram tanpa perlu masuk."
+      },
+      {
+        "question": "Bisakah saya melihat akun pribadi menggunakan Instagram Story Viewer?",
+        "answer": "Tidak, Instagram Story Viewer hanya berfungsi dengan akun publik. Konten akun privat tetap tidak dapat diakses kecuali Anda adalah pengikut yang disetujui."
+      },
+      {
+        "question": "Apakah penggunaan Instagram Story Viewer itu legal?",
+        "answer": "Penggunaan Instagram Story Viewer umumnya legal untuk melihat akun publik. Namun, mengunduh atau mendistribusikan konten tanpa izin dapat melanggar hak cipta atau ketentuan layanan Instagram."
+      },
+      {
+        "question": "Apakah saya perlu akun Instagram untuk menggunakan SaveInstaVideo?",
+        "answer": "Secara resmi, ya. Beberapa alat web mungkin menampilkan konten terbatas tanpa perlu masuk."
+      },
+      {
+        "question": "Bisakah saya mengunduh cerita orang lain?",
+        "answer": "Tidak bisa dilakukan melalui aplikasi Instagram resmi. Anda memerlukan alat eksternal dan akun harus bersifat publik. Selalu hormati hak cipta."
+      }
+    ]
+  },
+  "footer": {
+    "description": "Unduh video, Reels, dan Stories Instagram secara instan dengan Pengunduh Video Instagram gratis kami. Simpan konten HD dari tautan Instagram apa pun ke perangkat Anda dengan cepat, aman, dan tanpa pendaftaran.",
+    "pages": {
+      "pages_title": "Halaman",
+      "pages_link": [
+        {
+          "title": "Video",
+          "url": "/id/"
+        },
+        {
+          "title": "Foto",
+          "url": "/id/instagram-photo-downloader/"
+        },
+        {
+          "title": "Reels",
+          "url": "/id/instagram-reels-downloader/"
+        },
+        {
+          "title": "Cerita",
+          "url": "/id/instagram-story-downloader/"
+        },
+        {
+          "title": "Penonton",
+          "url": "/id/instagram-story-viewer/"
+        }
+      ]
+    },
+    "quick_links": {
+      "quick_links_title": "Tautan Cepat",
+      "quick_links_link": [
+        {
+          "title": "Peta Situs",
+          "url": "/sitemap.xml"
+        },
+        {
+          "title": "Tentang Kami",
+          "url": "/about-us/"
+        },
+        {
+          "title": "Hubungi Kami",
+          "url": "/contact-us/"
+        },
+        {
+          "title": "Kebijakan Privasi",
+          "url": "/privacy-policy/"
+        },
+        {
+          "title": "Syarat & Ketentuan",
+          "url": "/terms-of-service/"
+        }
+      ]
+    },
+    "copyright": "© 2020-2026 SaveInstaVideo. Semua hak dilindungi undang-undang."
+  }
+}

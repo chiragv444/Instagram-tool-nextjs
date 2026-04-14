@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "title": "Ingyenes Instagram fotó letöltés - SaveInstaVideo",
+    "description": "Az Instagram fotó letöltésével másodpercek alatt mentheted el az Instagramról származó fotóidat. Ingyenes, biztonságos és bármilyen eszközön működik regisztráció nélkül, 100%-ban eredeti képminőséggel.",
+    "keywords": "Instagram videó mentése, Instagram fotó letöltés, Instagram fotó letöltő, Instagram kép letöltése, Instagram kép letöltése, Instagram kép letöltő"
+  },
+  "hero": {
+    "title": "Instagram fotóletöltő",
+    "subtitle": "Mentsd el a kiváló minőségű Instagram-képeket azonnal bármilyen eszközön, gondtalanul és bejelentkezés nélkül."
+  },
+  "nav": {
+    "video": "Videó",
+    "image": "Fotó",
+    "reels": "Grafika",
+    "story": "Sztori",
+    "viewer": "Megtekintő"
+  },
+  "form": {
+    "placeholder": "Instagram-fotó URL beillesztése",
+    "download_btn": "Letöltés",
+    "paste": "Beillesztés",
+    "clear": "Törlés"
+  },
+  "page_introduction": {
+    "title": "Instagram fotóletöltő: Azonnal mentse el a képeket",
+   "description": [
+      "A SaveInstaVideo egy hatékony és könnyen használható Instagram-fotóletöltő. Úgy tervezték, hogy segítsen a felhasználóknak másodpercek alatt kiváló minőségben menteni kedvenc Instagram-képeiket. Akár utazási fotókat, kreatív bejegyzéseket, akár barátok és alkotók által megosztott emlékezetes pillanatokat szeretnél letölteni, a SaveInstaVideo egyszerűvé, gyorssá és biztonságossá teszi az Instagram-fotó letöltését.",
+      "Nincs szükség bejelentkezésre, és teljes mértékben kompatibilis mobilon, táblagépen és asztali eszközökön, eszközünk közvetlenül a böngésződben működik. A SaveInstaVideo-t Instagram képletöltőként használhatod egyedi képek, galériafotók vagy nyilvános Instagram-bejegyzések mentésére a minőség romlása nélkül.",
+      "A bonyolult alkalmazásokkal ellentétben a SaveInstaVideo a letisztult felületre és az egyszerű élményre összpontosít, lehetővé téve bárki számára az Instagram-képek egyszerű letöltését. Ha megbízható, ingyenes és felhasználóbarát Instagram-képletöltési megoldást keresel, a SaveInstaVideo-t neked találták ki."
+    ]
+  },
+  "what_section": {
+    "title": "Mi az az Instagram fotóletöltő?",
+   "description": [
+      "Az Instagram Photo Downloader egy online eszköz, amely lehetővé teszi a felhasználók számára, hogy az Instagram-bejegyzésekből származó képeket közvetlenül az eszközükre mentsék. Az Instagram nem kínál beépített lehetőséget a fotók letöltésére, ezért léteznek olyan eszközök, mint a SaveInstaVideo.",
+      "Az Instagram képletöltővel könnyedén tárolhatod kedvenc fotóidat offline hozzáféréshez, kreatív inspirációhoz, oktatási célra vagy személyes gyűjteményhez. Legyen szó egyetlen fotóbejegyzésről vagy egy képgalériáról, letöltőnk vízjelek és tömörítés nélkül megőrzi a képminőséget.",
+      "A SaveInstaVideo közvetlenül a böngésződben működik, így az Instagram-képek letöltése biztonságos, gyors és bárhonnan elérhető – nincsenek alkalmazások, bejelentkezés és rejtett lépések."
+    ]
+  },
+  "how_to_download": {
+    "title": "Hogyan tölts le Instagram-fotókat 3 egyszerű lépésben",
+    "description": "A SaveInstaVideo Instagram fotóletöltője hihetetlenül egyszerűen használható. Csak kövesd ezt a három lépést:",
+    "steps": [
+      {
+        "title": "Instagram fotó link másolása",
+        "description": "Nyisd meg az Instagramot, keresd meg a kívánt fotót, és másold ki a bejegyzés URL-jét.",
+        "imageUrl": "/img/copy.webp",
+        "imageAlt": "Copy URL"
+      },
+      {
+        "title": "Illeszd be a linket a SaveInstagramVideo-ba",
+        "description": "Látogass el a SaveInstaVideo oldalra, és illeszd be a linket a letöltési mezőbe.",
+        "imageUrl": "/img/paste.webp",
+        "imageAlt": "Paste Link"
+      },
+      {
+        "title": "Fotó letöltése",
+        "description": "Kattintson a letöltés gombra, és mentse el a képet azonnal az eszközére.",
+        "imageUrl": "/img/download.webp",
+        "imageAlt": "Download File"
+      }
+    ]
+  },
+  "why_section": {
+    "title": "Miért válassza a SaveInstaVideo letöltését az Instagramról?",
+    "description": "A SaveInstaVideo megbízható és hatékony Instagram fotóletöltőként tűnik ki. Íme, miért szeretnek minket a felhasználók:",
+    "items": [
+      {
+        "title": "Gyors feldolgozási sebesség",
+        "description": "A SaveInstaVideo azonnali eredményeket biztosít. Optimalizált szervereink minden Instagram-fotó letöltését másodpercek alatt feldolgozzák, még nagy forgalom esetén is. Nincs várakozás, nincsenek sikertelen letöltések.",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><g stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5'><path d='M36.75 26.25v7a3.5 3.5 0 0 1-3.5 3.5H8.75a3.5 3.5 0 0 1-3.5-3.5v-7M12.25 17.5 21 26.25l8.75-8.75M21 26.25v-21'></path></g></svg>"
+      },
+      {
+        "title": "Kiváló minőségű letöltések",
+        "description": "A kiváló minőségű letöltések az egyik legfontosabb ok, amiért a felhasználók a SaveInstaVideo-t választják. Biztosítjuk, hogy minden letöltött Instagram-kép megtartsa eredeti felbontását, így a mentett fotóid ugyanolyan élesek lesznek, mint az Instagramon.",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 215 215' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M67.1875 116.458H85.1042V127.656C85.1042 129.597 85.7402 131.204 87.0123 132.476C88.2844 133.748 89.8879 134.381 91.8229 134.375C93.7579 134.369 95.3645 133.733 96.6425 132.467C97.9206 131.201 98.5536 129.597 98.5417 127.656V87.3438C98.5417 85.4028 97.9056 83.7993 96.6335 82.5332C95.3615 81.2671 93.7579 80.631 91.8229 80.625C89.8879 80.6191 88.2844 81.2551 87.0123 82.5332C85.7402 83.8112 85.1042 85.4148 85.1042 87.3438V103.021H67.1875V87.3438C67.1875 85.4028 66.5515 83.7993 65.2794 82.5332C64.0073 81.2671 62.4038 80.631 60.4688 80.625C58.5338 80.6191 56.9302 81.2551 55.6581 82.5332C54.386 83.8112 53.75 85.4148 53.75 87.3438V127.656C53.75 129.597 54.386 131.204 55.6581 132.476C56.9302 133.748 58.5338 134.381 60.4688 134.375C62.4038 134.369 64.0103 133.733 65.2883 132.467C66.5664 131.201 67.1995 129.597 67.1875 127.656V116.458ZM120.938 134.375H152.292C154.83 134.375 156.959 133.515 158.679 131.795C160.399 130.075 161.256 127.949 161.25 125.417V89.5834C161.25 87.0452 160.39 84.9191 158.67 83.205C156.95 81.491 154.824 80.631 152.292 80.625H120.938C119.743 80.625 118.698 81.073 117.802 81.9688C116.906 82.8646 116.458 83.9098 116.458 85.1042V129.896C116.458 131.09 116.906 132.135 117.802 133.031C118.698 133.927 119.743 134.375 120.938 134.375ZM129.896 120.938V94.0625H147.813V120.938H129.896ZM35.8333 179.167C30.9063 179.167 26.6899 177.414 23.1842 173.908C19.6785 170.402 17.9226 166.183 17.9167 161.25V53.75C17.9167 48.823 19.6725 44.6066 23.1842 41.1009C26.6958 37.5952 30.9122 35.8393 35.8333 35.8334H179.167C184.094 35.8334 188.313 37.5892 191.825 41.1009C195.336 44.6125 197.089 48.8289 197.083 53.75V161.25C197.083 166.177 195.331 170.396 191.825 173.908C188.319 177.42 184.1 179.173 179.167 179.167H35.8333ZM35.8333 161.25H179.167V53.75H35.8333V161.25Z' fill='black'/></svg>"
+      },
+      {
+        "title": "Biztonságos és megbízható használat",
+        "description": "A felhasználók biztonsága a legfontosabb számunkra. A SaveInstaVideo nem tárol letöltött tartalmakat vagy személyes adatokat. Minden Instagram-kép letöltése biztonságosan történik, így platformunk megbízható választás a felhasználók számára világszerte.",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 109 109' stroke-width='8' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M54.5 99.1877C54.5 99.1877 97 86.4466 97 54.5938' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M97 54.5939V16.3706C97 16.3706 82.8333 10 54.5 10' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M54.5 99.1877C54.5 99.1877 12 86.4466 12 54.5938' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M12 54.5939V16.3706C12 16.3706 26.1667 10 54.5 10' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M82.8333 29.1118C54.5 48.2235 47.4167 73.7057 47.4167 73.7057C47.4167 73.7057 40.3333 66.1018 33.25 60.9646' stroke='black' stroke-linecap='round' stroke-linejoin='round'/></svg>"
+      },
+      {
+        "title": "Minden eszközön és böngészőn működik",
+        "description": "Instagram fotóletöltőnk teljes mértékben reszponzív és kompatibilis minden modern eszközzel. Akár Androidot, iOS-t, Windowst vagy macOS-t használsz, a SaveInstaVideo zökkenőmentesen működik Chrome-on, Safarin, Firefoxon és más böngészőkön.",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 87 87' stroke-width='2' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M27.1875 81.5625H10.875C9.43289 81.5625 8.04984 80.9896 7.03011 79.9699C6.01038 78.9502 5.4375 77.5671 5.4375 76.125V43.5C5.4375 42.0579 6.01038 40.6748 7.03011 39.6551C8.04984 38.6354 9.43289 38.0625 10.875 38.0625H27.1875C28.6296 38.0625 30.0127 38.6354 31.0324 39.6551C32.0521 40.6748 32.625 42.0579 32.625 43.5V76.125C32.625 77.5671 32.0521 78.9502 31.0324 79.9699C30.0127 80.9896 28.6296 81.5625 27.1875 81.5625ZM10.875 43.5V76.125H27.1875V43.5H10.875Z' fill='black'/><path d='M76.125 10.875H16.3125C14.8704 10.875 13.4873 11.4479 12.4676 12.4676C11.4479 13.4873 10.875 14.8704 10.875 16.3125V32.625H16.3125V16.3125H76.125V54.375H38.0625V59.8125H43.5V70.6875H38.0625V76.125H62.5312V70.6875H48.9375V59.8125H76.125C77.5671 59.8125 78.9502 59.2396 79.9699 58.2199C80.9896 57.2002 81.5625 55.8171 81.5625 54.375V16.3125C81.5625 14.8704 80.9896 13.4873 79.9699 12.4676C78.9502 11.4479 77.5671 10.875 76.125 10.875Z' fill='black'/></svg>"
+      },
+      {
+        "title": "Nincs szükség bejelentkezésre",
+        "description": "Tiszteletben tartjuk az Ön adatainak védelmét és idejét. Nem kell bejelentkeznie, csatlakoztatnia Instagram-fiókját, vagy bármilyen szoftvert telepítenie. Instagram-képletöltőnk közvetlenül a böngészőjében működik, így adatai biztonságban vannak, és a felhasználói élmény egyszerű.",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><path stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5' d='M21 38.5s14-7 14-17.5V8.75L21 3.5 7 8.75V21c0 10.5 14 17.5 14 17.5Z'></path></svg>"
+      },
+      {
+        "title": "Ingyenesen használható",
+        "description": "A SaveInstaVideo lehetővé teszi korlátlan számú Instagram-fotó letöltését díj és használat nélkül. Instagram-fotóletöltőnk 100%-ban ingyenes és minden felhasználó számára elérhető. Nincsenek előfizetések vagy letöltési korlátozások.",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><g stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5'><path d='M35 5.25H7a3.5 3.5 0 0 0-3.5 3.5v17.5a3.5 3.5 0 0 0 3.5 3.5h28a3.5 3.5 0 0 0 3.5-3.5V8.75a3.5 3.5 0 0 0-3.5-3.5ZM14 36.75h14M21 29.75v7'></path></g></svg>"
+      }
+    ]
+  },
+  "features": {
+    "title": "SaveInstagramVideo funkciók",
+    "description": "A SaveInstaVideo több mint egy Instagram fotóletöltő. Ez egy minden az egyben Instagram média letöltő platform",
+    "items": [
+      {
+        "title": "Instagram videóletöltő",
+        "description": "<a href='/hu/' class='internal-link'>Instagram videóletöltőnkkel</a> könnyedén menthetsz Instagram videókat gyors feldolgozással és eredeti felbontással. Nincs szükség alkalmazásokra vagy bejelentkezésre.</a>",
+        "imageUrl": "/img/reels_downloader.webp",
+        "imageAlt": "Reels Downloader"
+      },
+      {
+        "title": "Instagram Reels letöltő",
+        "description": "<a href='/hu/instagram-reels-downloader/' class='internal-link'>Tölts le Instagram-videókat</a> kiváló minőségben, mindössze egyetlen linkkel. Tökéletes offline megtekintéshez vagy tartalom-inspirációhoz bármikor, bárhol.",
+        "imageUrl": "/img/carousel_downloader.webp",
+        "imageAlt": "Story Viewer"
+      },
+      {
+        "title": "Instagram történet letöltő",
+        "description": "<a href='/hu/instagram-story-downloader/' class='internal-link'>Mentsd el az Instagram-sztorikat</a>, mielőtt eltűnnének. Tölts le könnyedén fotókat és videókat a sztorikból gyors és megbízható eszközünkkel.",
+        "imageUrl": "/img/photos_downloader.webp",
+        "imageAlt": "Photo Downloader"
+      },
+      {
+        "title": "Instagram-történet-megjelenítő",
+        "description": "<a href='/hu/instagram-story-viewer/' class='internal-link'>Névtelenül tekinthetsz meg Instagram-sztorikat</a> a felhasználó értesítése nélkül. Maradj naprakész, miközben véded az adatvédelmedet és szabadon böngészhetsz.",
+        "imageUrl": "/img/igtv_downloader.webp",
+        "imageAlt": "Story Downloader"
+      }
+    ]
+  },
+  "faq": {
+    "title": "GYIK – Instagram fotóletöltő",
+    "description": "",
+    "items": [
+      {
+        "question": "Biztonságos letölteni az Instagram-fotókat?",
+        "answer": "Igen. A felhasználók adatainak védelme és biztonsága a legfontosabb számunkra. Nem gyűjtünk személyes adatokat, és nem tárolunk letöltött tartalmakat."
+      },
+      {
+        "question": "Ingyenesen használható a SaveInstaVideo?",
+        "answer": "Igen! A SaveInstaVideo teljesen ingyenes. Használhatod az Instagram fotóletöltőnket előfizetések és rejtett költségek nélkül."
+      },
+      {
+        "question": "Ez az Instagram fotóletöltő működik mobilon?",
+        "answer": "Abszolút. A SaveInstaVideo tökéletesen működik Android és iPhone eszközökön mobilböngészőkön keresztül."
+      },
+      {
+        "question": "Letölthetek privát Instagram fotókat?",
+        "answer": "Nem. Az eszközünk csak a nyilvános Instagram-tartalmakat támogatja, tiszteletben tartva az adatvédelmi és platformszabályzatokat."
+      },
+      {
+        "question": "Csökkenni fog a fotó minősége?",
+        "answer": "Nem. Támogatjuk a nagy felbontású Instagram-fotók letöltését, a képminőséget a lehető legközelebb tartva az eredetihez."
+      },
+      {
+        "question": "Kell bármilyen szoftvert telepítenem?",
+        "answer": "Nincs szükség telepítésre. A SaveInstaVideo egy böngészőalapú Instagram képletöltő, amely azonnal működik online."
+      },
+      {
+        "question": "Több Instagram-fotót is letölthetek?",
+        "answer": "Igen. Annyi fotót tölthetsz le, amennyit csak szeretnél, csak ismételd meg a folyamatot minden bejegyzéslinkhez."
+      }
+    ]
+  },
+  "footer": {
+    "description": "Tölts le Instagram videókat, jeleneteket és történeteket azonnal az ingyenes Instagram videóletöltőnkkel. Mentsd el HD tartalmakat bármelyik Instagram-linkről az eszközödre gyorsan, biztonságosan és regisztráció nélkül.",
+    "pages": {
+      "pages_title": "Oldalak",
+      "pages_link": [
+        {
+          "title": "Videó",
+          "url": "/hu/"
+        },
+        {
+          "title": "Fotó",
+          "url": "/hu/instagram-photo-downloader/"
+        },
+        {
+          "title": "Jelek",
+          "url": "/hu/instagram-reels-downloader/"
+        },
+        {
+          "title": "Történet",
+          "url": "/hu/instagram-story-downloader/"
+        },
+        {
+          "title": "Megtekintő",
+          "url": "/hu/instagram-story-viewer/"
+        }
+      ]
+    },
+    "quick_links": {
+      "quick_links_title": "Gyorslinkek",
+      "quick_links_link": [
+        {
+          "title": "Oldaltérkép",
+          "url": "/sitemap.xml"
+        },
+        {
+          "title": "Rólunk",
+          "url": "/about-us/"
+        },
+        {
+          "title": "Kapcsolat",
+          "url": "/contact-us/"
+        },
+        {
+          "title": "Adatvédelmi irányelvek",
+          "url": "/privacy-policy/"
+        },
+        {
+          "title": "Felhasználási feltételek",
+          "url": "/terms-of-service/"
+        }
+      ]
+    },
+    "copyright": "© 2020-2026 SaveInstaVideo. Minden jog fenntartva."
+  }
+}

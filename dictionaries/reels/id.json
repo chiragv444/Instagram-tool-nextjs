@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "title": "Pengunduh Instagram Reels: Unduh Insta Reel Gratis melalui Tautan",
+    "description": "Unduh Instagram Reels dalam kualitas HD tanpa watermark secara gratis. Pengunduh Instagram Reels yang cepat, aman, dan mudah tanpa perlu login.",
+    "keywords": "SaveInstaVideo, Unduh Instagram Reels, Unduh Instagram Reels, Pengunduh Instagram Reel, Pengunduh Instagram Reels, Unduh Video Instagram Reels, Unduh Insta Reel"
+  },
+  "hero": {
+    "title": "Pengunduh Instagram Reels",
+    "subtitle": "Unduh Insta Reel yang cepat, sederhana, dan andal hanya dengan satu klik."
+  },
+  "nav": {
+    "video": "Video",
+    "image": "Foto",
+    "reels": "Reels",
+    "story": "Cerita",
+    "viewer": "Penonton"
+  },
+  "form": {
+    "placeholder": "Tempel URL Instagram Reel",
+    "download_btn": "Unduh",
+    "paste": "Tempel",
+    "clear": "Hapus"
+  },
+  "page_introduction": {
+    "title": "Unduh Instagram Reels",
+    "description": [
+      "SaveInstaVideo adalah pengunduh Instagram Reels yang cepat, andal, dan mudah digunakan, dirancang untuk membantu pengguna menyimpan video Reels dalam kualitas tinggi. Baik Anda ingin menyimpan klip yang menghibur, Reels yang sedang tren, atau konten kreatif untuk digunakan nanti, alat kami membuat pengunduhan Instagram Reels menjadi lancar dan tanpa stres.",
+      "Dengan proses salin-tempel yang sederhana, SaveInstaVideo memungkinkan Anda mengunduh Instagram Reels langsung dari browser Anda—tanpa aplikasi, tanpa login, dan tanpa langkah-langkah teknis yang diperlukan."
+    ]
+  },
+  "what_section": {
+    "title": "Apa itu Instagram Reels Downloader?",
+    "description": [
+      "Instagram Reels Downloader adalah alat online yang membantu pengguna menyimpan video Reels dari Instagram ke perangkat mereka dalam format yang dapat diunduh. Cara kerjanya adalah dengan memproses tautan Reels publik dan menghasilkan file video sambil mempertahankan resolusi dan kualitas suara asli.",
+      "SaveInstaVideo menyederhanakan pengunduhan video Instagram Reels untuk semua pengguna. Baik Anda menyimpan konten untuk ditonton secara offline, sebagai referensi, atau inspirasi, alat pengunduhan insta reel kami menawarkan pengalaman yang cepat, aman, dan ramah pengguna."
+    ]
+  },
+  "how_to_download": {
+    "title": "Cara Mengunduh Instagram Reels dalam 3 Langkah Mudah",
+    "description": "SaveInstaVideo memudahkan semua orang untuk mengunduh Instagram Reels:",
+    "steps": [
+      {
+        "title": "Salin Tautan Reel",
+        "description": "Buka Instagram dan temukan Reel yang ingin Anda simpan. Ketuk ikon bagikan dan salin tautan Reel tersebut.",
+        "imageUrl": "/img/copy.webp",
+        "imageAlt": "Copy URL"
+      },
+      {
+        "title": "Tempel tautannya ke SaveInstaVideo",
+        "description": "Buka SaveInstaVideo dan tempel tautan yang telah disalin ke kolom input unduhan.",
+        "imageUrl": "/img/paste.webp",
+        "imageAlt": "Paste Link"
+      },
+      {
+        "title": "Unduh Video Reel",
+        "description": "Klik tombol Unduh dan simpan Reel ke perangkat Anda dalam kualitas tinggi dalam hitungan detik.",
+        "imageUrl": "/img/download.webp",
+        "imageAlt": "Download File"
+      }
+    ]
+  },
+  "why_section": {
+    "title": "Mengapa Memilih SaveInstaVideo untuk Mengunduh Instagram Reels?",
+    "description": "SaveInstaVideo dirancang untuk memberikan pengalaman pengunduh Instagram Reel yang andal dan berkualitas tinggi.",
+    "items": [
+      {
+        "title": "Unduhan Cepat dan Stabil",
+        "description": "Sistem kami dioptimalkan untuk memproses tautan Reel dengan cepat, memungkinkan pengunduhan Instagram Reels yang lancar tanpa penundaan atau gangguan.",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><g stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5'><path d='M36.75 26.25v7a3.5 3.5 0 0 1-3.5 3.5H8.75a3.5 3.5 0 0 1-3.5-3.5v-7M12.25 17.5 21 26.25l8.75-8.75M21 26.25v-21'></path></g></svg>"
+      },
+      {
+        "title": "Video Reel Berkualitas Asli",
+        "description": "SaveInstaVideo mempertahankan resolusi dan audio asli, memastikan setiap unduhan video Instagram Reels terlihat jernih dan profesional.",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 215 215' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M67.1875 116.458H85.1042V127.656C85.1042 129.597 85.7402 131.204 87.0123 132.476C88.2844 133.748 89.8879 134.381 91.8229 134.375C93.7579 134.369 95.3645 133.733 96.6425 132.467C97.9206 131.201 98.5536 129.597 98.5417 127.656V87.3438C98.5417 85.4028 97.9056 83.7993 96.6335 82.5332C95.3615 81.2671 93.7579 80.631 91.8229 80.625C89.8879 80.6191 88.2844 81.2551 87.0123 82.5332C85.7402 83.8112 85.1042 85.4148 85.1042 87.3438V103.021H67.1875V87.3438C67.1875 85.4028 66.5515 83.7993 65.2794 82.5332C64.0073 81.2671 62.4038 80.631 60.4688 80.625C58.5338 80.6191 56.9302 81.2551 55.6581 82.5332C54.386 83.8112 53.75 85.4148 53.75 87.3438V127.656C53.75 129.597 54.386 131.204 55.6581 132.476C56.9302 133.748 58.5338 134.381 60.4688 134.375C62.4038 134.369 64.0103 133.733 65.2883 132.467C66.5664 131.201 67.1995 129.597 67.1875 127.656V116.458ZM120.938 134.375H152.292C154.83 134.375 156.959 133.515 158.679 131.795C160.399 130.075 161.256 127.949 161.25 125.417V89.5834C161.25 87.0452 160.39 84.9191 158.67 83.205C156.95 81.491 154.824 80.631 152.292 80.625H120.938C119.743 80.625 118.698 81.073 117.802 81.9688C116.906 82.8646 116.458 83.9098 116.458 85.1042V129.896C116.458 131.09 116.906 132.135 117.802 133.031C118.698 133.927 119.743 134.375 120.938 134.375ZM129.896 120.938V94.0625H147.813V120.938H129.896ZM35.8333 179.167C30.9063 179.167 26.6899 177.414 23.1842 173.908C19.6785 170.402 17.9226 166.183 17.9167 161.25V53.75C17.9167 48.823 19.6725 44.6066 23.1842 41.1009C26.6958 37.5952 30.9122 35.8393 35.8333 35.8334H179.167C184.094 35.8334 188.313 37.5892 191.825 41.1009C195.336 44.6125 197.089 48.8289 197.083 53.75V161.25C197.083 166.177 195.331 170.396 191.825 173.908C188.319 177.42 184.1 179.173 179.167 179.167H35.8333ZM35.8333 161.25H179.167V53.75H35.8333V161.25Z' fill='black'/></svg>"
+      },
+      {
+        "title": "Aman, Terjamin & Pribadi",
+        "description": "Tidak diperlukan login atau informasi pribadi. Semua tindakan pengunduhan Insta Reel tetap bersifat pribadi dan aman.",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 109 109' stroke-width='8' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M54.5 99.1877C54.5 99.1877 97 86.4466 97 54.5938' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M97 54.5939V16.3706C97 16.3706 82.8333 10 54.5 10' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M54.5 99.1877C54.5 99.1877 12 86.4466 12 54.5938' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M12 54.5939V16.3706C12 16.3706 26.1667 10 54.5 10' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M82.8333 29.1118C54.5 48.2235 47.4167 73.7057 47.4167 73.7057C47.4167 73.7057 40.3333 66.1018 33.25 60.9646' stroke='black' stroke-linecap='round' stroke-linejoin='round'/></svg>"
+      },
+      {
+        "title": "Kompatibel dengan Semua Perangkat",
+        "description": "Gunakan Instagram Reel Downloader kami dengan mudah di Android, iPhone, tablet, Windows, atau macOS.",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 87 87' stroke-width='2' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M27.1875 81.5625H10.875C9.43289 81.5625 8.04984 80.9896 7.03011 79.9699C6.01038 78.9502 5.4375 77.5671 5.4375 76.125V43.5C5.4375 42.0579 6.01038 40.6748 7.03011 39.6551C8.04984 38.6354 9.43289 38.0625 10.875 38.0625H27.1875C28.6296 38.0625 30.0127 38.6354 31.0324 39.6551C32.0521 40.6748 32.625 42.0579 32.625 43.5V76.125C32.625 77.5671 32.0521 78.9502 31.0324 79.9699C30.0127 80.9896 28.6296 81.5625 27.1875 81.5625ZM10.875 43.5V76.125H27.1875V43.5H10.875Z' fill='black'/><path d='M76.125 10.875H16.3125C14.8704 10.875 13.4873 11.4479 12.4676 12.4676C11.4479 13.4873 10.875 14.8704 10.875 16.3125V32.625H16.3125V16.3125H76.125V54.375H38.0625V59.8125H43.5V70.6875H38.0625V76.125H62.5312V70.6875H48.9375V59.8125H76.125C77.5671 59.8125 78.9502 59.2396 79.9699 58.2199C80.9896 57.2002 81.5625 55.8171 81.5625 54.375V16.3125C81.5625 14.8704 80.9896 13.4873 79.9699 12.4676C78.9502 11.4479 77.5671 10.875 76.125 10.875Z' fill='black'/></svg>"
+      },
+      {
+        "title": "Kemudahan Berbasis Browser",
+        "description": "Unduh Reels langsung dari peramban web Anda tanpa perlu menginstal aplikasi atau ekstensi apa pun.",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><path stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5' d='M21 38.5s14-7 14-17.5V8.75L21 3.5 7 8.75V21c0 10.5 14 17.5 14 17.5Z'></path></svg>"
+      },
+      {
+        "title": "Antarmuka yang Sederhana dan Bersih",
+        "description": "Desain kami yang ramah pengguna membuat pengunduhan Instagram Reels menjadi mudah bahkan untuk pengguna pertama kali.",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><g stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5'><path d='M35 5.25H7a3.5 3.5 0 0 0-3.5 3.5v17.5a3.5 3.5 0 0 0 3.5 3.5h28a3.5 3.5 0 0 0 3.5-3.5V8.75a3.5 3.5 0 0 0-3.5-3.5ZM14 36.75h14M21 29.75v7'></path></g></svg>"
+      }
+    ]
+  },
+  "features": {
+    "title": "Fitur Pengunduh Reels Instagram SaveInstaVideo",
+    "description": "SaveInstaVideo lebih dari sekadar pengunduh Reel. Ini adalah solusi penyimpanan konten Instagram serba guna.",
+    "items": [
+      {
+        "title": "Pengunduh Video Instagram",
+        "description": "<a href='/id/' class='internal-link'>Simpan video Instagram</a> dari unggahan dengan kualitas asli. Sempurna untuk pengguna yang menginginkan pengunduhan video Instagram yang andal tanpa repot.",
+        "imageUrl": "/img/reels_downloader.webp",
+        "imageAlt": "Reels Downloader"
+      },
+      {
+        "title": "Pengunduh Foto Instagram",
+        "description": "<a href='/id/instagram-photo-downloader/' class='internal-link'>Unduh foto Instagram</a> dalam resolusi aslinya hanya dengan satu klik. Berguna untuk menyimpan gambar sebagai inspirasi atau koleksi pribadi.",
+        "imageUrl": "/img/carousel_downloader.webp",
+        "imageAlt": "Story Viewer"
+      },
+      {
+        "title": "Penampil Cerita Instagram",
+        "description": "<a href='/id/instagram-story-viewer/' class='internal-link'>Penampil cerita Instagram</a> anonim tanpa memberi tahu pemilik akun. Nikmati privasi sambil menjelajahi Stories dengan bebas.",
+        "imageUrl": "/img/photos_downloader.webp",
+        "imageAlt": "Photo Downloader"
+      },
+      {
+        "title": "Pengunduh Cerita Instagram",
+        "description": "<a href='/id/instagram-story-downloader/' class='internal-link'>Unduh Instagram Story</a> dengan cepat dan lancar dengan kualitas output tinggi, mempertahankan kejernihan, resolusi, dan audio jika tersedia.",
+        "imageUrl": "/img/igtv_downloader.webp",
+        "imageAlt": "Story Downloader"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Pertanyaan yang Sering Diajukan - Pengunduh Instagram Reels",
+    "description": "",
+    "items": [
+      {
+        "question": "Apakah SaveInstaVideo gratis untuk diunduh ke Instagram Reels?",
+        "answer": "Ya, SaveInstaVideo sepenuhnya gratis untuk digunakan. Anda dapat melakukan pengunduhan Instagram Reels tanpa batas tanpa biaya apa pun."
+      },
+      {
+        "question": "Apakah saya perlu akun Instagram untuk mengunduh Reels?",
+        "answer": "Tidak. Pengunduh Instagram Reel kami berfungsi tanpa mengharuskan Anda untuk masuk atau menghubungkan akun Instagram."
+      },
+      {
+        "question": "Kualitas video seperti apa yang bisa saya harapkan saat mengunduh Reels?",
+        "answer": "SaveInstaVideo mengunduh Reels dengan kualitas terbaik yang tersedia, memastikan pemutaran yang lancar dan audio yang jernih."
+      },
+      {
+        "question": "Bisakah saya mengunduh Instagram Reels di perangkat seluler saya?",
+        "answer": "Ya, unduhan Insta Reel berfungsi sempurna di perangkat Android dan iOS menggunakan browser modern apa pun."
+      },
+      {
+        "question": "Apakah Reels yang diunduh memiliki tanda air?",
+        "answer": "Tidak. Semua Reels yang diunduh menggunakan SaveInstaVideo tidak memiliki tanda air."
+      },
+      {
+        "question": "Apakah SaveInstaVideo aman digunakan?",
+        "answer": "Ya, privasi Anda terlindungi. Kami tidak menyimpan data pengguna, tautan, atau riwayat unduhan."
+      },
+      {
+        "question": "Dalam format apa Reels diunduh?",
+        "answer": "Video Reels biasanya diunduh dalam format MP4, yang kompatibel dengan sebagian besar perangkat dan pemutar media."
+      },
+      {
+        "question": "Bisakah saya mengunduh konten Instagram lain menggunakan SaveInstaVideo?",
+        "answer": "Ya. SaveInstaVideo mendukung pengunduhan video Instagram, pengunduhan foto, penayangan Story, dan pengunduhan Story dalam satu platform."
+      }
+    ]
+  },
+  "footer": {
+    "description": "Unduh video, Reels, dan Stories Instagram secara instan dengan Pengunduh Video Instagram gratis kami. Simpan konten HD dari tautan Instagram apa pun ke perangkat Anda dengan cepat, aman, dan tanpa pendaftaran.",
+    "pages": {
+      "pages_title": "Halaman",
+      "pages_link": [
+        {
+          "title": "Video",
+          "url": "/id/"
+        },
+        {
+          "title": "Foto",
+          "url": "/id/instagram-photo-downloader/"
+        },
+        {
+          "title": "Reels",
+          "url": "/id/instagram-reels-downloader/"
+        },
+        {
+          "title": "Cerita",
+          "url": "/id/instagram-story-downloader/"
+        },
+        {
+          "title": "Penonton",
+          "url": "/id/instagram-story-viewer/"
+        }
+      ]
+    },
+    "quick_links": {
+      "quick_links_title": "Tautan Cepat",
+      "quick_links_link": [
+        {
+          "title": "Peta Situs",
+          "url": "/sitemap.xml"
+        },
+        {
+          "title": "Tentang Kami",
+          "url": "/about-us/"
+        },
+        {
+          "title": "Hubungi Kami",
+          "url": "/contact-us/"
+        },
+        {
+          "title": "Kebijakan Privasi",
+          "url": "/privacy-policy/"
+        },
+        {
+          "title": "Syarat & Ketentuan",
+          "url": "/terms-of-service/"
+        }
+      ]
+    },
+    "copyright": "© 2020-2026 SaveInstaVideo. Semua hak dilindungi undang-undang."
+  }
+}

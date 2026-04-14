@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "title": "Instagram Story Saver - Download Instagram Story (HD)",
+    "description": "Instagram Story Download tool to save photos and videos from IG Stories online. Fast, free Instagram Story Saver for PC, iPhone, and Android.",
+    "keywords": "SaveInstaVideo, Instagram Story Download, Instagram Story Saver, Instagram Status Download, Instagram Story Downloader, Download Instagram Story"
+  },
+  "hero": {
+    "title": "Instagram Story Download",
+    "subtitle": "Download Instagram Story quickly in high quality with a fast & secure Instagram Story Saver."
+  },
+  "nav": {
+    "video": "Video",
+    "image": "Photo",
+    "reels": "Reels",
+    "story": "Story",
+    "viewer": "Viewer"
+  },
+  "form": {
+    "placeholder": "Paste Instagram Story URL",
+    "download_btn": "Download",
+    "paste": "Paste",
+    "clear": "Clear"
+  },
+  "page_introduction": {
+    "title": "Instagram Story Saver",
+    "description": [
+      "SaveInstaVideo is a fast, reliable, and easy-to-use <a href='/instagram-story-downloader/' class='internal-link'>Instagram Story Download tool</a> designed to help users save Instagram Stories in high quality. Whether you want to download photo Stories or video Stories, our platform provides a smooth and secure way to Download Instagram story content for offline viewing or personal reference.",
+      "Built for performance and simplicity, SaveInstaVideo works directly in your browser, making Instagram status download accessible on any device without installing apps or creating accounts."
+    ]
+  },
+  "what_section": {
+    "title": "What Is Instagram Story Download?",
+    "description": [
+      "Instagram story download is the process of saving Instagram Stories both images and videos from public Instagram profiles to your device. Stories are often time-sensitive, and downloading them allows users to view or revisit content whenever they want.",
+      "SaveInstaVideo acts as a smart Instagram story saver, converting Story links into downloadable files while preserving clarity, resolution, and smooth playback. As a reliable Instagram story downloader, it ensures a user-friendly experience suitable for both beginners and regular users."
+    ]
+  },
+  "how_to_download": {
+    "title": "How to Download Instagram Story in 3 Simple Steps",
+    "description": "SaveInstaVideo makes Download Instagram story quick and straightforward:",
+    "steps": [
+      {
+        "title": "Copy the Instagram Story Link",
+        "description": "Open Instagram, locate the Story you want to save, tap the share option, and copy the Story link.",
+        "imageUrl": "/img/copy.webp",
+        "imageAlt": "Copy URL"
+      },
+      {
+        "title": "Paste the Link into SaveInstaVideo",
+        "description": "Visit SaveInstaVideo and paste the copied Story link into the input field provided on the page.",
+        "imageUrl": "/img/paste.webp",
+        "imageAlt": "Paste Link"
+      },
+      {
+        "title": "Download the Story Instantly",
+        "description": "Click the Download button and save the Story to your device in high quality within seconds.",
+        "imageUrl": "/img/download.webp",
+        "imageAlt": "Download File"
+      }
+    ]
+  },
+  "why_section": {
+    "title": "Why Choose SaveInstaVideo for Instagram Story Download?",
+    "description": "SaveInstaVideo is designed to provide a smooth, reliable, and high-quality Instagram story download experience for users who value speed, simplicity, and privacy. Every part of our tool is optimized to make downloading Instagram Stories easy and stress-free.",
+    "items": [
+      {
+        "title": "Fast and Consistent Download Speed",
+        "description": "SaveInstaVideo processes Instagram Story links efficiently, allowing you to download Instagram story content quickly without buffering or waiting. Even during high usage, downloads remain stable and smooth.",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><g stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5'><path d='M36.75 26.25v7a3.5 3.5 0 0 1-3.5 3.5H8.75a3.5 3.5 0 0 1-3.5-3.5v-7M12.25 17.5 21 26.25l8.75-8.75M21 26.25v-21'></path></g></svg>"
+      },
+      {
+        "title": "High-Quality Output with Clear Playback",
+        "description": "Our tool preserves the original quality of photo and video Stories. Each instagram status download maintains sharp visuals, clear audio (for video Stories), and smooth playback across devices.",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 215 215' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M67.1875 116.458H85.1042V127.656C85.1042 129.597 85.7402 131.204 87.0123 132.476C88.2844 133.748 89.8879 134.381 91.8229 134.375C93.7579 134.369 95.3645 133.733 96.6425 132.467C97.9206 131.201 98.5536 129.597 98.5417 127.656V87.3438C98.5417 85.4028 97.9056 83.7993 96.6335 82.5332C95.3615 81.2671 93.7579 80.631 91.8229 80.625C89.8879 80.6191 88.2844 81.2551 87.0123 82.5332C85.7402 83.8112 85.1042 85.4148 85.1042 87.3438V103.021H67.1875V87.3438C67.1875 85.4028 66.5515 83.7993 65.2794 82.5332C64.0073 81.2671 62.4038 80.631 60.4688 80.625C58.5338 80.6191 56.9302 81.2551 55.6581 82.5332C54.386 83.8112 53.75 85.4148 53.75 87.3438V127.656C53.75 129.597 54.386 131.204 55.6581 132.476C56.9302 133.748 58.5338 134.381 60.4688 134.375C62.4038 134.369 64.0103 133.733 65.2883 132.467C66.5664 131.201 67.1995 129.597 67.1875 127.656V116.458ZM120.938 134.375H152.292C154.83 134.375 156.959 133.515 158.679 131.795C160.399 130.075 161.256 127.949 161.25 125.417V89.5834C161.25 87.0452 160.39 84.9191 158.67 83.205C156.95 81.491 154.824 80.631 152.292 80.625H120.938C119.743 80.625 118.698 81.073 117.802 81.9688C116.906 82.8646 116.458 83.9098 116.458 85.1042V129.896C116.458 131.09 116.906 132.135 117.802 133.031C118.698 133.927 119.743 134.375 120.938 134.375ZM129.896 120.938V94.0625H147.813V120.938H129.896ZM35.8333 179.167C30.9063 179.167 26.6899 177.414 23.1842 173.908C19.6785 170.402 17.9226 166.183 17.9167 161.25V53.75C17.9167 48.823 19.6725 44.6066 23.1842 41.1009C26.6958 37.5952 30.9122 35.8393 35.8333 35.8334H179.167C184.094 35.8334 188.313 37.5892 191.825 41.1009C195.336 44.6125 197.089 48.8289 197.083 53.75V161.25C197.083 166.177 195.331 170.396 191.825 173.908C188.319 177.42 184.1 179.173 179.167 179.167H35.8333ZM35.8333 161.25H179.167V53.75H35.8333V161.25Z' fill='black'/></svg>"
+      },
+      {
+        "title": "Privacy-First and Secure Experience",
+        "description": "SaveInstaVideo does not require login credentials or personal information. Your Instagram story saver remains private, and no user data or download history is stored.",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 109 109' stroke-width='8' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M54.5 99.1877C54.5 99.1877 97 86.4466 97 54.5938' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M97 54.5939V16.3706C97 16.3706 82.8333 10 54.5 10' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M54.5 99.1877C54.5 99.1877 12 86.4466 12 54.5938' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M12 54.5939V16.3706C12 16.3706 26.1667 10 54.5 10' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M82.8333 29.1118C54.5 48.2235 47.4167 73.7057 47.4167 73.7057C47.4167 73.7057 40.3333 66.1018 33.25 60.9646' stroke='black' stroke-linecap='round' stroke-linejoin='round'/></svg>"
+      },
+      {
+        "title": "Supported All Devices and Browsers",
+        "description": "Whether you’re using a smartphone, tablet, or desktop computer, our platform adapts seamlessly. The Instagram story saver works smoothly on Android, iOS, Windows, and macOS.",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 87 87' stroke-width='2' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M27.1875 81.5625H10.875C9.43289 81.5625 8.04984 80.9896 7.03011 79.9699C6.01038 78.9502 5.4375 77.5671 5.4375 76.125V43.5C5.4375 42.0579 6.01038 40.6748 7.03011 39.6551C8.04984 38.6354 9.43289 38.0625 10.875 38.0625H27.1875C28.6296 38.0625 30.0127 38.6354 31.0324 39.6551C32.0521 40.6748 32.625 42.0579 32.625 43.5V76.125C32.625 77.5671 32.0521 78.9502 31.0324 79.9699C30.0127 80.9896 28.6296 81.5625 27.1875 81.5625ZM10.875 43.5V76.125H27.1875V43.5H10.875Z' fill='black'/><path d='M76.125 10.875H16.3125C14.8704 10.875 13.4873 11.4479 12.4676 12.4676C11.4479 13.4873 10.875 14.8704 10.875 16.3125V32.625H16.3125V16.3125H76.125V54.375H38.0625V59.8125H43.5V70.6875H38.0625V76.125H62.5312V70.6875H48.9375V59.8125H76.125C77.5671 59.8125 78.9502 59.2396 79.9699 58.2199C80.9896 57.2002 81.5625 55.8171 81.5625 54.375V16.3125C81.5625 14.8704 80.9896 13.4873 79.9699 12.4676C78.9502 11.4479 77.5671 10.875 76.125 10.875Z' fill='black'/></svg>"
+      },
+      {
+        "title": "Simple Interface Built for Ease of Use",
+        "description": "The clean and intuitive layout ensures anyone can use the tool comfortably. Clear instructions and minimal steps make Instagram story download accessible even for first-time users.",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><path stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5' d='M21 38.5s14-7 14-17.5V8.75L21 3.5 7 8.75V21c0 10.5 14 17.5 14 17.5Z'></path></svg>"
+      },
+      {
+        "title": "Unlimited Story Downloads",
+        "description": "There are no daily limits or restrictions. You can perform unlimited Instagram story saver actions whenever you need.",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><g stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5'><path d='M35 5.25H7a3.5 3.5 0 0 0-3.5 3.5v17.5a3.5 3.5 0 0 0 3.5 3.5h28a3.5 3.5 0 0 0 3.5-3.5V8.75a3.5 3.5 0 0 0-3.5-3.5ZM14 36.75h14M21 29.75v7'></path></g></svg>"
+      }
+    ]
+  },
+  "features": {
+    "title": "SaveInstaVideo Instagram Story Saver Features",
+    "description": "SaveInstaVideo offers a complete set of tools for saving Instagram content efficiently.",
+    "items": [
+      {
+        "title": "Anonymous Story Viewer",
+        "description": "<a href='/instagram-story-viewer/' class='internal-link'>View Instagram Stories anonymously</a> without notifying the account owner, giving you complete privacy.",
+        "imageUrl": "/img/reels_downloader.webp",
+        "imageAlt": "Reels Downloader"
+      },
+      {
+        "title": "Instagram Reels Downloader",
+        "description": "<a href='/instagram-reels-downloader/' class='internal-link'>Download Instagram Reels</a> in high quality without watermarks. Ideal for saving trending or creative short videos.",
+        "imageUrl": "/img/carousel_downloader.webp",
+        "imageAlt": "Story Viewer"
+      },
+      {
+        "title": "Instagram Photo Downloader",
+        "description": "<a href='/instagram-photo-downloader/' class='internal-link'>Save Instagram photos</a> in original resolution with one click, perfect for inspiration or personal collections.",
+        "imageUrl": "/img/photos_downloader.webp",
+        "imageAlt": "Photo Downloader"
+      },
+      {
+        "title": "Instagram Video Downloader",
+        "description": "<a href='/' class='internal-link'>Download Instagram videos</a> from posts in high quality with smooth playback and clear audio.",
+        "imageUrl": "/img/igtv_downloader.webp",
+        "imageAlt": "Story Downloader"
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQs - Instagram Story Downloader",
+    "description": "",
+    "items": [
+      {
+        "question": "Is SaveInstaVideo free for Instagram story download?",
+        "answer": "Yes, SaveInstaVideo is completely free. You can use our Instagram story saver without any subscriptions or hidden fees."
+      },
+      {
+        "question": "Do I need to log in to download Instagram Stories?",
+        "answer": "No login is required. Simply paste the Story link and start your Instagram story download instantly."
+      },
+      {
+        "question": "Can I download both photo and video Stories?",
+        "answer": "Yes, SaveInstaVideo supports Download Instagram story for both image and video formats in high quality."
+      },
+      {
+        "question": "Does instagram story saver preserve Story quality?",
+        "answer": "Yes, our tool keeps the original resolution and clarity whenever available."
+      },
+      {
+        "question": "Can I download Instagram Stories on mobile devices?",
+        "answer": "Absolutely. SaveInstaVideo works smoothly on both Android and iOS using any modern browser."
+      },
+      {
+        "question": "Is Insta story saver safe to use?",
+        "answer": "Yes, we do not store user data, links, or download history, ensuring a secure experience."
+      },
+      {
+        "question": "What formats are Stories downloaded in?",
+        "answer": "Video Stories are typically saved in MP4 format, while photo Stories are saved as JPG or similar formats."
+      },
+      {
+        "question": "Can I download other Instagram content using SaveInstaVideo?",
+        "answer": "Yes, SaveInstaVideo also supports Instagram video downloads, photo downloads, and Reels downloads from one platform."
+      }
+    ]
+  },
+  "footer": {
+    "description": "Download Instagram videos, Reels, and Stories instantly with our free Instagram Video Downloader. Save HD content from any Instagram link to your device fast, safe, and without signup.",
+    "pages": { 
+      "pages_title": "Pages",
+      "pages_link": [
+        {
+          "title": "Video",
+          "url": "/"
+        },
+        {
+          "title": "Photo",
+          "url": "/instagram-photo-downloader/"
+        },
+        {
+          "title": "Reels",
+          "url": "/instagram-reels-downloader/"
+        },
+        {
+          "title": "Story",
+          "url": "/instagram-story-downloader/"
+        },
+        {
+          "title": "Viewer",
+          "url": "/instagram-story-viewer/"
+        }
+      ]
+    },
+    "quick_links": {
+      "quick_links_title": "Quick Links",
+      "quick_links_link": [
+        {
+          "title": "Sitemap",
+          "url": "/sitemap.xml"
+        },
+        {
+          "title": "About Us",
+          "url": "/about-us/"
+        },
+        {
+          "title": "Contact Us",
+          "url": "/contact-us/"
+        },
+        {
+          "title": "Privacy Policy",
+          "url": "/privacy-policy/"
+        },
+        {
+          "title": "Terms & Conditions",
+          "url": "/terms-of-service/"
+        }
+      ]
+    },
+    "copyright": "© 2020-2026 SaveInstaVideo. All rights reserved."
+  }
+}

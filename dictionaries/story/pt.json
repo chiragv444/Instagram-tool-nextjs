@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "title": "Guardar Stories do Instagram - Download Stories do Instagram (HD)",
+    "description": "Ferramenta para guardar fotografias e vídeos das Stories do Instagram online. Rápido e gratuito para PC, iPhone e Android.",
+    "keywords": "SaveInstaVideo, Download Instagram Stories, Guardar Stories Instagram, Download Instagram Status, Download Instagram Stories"
+  },
+  "hero": {
+    "title": "Baixar Stories do Instagram",
+    "subtitle": "Baixe Stories do Instagram rapidamente e em alta qualidade com um aplicativo rápido e seguro para salvar Stories do Instagram."
+  },
+  "nav": {
+    "video": "Vídeo",
+    "image": "Foto",
+    "reels": "Carretos",
+    "story": "História",
+    "viewer": "Visualizador"
+  },
+  "form": {
+    "placeholder": "Colar URL do Reel do Instagram",
+    "download_btn": "Baixar",
+    "paste": "Colar",
+    "clear": "Limpar"
+  },
+  "page_introduction": {
+    "title": "Salvar história do Instagram",
+    "description": [
+      "SaveInstaVideo é uma ferramenta rápida, confiável e fácil de usar para baixar Stories do Instagram, projetada para ajudar os usuários a salvar Stories do Instagram em alta qualidade. Seja para baixar Stories com fotos ou vídeos, nossa plataforma oferece uma maneira simples e segura de baixar o conteúdo dos Stories do Instagram para visualização offline ou referência pessoal.",
+      "Desenvolvido para oferecer desempenho e simplicidade, o SaveInstaVideo funciona diretamente no seu navegador, permitindo o download de status do Instagram em qualquer dispositivo, sem a necessidade de instalar aplicativos ou criar contas."
+    ]
+  },
+  "what_section": {
+    "title": "O que é o download do Instagram Stories?",
+    "description": [
+      "Baixar Stories do Instagram é o processo de salvar Stories, tanto imagens quanto vídeos, de perfis públicos do Instagram para o seu dispositivo. Os Stories geralmente são temporários, e baixá-los permite que os usuários visualizem ou revejam o conteúdo quando quiserem.",
+      "O SaveInstaVideo funciona como um salvador inteligente de Stories do Instagram, convertendo links de Stories em arquivos para download, preservando a nitidez, a resolução e a fluidez da reprodução. Como um programa confiável para baixar Stories do Instagram, ele garante uma experiência amigável, adequada tanto para iniciantes quanto para usuários frequentes."
+    ]
+  },
+  "how_to_download": {
+    "title": "Como baixar Stories do Instagram em 3 passos simples",
+    "description": "O SaveInstaVideo torna o download de stories do Instagram rápido e fácil:",
+    "steps": [
+      {
+        "title": "Copie o link do Stories do Instagram",
+        "description": "Abra o Instagram, localize o Story que deseja salvar, toque na opção de compartilhar e copie o link do Story.",
+        "imageUrl": "/img/copy.webp",
+        "imageAlt": "Copy URL"
+      },
+      {
+        "title": "Cole o link no SaveInstaVideo",
+        "description": "Acesse o SaveInstaVideo e cole o link da história copiado no campo de entrada fornecido na página.",
+        "imageUrl": "/img/paste.webp",
+        "imageAlt": "Paste Link"
+      },
+      {
+        "title": "Baixe a história instantaneamente",
+        "description": "Clique no botão \"Download\" e salve a história em seu dispositivo em alta qualidade em segundos.",
+        "imageUrl": "/img/download.webp",
+        "imageAlt": "Download File"
+      }
+    ]
+  },
+  "why_section": {
+    "title": "Por que escolher o SaveInstaVideo para baixar Stories do Instagram?",
+    "description": "O SaveInstaVideo foi desenvolvido para proporcionar uma experiência de download de Stories do Instagram fluida, confiável e de alta qualidade para usuários que valorizam velocidade, simplicidade e privacidade. Cada parte da nossa ferramenta é otimizada para tornar o download de Stories do Instagram fácil e sem complicações.",
+    "items": [
+      {
+        "title": "Velocidade de download rápida e consistente",
+        "description": "O SaveInstaVideo processa links do Instagram Stories de forma eficiente, permitindo que você baixe o conteúdo dos Stories rapidamente, sem interrupções ou esperas. Mesmo durante uso intenso, os downloads permanecem estáveis ​​e fluidos.",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><g stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5'><path d='M36.75 26.25v7a3.5 3.5 0 0 1-3.5 3.5H8.75a3.5 3.5 0 0 1-3.5-3.5v-7M12.25 17.5 21 26.25l8.75-8.75M21 26.25v-21'></path></g></svg>"
+      },
+      {
+        "title": "Saída de alta qualidade com reprodução nítida",
+        "description": "Nossa ferramenta preserva a qualidade original das fotos e vídeos dos Stories. Cada download de status do Instagram mantém imagens nítidas, áudio claro (para vídeos dos Stories) e reprodução fluida em todos os dispositivos.",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 215 215' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M67.1875 116.458H85.1042V127.656C85.1042 129.597 85.7402 131.204 87.0123 132.476C88.2844 133.748 89.8879 134.381 91.8229 134.375C93.7579 134.369 95.3645 133.733 96.6425 132.467C97.9206 131.201 98.5536 129.597 98.5417 127.656V87.3438C98.5417 85.4028 97.9056 83.7993 96.6335 82.5332C95.3615 81.2671 93.7579 80.631 91.8229 80.625C89.8879 80.6191 88.2844 81.2551 87.0123 82.5332C85.7402 83.8112 85.1042 85.4148 85.1042 87.3438V103.021H67.1875V87.3438C67.1875 85.4028 66.5515 83.7993 65.2794 82.5332C64.0073 81.2671 62.4038 80.631 60.4688 80.625C58.5338 80.6191 56.9302 81.2551 55.6581 82.5332C54.386 83.8112 53.75 85.4148 53.75 87.3438V127.656C53.75 129.597 54.386 131.204 55.6581 132.476C56.9302 133.748 58.5338 134.381 60.4688 134.375C62.4038 134.369 64.0103 133.733 65.2883 132.467C66.5664 131.201 67.1995 129.597 67.1875 127.656V116.458ZM120.938 134.375H152.292C154.83 134.375 156.959 133.515 158.679 131.795C160.399 130.075 161.256 127.949 161.25 125.417V89.5834C161.25 87.0452 160.39 84.9191 158.67 83.205C156.95 81.491 154.824 80.631 152.292 80.625H120.938C119.743 80.625 118.698 81.073 117.802 81.9688C116.906 82.8646 116.458 83.9098 116.458 85.1042V129.896C116.458 131.09 116.906 132.135 117.802 133.031C118.698 133.927 119.743 134.375 120.938 134.375ZM129.896 120.938V94.0625H147.813V120.938H129.896ZM35.8333 179.167C30.9063 179.167 26.6899 177.414 23.1842 173.908C19.6785 170.402 17.9226 166.183 17.9167 161.25V53.75C17.9167 48.823 19.6725 44.6066 23.1842 41.1009C26.6958 37.5952 30.9122 35.8393 35.8333 35.8334H179.167C184.094 35.8334 188.313 37.5892 191.825 41.1009C195.336 44.6125 197.089 48.8289 197.083 53.75V161.25C197.083 166.177 195.331 170.396 191.825 173.908C188.319 177.42 184.1 179.173 179.167 179.167H35.8333ZM35.8333 161.25H179.167V53.75H35.8333V161.25Z' fill='black'/></svg>"
+      },
+      {
+        "title": "Experiência segura e com foco na privacidade",
+        "description": "O SaveInstaVideo não exige credenciais de login nem informações pessoais. Seu conteúdo salvo nos stories do Instagram permanece privado, e nenhum dado do usuário ou histórico de downloads é armazenado.",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 109 109' stroke-width='8' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M54.5 99.1877C54.5 99.1877 97 86.4466 97 54.5938' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M97 54.5939V16.3706C97 16.3706 82.8333 10 54.5 10' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M54.5 99.1877C54.5 99.1877 12 86.4466 12 54.5938' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M12 54.5939V16.3706C12 16.3706 26.1667 10 54.5 10' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M82.8333 29.1118C54.5 48.2235 47.4167 73.7057 47.4167 73.7057C47.4167 73.7057 40.3333 66.1018 33.25 60.9646' stroke='black' stroke-linecap='round' stroke-linejoin='round'/></svg>"
+      },
+      {
+        "title": "Compatível com todos os dispositivos e navegadores.",
+        "description": "Seja em um smartphone, tablet ou computador, nossa plataforma se adapta perfeitamente. O recurso de salvar stories do Instagram funciona sem problemas em Android, iOS, Windows e macOS.",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 87 87' stroke-width='2' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M27.1875 81.5625H10.875C9.43289 81.5625 8.04984 80.9896 7.03011 79.9699C6.01038 78.9502 5.4375 77.5671 5.4375 76.125V43.5C5.4375 42.0579 6.01038 40.6748 7.03011 39.6551C8.04984 38.6354 9.43289 38.0625 10.875 38.0625H27.1875C28.6296 38.0625 30.0127 38.6354 31.0324 39.6551C32.0521 40.6748 32.625 42.0579 32.625 43.5V76.125C32.625 77.5671 32.0521 78.9502 31.0324 79.9699C30.0127 80.9896 28.6296 81.5625 27.1875 81.5625ZM10.875 43.5V76.125H27.1875V43.5H10.875Z' fill='black'/><path d='M76.125 10.875H16.3125C14.8704 10.875 13.4873 11.4479 12.4676 12.4676C11.4479 13.4873 10.875 14.8704 10.875 16.3125V32.625H16.3125V16.3125H76.125V54.375H38.0625V59.8125H43.5V70.6875H38.0625V76.125H62.5312V70.6875H48.9375V59.8125H76.125C77.5671 59.8125 78.9502 59.2396 79.9699 58.2199C80.9896 57.2002 81.5625 55.8171 81.5625 54.375V16.3125C81.5625 14.8704 80.9896 13.4873 79.9699 12.4676C78.9502 11.4479 77.5671 10.875 76.125 10.875Z' fill='black'/></svg>"
+      },
+      {
+        "title": "Interface simples criada para facilitar o uso.",
+        "description": "O layout limpo e intuitivo garante que qualquer pessoa possa usar a ferramenta confortavelmente. Instruções claras e etapas mínimas tornam o download de stories do Instagram acessível até mesmo para usuários iniciantes.",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><path stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5' d='M21 38.5s14-7 14-17.5V8.75L21 3.5 7 8.75V21c0 10.5 14 17.5 14 17.5Z'></path></svg>"
+      },
+      {
+        "title": "Downloads ilimitados de histórias",
+        "description": "Não há limites ou restrições diárias. Você pode salvar seus stories do Instagram quantas vezes quiser.",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><g stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5'><path d='M35 5.25H7a3.5 3.5 0 0 0-3.5 3.5v17.5a3.5 3.5 0 0 0 3.5 3.5h28a3.5 3.5 0 0 0 3.5-3.5V8.75a3.5 3.5 0 0 0-3.5-3.5ZM14 36.75h14M21 29.75v7'></path></g></svg>"
+      }
+    ]
+  },
+  "features": {
+    "title": "Recursos do SaveInstaVideo para salvar Stories do Instagram",
+    "description": "O SaveInstaVideo oferece um conjunto completo de ferramentas para salvar conteúdo do Instagram de forma eficiente.",
+    "items": [
+      {
+        "title": "Visualizador de histórias anônimo",
+        "description": "<a href='/pt/instagram-story-viewer/' class='internal-link'>Veja Stories do Instagram anonimamente</a>, sem notificar o dono da conta, garantindo total privacidade.",
+        "imageUrl": "/img/reels_downloader.webp",
+        "imageAlt": "Reels Downloader"
+      },
+      {
+        "title": "Baixar Reels do Instagram",
+        "description": "<a href='/pt/instagram-reels-downloader/' class='internal-link'>Baixe Reels do Instagram</a> em alta qualidade e sem marcas d'água. Ideal para salvar vídeos curtos criativos ou que estão bombando.",
+        "imageUrl": "/img/carousel_downloader.webp",
+        "imageAlt": "Story Viewer"
+      },
+      {
+        "title": "Baixar fotos do Instagram",
+        "description": "<a href='/pt/instagram-photo-downloader/' class='internal-link'>Salve fotos do Instagram</a> na resolução original com um clique, perfeito para inspiração ou coleções pessoais.",
+        "imageUrl": "/img/photos_downloader.webp",
+        "imageAlt": "Photo Downloader"
+      },
+      {
+        "title": "Baixador de vídeos do Instagram",
+        "description": "<a href='/pt/' class='internal-link'>Baixe vídeos do Instagram</a> a partir de publicações em alta qualidade, com reprodução fluida e áudio nítido.",
+        "imageUrl": "/img/igtv_downloader.webp",
+        "imageAlt": "Story Downloader"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Perguntas frequentes - Downloader de Stories do Instagram",
+    "description": "",
+    "items": [
+      {
+        "question": "O SaveInstaVideo é gratuito para baixar para o Instagram Stories?",
+        "answer": "Sim, o SaveInstaVideo é totalmente gratuito. Você pode usar nosso aplicativo para salvar stories do Instagram sem assinaturas ou taxas ocultas."
+      },
+      {
+        "question": "Preciso fazer login para baixar Stories do Instagram?",
+        "answer": "Não é necessário fazer login. Basta colar o link do Story e começar a baixar seu story do Instagram instantaneamente."
+      },
+      {
+        "question": "Posso baixar Stories com fotos e vídeos?",
+        "answer": "Sim, o SaveInstaVideo permite baixar stories do Instagram em formatos de imagem e vídeo em alta qualidade."
+      },
+      {
+        "question": "O recurso de salvar Stories do Instagram preserva a qualidade dos Stories?",
+        "answer": "Sim, nossa ferramenta mantém a resolução e a nitidez originais sempre que disponíveis."
+      },
+      {
+        "question": "Posso baixar Stories do Instagram em dispositivos móveis?",
+        "answer": "Com certeza. O SaveInstaVideo funciona perfeitamente tanto em Android quanto em iOS, utilizando qualquer navegador moderno."
+      },
+      {
+        "question": "O recurso de salvar stories do Instagram é seguro?",
+        "answer": "Sim, não armazenamos dados do usuário, links ou histórico de downloads, garantindo uma experiência segura."
+      },
+      {
+        "question": "Em que formatos as Histórias são baixadas?",
+        "answer": "As Histórias em Vídeo são geralmente salvas no formato MP4, enquanto as Histórias em Foto são salvas em JPG ou formatos similares."
+      },
+      {
+        "question": "Posso baixar outros conteúdos do Instagram usando o SaveInstaVideo?",
+        "answer": "Sim, o SaveInstaVideo também permite baixar vídeos do Instagram, fotos e Reels de uma única plataforma."
+      }
+    ]
+  },
+  "footer": {
+    "description": "Descarregue vídeos, Reels e Stories do Instagram instantaneamente com o nosso downloader de vídeos do Instagram gratuito. Guarde o conteúdo HD de qualquer link do Instagram para o seu dispositivo de forma rápida, segura e sem registo.",
+    "pages": {
+      "pages_title": "Páginas",
+      "pages_link": [
+        {
+          "title": "Vídeo",
+          "url": "/pt/"
+        },
+        {
+          "title": "Foto",
+          "url": "/pt/instagram-photo-downloader/"
+        },
+        {
+          "title": "Reels",
+          "url": "/pt/instagram-reels-downloader/"
+        },
+        {
+          "title": "História",
+          "url": "/pt/instagram-story-downloader/"
+        },
+        {
+          "title": "Visualizador",
+          "url": "/pt/instagram-story-viewer/"
+        }
+      ]
+    },
+    "quick_links": {
+      "quick_links_title": "Links rápidos",
+      "quick_links_link": [
+        {
+          "title": "Mapa do site",
+          "url": "/sitemap.xml"
+        },
+        {
+          "title": "Sobre Nós",
+          "url": "/about-us/"
+        },
+        {
+          "title": "Contacto",
+          "url": "/contact-us/"
+        },
+        {
+          "title": "Política de Privacidade",
+          "url": "/privacy-policy/"
+        },
+        {
+          "title": "Termos e Condições",
+          "url": "/terms-of-service/"
+        }
+      ]
+    },
+    "copyright": "© 2020-2026 SaveInstaVideo. Todos os direitos reservados."
+  }
+}

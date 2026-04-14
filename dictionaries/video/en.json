@@ -1,0 +1,221 @@
+{
+  "meta": {
+    "title": "Instagram Video Downloader - Free Download Instagram Videos",
+    "description": "SaveInstaVideo is a free Instagram downloader to download instagram videos, Reels, photos, and Stories online. Works smoothly on mobile, tablet, and desktop.",
+    "keywords": "SaveInstaVideo, Instagram Video Downloader, Download Instagram Videos, Instagram Downloader, Download Instagram Video, Download Video IG"
+  },
+  "hero": {
+    "title": "Instagram Video Downloader ",
+    "subtitle": "High-quality Instagram video download made simple, fast, and secure."
+  },
+  "nav": {
+    "video": "Video",
+    "image": "Photo",
+    "reels": "Reels",
+    "story": "Story",
+    "viewer": "Viewer"
+  },
+  "form": {
+    "placeholder": "Paste Instagram Video URL",
+    "download_btn": "Download",
+    "paste": "Paste",
+    "clear": "Clear"
+  },
+  "page_introduction": {
+    "title": "SaveInstaVideo: Download Instagram Videos",
+    "description": [
+      "<a href='/' class='internal-link'>SaveInstaVideo</a> is a modern, reliable, and easy-to-use Instagram Video Downloader that helps you download Instagram videos, Reels, Stories, and photos in high quality. Designed for simplicity and speed, our platform allows users to perform smooth Instagram video download directly from their browser without complications.",
+      "Whether you are saving videos for offline viewing, content inspiration, or personal collections, SaveInstaVideo ensures a seamless experience across all devices."
+    ]
+  },
+  "what_section": {
+    "title": "What Is an Instagram Video Downloader?",
+    "description": [
+      "Instagram Video Downloader is a web-based tool that allows users to save Instagram videos, Reels, Stories, and photos directly to their devices. It works by processing the public Instagram link and converting it into a downloadable format while maintaining the original quality.",
+      "With SaveInstaVideo, users can confidently download Instagram videos in a quick, secure, and efficient way. Our Instagram downloader is designed to be intuitive, making it easy for anyone to download video IG content without technical knowledge."
+    ]
+  },
+  "how_to_download": {
+    "title": "How to Download Instagram Videos in 3 Simple Steps",
+    "description": "SaveInstaVideo makes Instagram video download fast and straightforward:",
+    "steps": [
+      {
+        "title": "Copy the Instagram Link",
+        "description": "Find the Instagram video, Reel, Story, or photo you want to save. Tap the share option and copy the link.",
+        "imageUrl": "/img/copy.webp",
+        "imageAlt": "Copy URL"
+      },
+      {
+        "title": "Paste the Link into SaveInstaVideo",
+        "description": "Open SaveInstaVideo.io and paste the copied link into the provided input field.",
+        "imageUrl": "/img/paste.webp",
+        "imageAlt": "Paste Link"
+      },
+      {
+        "title": "Download Instantly",
+        "description": "Click the Download button and save the content to your device in high quality within seconds.",
+        "imageUrl": "/img/download.webp",
+        "imageAlt": "Download File"
+      }
+    ]
+  },
+  "why_section": {
+    "title": "Why Choose SaveInstaVideo for Download from Instagram?",
+    "description": "SaveInstaVideo is built to deliver performance, quality, and convenience in one powerful Instagram Video Downloader.",
+    "items": [
+      {
+        "title": "Fast Download Speed",
+        "description": "Our optimized system processes Instagram links quickly, allowing users to download Instagram videos without waiting or interruptions.",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><g stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5'><path d='M36.75 26.25v7a3.5 3.5 0 0 1-3.5 3.5H8.75a3.5 3.5 0 0 1-3.5-3.5v-7M12.25 17.5 21 26.25l8.75-8.75M21 26.25v-21'></path></g></svg>"
+      },
+      {
+        "title": "High-Quality Video & Audio",
+        "description": "SaveInstaVideo preserves original resolution and sound clarity, ensuring every Instagram video download looks and sounds great.",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 215 215' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M67.1875 116.458H85.1042V127.656C85.1042 129.597 85.7402 131.204 87.0123 132.476C88.2844 133.748 89.8879 134.381 91.8229 134.375C93.7579 134.369 95.3645 133.733 96.6425 132.467C97.9206 131.201 98.5536 129.597 98.5417 127.656V87.3438C98.5417 85.4028 97.9056 83.7993 96.6335 82.5332C95.3615 81.2671 93.7579 80.631 91.8229 80.625C89.8879 80.6191 88.2844 81.2551 87.0123 82.5332C85.7402 83.8112 85.1042 85.4148 85.1042 87.3438V103.021H67.1875V87.3438C67.1875 85.4028 66.5515 83.7993 65.2794 82.5332C64.0073 81.2671 62.4038 80.631 60.4688 80.625C58.5338 80.6191 56.9302 81.2551 55.6581 82.5332C54.386 83.8112 53.75 85.4148 53.75 87.3438V127.656C53.75 129.597 54.386 131.204 55.6581 132.476C56.9302 133.748 58.5338 134.381 60.4688 134.375C62.4038 134.369 64.0103 133.733 65.2883 132.467C66.5664 131.201 67.1995 129.597 67.1875 127.656V116.458ZM120.938 134.375H152.292C154.83 134.375 156.959 133.515 158.679 131.795C160.399 130.075 161.256 127.949 161.25 125.417V89.5834C161.25 87.0452 160.39 84.9191 158.67 83.205C156.95 81.491 154.824 80.631 152.292 80.625H120.938C119.743 80.625 118.698 81.073 117.802 81.9688C116.906 82.8646 116.458 83.9098 116.458 85.1042V129.896C116.458 131.09 116.906 132.135 117.802 133.031C118.698 133.927 119.743 134.375 120.938 134.375ZM129.896 120.938V94.0625H147.813V120.938H129.896ZM35.8333 179.167C30.9063 179.167 26.6899 177.414 23.1842 173.908C19.6785 170.402 17.9226 166.183 17.9167 161.25V53.75C17.9167 48.823 19.6725 44.6066 23.1842 41.1009C26.6958 37.5952 30.9122 35.8393 35.8333 35.8334H179.167C184.094 35.8334 188.313 37.5892 191.825 41.1009C195.336 44.6125 197.089 48.8289 197.083 53.75V161.25C197.083 166.177 195.331 170.396 191.825 173.908C188.319 177.42 184.1 179.173 179.167 179.167H35.8333ZM35.8333 161.25H179.167V53.75H35.8333V161.25Z' fill='black'/></svg>"
+      },
+      {
+        "title": "Safe, Secure & Private",
+        "description": "User privacy is our priority. No registration, login, or personal data is required, making our Instagram downloader safe to use.",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 109 109' stroke-width='8' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M54.5 99.1877C54.5 99.1877 97 86.4466 97 54.5938' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M97 54.5939V16.3706C97 16.3706 82.8333 10 54.5 10' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M54.5 99.1877C54.5 99.1877 12 86.4466 12 54.5938' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M12 54.5939V16.3706C12 16.3706 26.1667 10 54.5 10' stroke='black' stroke-linecap='round' stroke-linejoin='round'/><path d='M82.8333 29.1118C54.5 48.2235 47.4167 73.7057 47.4167 73.7057C47.4167 73.7057 40.3333 66.1018 33.25 60.9646' stroke='black' stroke-linecap='round' stroke-linejoin='round'/></svg>"
+        
+      },
+      {
+        "title": "Works on All Devices",
+        "description": "Whether you’re using a smartphone, tablet, or desktop, SaveInstaVideo works smoothly across Android, iOS, Windows, and macOS.",
+        "iconsvg": "<svg width='42' height='42' viewBox='0 0 87 87' stroke-width='2' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M27.1875 81.5625H10.875C9.43289 81.5625 8.04984 80.9896 7.03011 79.9699C6.01038 78.9502 5.4375 77.5671 5.4375 76.125V43.5C5.4375 42.0579 6.01038 40.6748 7.03011 39.6551C8.04984 38.6354 9.43289 38.0625 10.875 38.0625H27.1875C28.6296 38.0625 30.0127 38.6354 31.0324 39.6551C32.0521 40.6748 32.625 42.0579 32.625 43.5V76.125C32.625 77.5671 32.0521 78.9502 31.0324 79.9699C30.0127 80.9896 28.6296 81.5625 27.1875 81.5625ZM10.875 43.5V76.125H27.1875V43.5H10.875Z' fill='black'/><path d='M76.125 10.875H16.3125C14.8704 10.875 13.4873 11.4479 12.4676 12.4676C11.4479 13.4873 10.875 14.8704 10.875 16.3125V32.625H16.3125V16.3125H76.125V54.375H38.0625V59.8125H43.5V70.6875H38.0625V76.125H62.5312V70.6875H48.9375V59.8125H76.125C77.5671 59.8125 78.9502 59.2396 79.9699 58.2199C80.9896 57.2002 81.5625 55.8171 81.5625 54.375V16.3125C81.5625 14.8704 80.9896 13.4873 79.9699 12.4676C78.9502 11.4479 77.5671 10.875 76.125 10.875Z' fill='black'/></svg>"
+      },
+      {
+        "title": "Browser-Based Convenience",
+        "description": "No software installation or extensions needed. You can download video IG content directly through your web browser.",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><path stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5' d='M21 38.5s14-7 14-17.5V8.75L21 3.5 7 8.75V21c0 10.5 14 17.5 14 17.5Z'></path></svg>"
+      },
+      {
+        "title": "User-Friendly Interface",
+        "description": "SaveInstaVideo features a clean and simple interface designed for all users. Clear buttons, minimal steps, and a responsive design make Instagram video download easy even for first-time users.",
+        "iconsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' fill='none'><g stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5'><path d='M35 5.25H7a3.5 3.5 0 0 0-3.5 3.5v17.5a3.5 3.5 0 0 0 3.5 3.5h28a3.5 3.5 0 0 0 3.5-3.5V8.75a3.5 3.5 0 0 0-3.5-3.5ZM14 36.75h14M21 29.75v7'></path></g></svg>"
+      }
+    ]
+  },
+  "features": {
+    "title": "SaveInstaVideo Features",
+    "description": "",
+    "items": [
+      {
+        "title": "Instagram Reels Downloader",
+        "description": "<a href='/instagram-reels-downloader/' class='internal-link'>Download Instagram Reels</a> in high quality without watermarks. Perfect for saving trending or favorite Reels for offline viewing.",
+        "imageUrl": "/img/reels_downloader.webp",
+        "imageAlt": "Reels Downloader"
+      },
+      {
+        "title": "Anonymous Story Viewer",
+        "description": "View and download <a href='/instagram-story-viewer/' class='internal-link'>Instagram Stories anonymously</a> while maintaining complete privacy and discretion.",
+        "imageUrl": "/img/carousel_downloader.webp",
+        "imageAlt": "Story Viewer"
+      },
+      {
+        "title": "Instagram Photo Downloader",
+        "description": "<a href='/instagram-photo-downloader/' class='internal-link'>Save Instagram photos</a> in their original resolution with just one click, ideal for inspiration or personal use.",
+        "imageUrl": "/img/photos_downloader.webp",
+        "imageAlt": "Photo Downloader"
+      },
+      {
+        "title": "Instagram Story Downloader",
+        "description": "<a href='/instagram-story-downloader/' class='internal-link'>Download Instagram Stories</a> quickly and smoothly, including both photo and video formats, without quality loss.",
+        "imageUrl": "/img/igtv_downloader.webp",
+        "imageAlt": "Story Downloader"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions (FAQs)",
+    "description": "",
+    "items": [
+      {
+        "question": "Is SaveInstaVideo free to use?",
+        "answer": "Yes, SaveInstaVideo is completely free. You can use our Instagram Video Downloader without paying any fees or creating an account."
+      },
+      {
+        "question": "Do I need to log in to download Instagram videos?",
+        "answer": "No login is required. Simply paste the Instagram link and start your Instagram video download instantly."
+      },
+      {
+        "question": "What type of Instagram content can I download?",
+        "answer": "SaveInstaVideo supports videos, Reels, Stories, and photos from public Instagram profiles in high quality."
+      },
+      {
+        "question": "Are the downloaded videos saved in good quality?",
+        "answer": "Yes, our Instagram downloader maintains the original video resolution and audio clarity whenever available."
+      },
+      {
+        "question": "Can I use SaveInstaVideo on mobile devices?",
+        "answer": "Yes, SaveInstaVideo works smoothly on both Android and iOS devices using any modern browser."
+      },
+      {
+        "question": "Is my data safe while using SaveInstaVideo?",
+        "answer": "Absolutely. We do not store user data, download history, or shared links, ensuring a secure experience."
+      },
+      {
+        "question": "What format are Instagram videos downloaded in?",
+        "answer": "Most Instagram videos are downloaded in MP4 format, which is widely supported on all devices."
+      },
+      {
+        "question": "Are there any limits on downloads?",
+        "answer": "There are no daily limits. You can download Instagram videos as often as you want, one link at a time."
+      }
+    ]
+  },
+  "footer": {
+    "description": "Download Instagram videos, Reels, and Stories instantly with our free Instagram Video Downloader. Save HD content from any Instagram link to your device fast, safe, and without signup.",
+    "pages": { 
+      "pages_title": "Pages",
+      "pages_link": [
+        {
+          "title": "Video",
+          "url": "/"
+        },
+        {
+          "title": "Photo",
+          "url": "/instagram-photo-downloader/"
+        },
+        {
+          "title": "Reels",
+          "url": "/instagram-reels-downloader/"
+        },
+        {
+          "title": "Story",
+          "url": "/instagram-story-downloader/"
+        },
+        {
+          "title": "Viewer",
+          "url": "/instagram-story-viewer/"
+        }
+      ]
+    },
+    "quick_links": {
+      "quick_links_title": "Quick Links",
+      "quick_links_link": [
+        {
+          "title": "Sitemap",
+          "url": "/sitemap.xml"
+        },
+        {
+          "title": "About Us",
+          "url": "/about-us/"
+        },
+        {
+          "title": "Contact Us",
+          "url": "/contact-us/"
+        },
+        {
+          "title": "Privacy Policy",
+          "url": "/privacy-policy/"
+        },
+        {
+          "title": "Terms & Conditions",
+          "url": "/terms-of-service/"
+        }
+      ]
+    },
+    "copyright": "© 2020-2026 SaveInstaVideo. All rights reserved."
+  }
+}
