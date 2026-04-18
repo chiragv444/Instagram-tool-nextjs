@@ -1,39 +1,51 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import {
   getCachedPageDictionary,
   getDictionaryKeyForRequestPathname,
 } from "@/lib/dictionaries/server";
 import { getDefaultMetadataBase } from "@/lib/marketing-hreflang";
+import { openGraphLocaleForSiteLocale } from "@/lib/og-locale";
 import { getRequestLocale, getRequestPathname } from "@/lib/request-locale";
 import Footer from "./components/footer";
 import Header from "./components/header";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
-export const metadata: Metadata = {
-  metadataBase: getDefaultMetadataBase(),
-  title: {
-    default: "SaveInstaVideo",
-    template: "%s",
-  },
-  description:
-    "Download and save your favorite Instagram videos easily. Fast, free, and simple to use.",
-  icons: {
-    icon: "/img/favicon.png",
-    shortcut: "/img/favicon.png",
-    apple: "/img/favicon.png",
-  },
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+  themeColor: "#ffffff",
 };
+
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = await getRequestLocale();
+  return {
+    metadataBase: getDefaultMetadataBase(),
+    title: {
+      default: "SaveInstaVideo",
+      template: "%s",
+    },
+    description:
+      "Download and save your favorite Instagram videos easily. Fast, free, and simple to use.",
+    icons: {
+      icon: "/img/favicon.png",
+      shortcut: "/img/favicon.png",
+      apple: "/img/favicon.png",
+    },
+    robots: {
+      index: true,
+      follow: true,
+    },
+    authors: [{ name: "saveinstavideo" }],
+    publisher: "saveinstavideo.io",
+    openGraph: {
+      locale: openGraphLocaleForSiteLocale(locale),
+      images: [{ url: "/img/favicon.png" }],
+    },
+  };
+}
 
 export default async function RootLayout({
   children,
@@ -49,7 +61,7 @@ export default async function RootLayout({
   return (
     <html
       lang={locale}
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
         <Header logoHref={logoHref} />
