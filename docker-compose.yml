@@ -1,0 +1,9 @@
+services:
+  saveinstavideo:
+    build: .
+    container_name: saveinstavideo
+    restart: unless-stopped
+    ports:
+      - "3003:3003"
+    env_file:
+      - .env

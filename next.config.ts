@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  output: "standalone",
   /** Redirect `/es` → `/es/`, `/pl/foo` → `/pl/foo/`, etc. */
   trailingSlash: true,
   /**
