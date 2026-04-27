@@ -63,10 +63,7 @@ export async function middleware(request: NextRequest) {
   requestHeaders.set("x-locale", locale);
   requestHeaders.set("x-pathname", pathname);
 
-  if (
-    process.env.DISABLE_HEAD_REORDER !== "1" &&
-    isHtmlDocumentRequest(request)
-  ) {
+  if (isHtmlDocumentRequest(request)) {
     try {
       const internalHeaders = new Headers(request.headers);
       internalHeaders.set(HEAD_REORDER_INTERNAL, "1");
