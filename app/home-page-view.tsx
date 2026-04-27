@@ -183,7 +183,7 @@ export async function MarketingPageView({
                   />
                 </div>
                 <div className="p-5 text-left">
-                  <h3 className="text-3xl font-bold leading-snug text-[#1d4ed8]">
+                  <h3 className="text-xl font-bold leading-snug text-[#1d4ed8]">
                     {item.title}
                   </h3>
                   <p

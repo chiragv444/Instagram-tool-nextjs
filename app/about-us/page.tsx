@@ -4,7 +4,7 @@ function AboutUs() {
   return (
     <div className="container max-w-6xl mx-auto footer-content py-6">
       <div className="mb-6 flex flex-col gap-4">
-        <h1 className="text-4xl font-extrabold text-blue-700 mb-4 text-center">
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-blue-700 mb-4 text-center">
           About Us
         </h1>
 
@@ -28,7 +28,7 @@ function AboutUs() {
           steps.
         </p>
 
-        <h3 className="text-2xl font-bold mt-4">What We Do</h3>
+        <h3 className="text-xl font-bold mt-4">What We Do</h3>
         <p>
           SaveInstaVideo.io is built to simplify Instagram downloads. With just
           a few clicks, you can save high-quality Instagram content and enjoy it
@@ -45,7 +45,7 @@ function AboutUs() {
           can get what they need without frustration.
         </p>
 
-        <h3 className="text-2xl font-bold mt-4">
+        <h3 className="text-xl font-bold mt-4">
           Why Choose SaveInstaVideo.io?
         </h3>
         <ul>
@@ -69,14 +69,14 @@ function AboutUs() {
           </li>
         </ul>
 
-        <h3 className="text-2xl font-bold mt-4">Our Vision</h3>
+        <h3 className="text-xl font-bold mt-4">Our Vision</h3>
         <p>
           Our vision is to become a trusted and go-to Instagram video downloader
           for users worldwide. We believe downloading Instagram content should
           be simple, accessible, and secure for everyone.
         </p>
 
-        <h3 className="text-2xl font-bold mt-4">
+        <h3 className="text-xl font-bold mt-4">
           Respect for Privacy & Content
         </h3>
         <p>

@@ -1,7 +1,7 @@
 export default function FaqPage() {
   return (
     <section className="max-w-5xl mx-auto px-4 py-12">
-      <h1 className="text-4xl font-bold text-center text-[#1923B8] mb-4">
+      <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-center text-[#1923B8] mb-4">
         Frequently Asked Questions – SaveInstaVideo
       </h1>
 
@@ -9,7 +9,7 @@ export default function FaqPage() {
 
       <div className="space-y-8">
         <div>
-          <h3 className="text-lg font-bold text-[#1923B8] mb-2">
+          <h3 className="text-xl font-bold text-[#1923B8] mb-2">
             What is SaveInstaVideo and why should I use it?
           </h3>
           <p className="text-gray-800 leading-relaxed">
@@ -22,7 +22,7 @@ export default function FaqPage() {
         </div>
 
         <div>
-          <h3 className="text-lg font-bold text-[#1923B8] mb-2">
+          <h3 className="text-xl font-bold text-[#1923B8] mb-2">
             How does SaveInstaVideo work?
           </h3>
           <p className="text-gray-800 leading-relaxed">
@@ -34,7 +34,7 @@ export default function FaqPage() {
         </div>
 
         <div>
-          <h3 className="text-lg font-bold text-[#1923B8] mb-2">
+          <h3 className="text-xl font-bold text-[#1923B8] mb-2">
             What are the main advantages of SaveInstaVideo?
           </h3>
           <p className="text-gray-800 leading-relaxed mb-2">
@@ -51,7 +51,7 @@ export default function FaqPage() {
         </div>
 
         <div>
-          <h3 className="text-lg font-bold text-[#1923B8] mb-2">
+          <h3 className="text-xl font-bold text-[#1923B8] mb-2">
             Where are downloaded Instagram files saved?
           </h3>
           <p className="text-gray-800 leading-relaxed">
@@ -64,7 +64,7 @@ export default function FaqPage() {
         </div>
 
         <div>
-          <h3 className="text-lg font-bold text-[#1923B8] mb-2">
+          <h3 className="text-xl font-bold text-[#1923B8] mb-2">
             What quality does SaveInstaVideo provide?
           </h3>
           <p className="text-gray-800 leading-relaxed">
@@ -75,7 +75,7 @@ export default function FaqPage() {
         </div>
 
         <div>
-          <h3 className="text-lg font-bold text-[#1923B8] mb-2">
+          <h3 className="text-xl font-bold text-[#1923B8] mb-2">
             Can I download private Instagram posts?
           </h3>
           <p className="text-gray-800 leading-relaxed">
@@ -86,7 +86,7 @@ export default function FaqPage() {
         </div>
 
         <div>
-          <h3 className="text-lg font-bold text-[#1923B8] mb-2">
+          <h3 className="text-xl font-bold text-[#1923B8] mb-2">
             Is it legal to download Instagram videos and photos?
           </h3>
           <p className="text-gray-800 leading-relaxed">
@@ -99,7 +99,7 @@ export default function FaqPage() {
         </div>
 
         <div>
-          <h3 className="text-lg font-bold text-[#1923B8] mb-2">
+          <h3 className="text-xl font-bold text-[#1923B8] mb-2">
             Which operating systems are supported?
           </h3>
           <p className="text-gray-800 leading-relaxed mb-2">
@@ -119,7 +119,7 @@ export default function FaqPage() {
         </div>
 
         <div>
-          <h3 className="text-lg font-bold text-[#1923B8] mb-2">
+          <h3 className="text-xl font-bold text-[#1923B8] mb-2">
             Can I download multiple Instagram videos at once?
           </h3>
           <p className="text-gray-800 leading-relaxed">
@@ -130,7 +130,7 @@ export default function FaqPage() {
         </div>
 
         <div>
-          <h3 className="text-lg font-bold text-[#1923B8] mb-2">
+          <h3 className="text-xl font-bold text-[#1923B8] mb-2">
             Which devices can I use with SaveInstaVideo?
           </h3>
           <p className="text-gray-800 leading-relaxed mb-2">
@@ -151,7 +151,7 @@ export default function FaqPage() {
         </div>
 
         <div>
-          <h3 className="text-lg font-bold text-[#1923B8] mb-2">
+          <h3 className="text-xl font-bold text-[#1923B8] mb-2">
             Does SaveInstaVideo store downloaded files?
           </h3>
           <p className="text-gray-800 leading-relaxed">
@@ -163,7 +163,7 @@ export default function FaqPage() {
         </div>
 
         <div>
-          <h3 className="text-lg font-bold text-[#1923B8] mb-2">
+          <h3 className="text-xl font-bold text-[#1923B8] mb-2">
             Copyright notice
           </h3>
           <p className="text-gray-800 leading-relaxed">

@@ -4,7 +4,7 @@ function ContactUs() {
   return (
     <div className="container max-w-6xl mx-auto footer-content py-6">
       <div className="mb-6 flex flex-col gap-4">
-        <h1 className="text-4xl font-extrabold text-blue-700 mb-4 text-center">
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-blue-700 mb-4 text-center">
           Contact Us
         </h1>
 
@@ -22,7 +22,7 @@ function ContactUs() {
           want to share your thoughts, feel free to get in touch with us.
         </p>
 
-        <h3 className="text-2xl font-bold mt-4">How Can We Help You?</h3>
+        <h3 className="text-xl font-bold mt-4">How Can We Help You?</h3>
         <p>You can contact us for:</p>
         <ul>
           <li>Questions about using SaveInstaVideo.io</li>
@@ -31,7 +31,7 @@ function ContactUs() {
           <li>General inquiries about our services</li>
         </ul>
 
-        <h3 className="text-2xl font-bold mt-4">Get in Touch</h3>
+        <h3 className="text-xl font-bold mt-4">Get in Touch</h3>
         <p>For all inquiries, please reach out to us via email:</p>
         <p>
           <b>Email:</b> support@saveinstavideo.io
@@ -41,7 +41,7 @@ function ContactUs() {
           <b>24–48 hours</b>.
         </p>
 
-        <h3 className="text-2xl font-bold mt-4">Important Note</h3>
+        <h3 className="text-xl font-bold mt-4">Important Note</h3>
         <p>
           SaveInstaVideo.io is an independent online tool and is not affiliated
           with Instagram or Meta. We do not host or store any downloaded content
