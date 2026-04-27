@@ -588,12 +588,15 @@ function SearchDownloadBlock() {
             </div>
             <div id="result-image-container" className="hidden rounded-lg overflow-hidden bg-gray-50">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
+              {/* <img
                 id="result-image"
                 src="/file.svg"
                 alt="Instagram preview"
+                loading="lazy"
+                fetchPriority="low"
+                decoding="async"
                 className="w-full h-full object-cover"
-              />
+              /> */}
             </div>
           </div>
           <div className="flex-1 space-y-4">

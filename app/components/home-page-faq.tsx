@@ -27,12 +27,12 @@ export default function HomePageFaq({ title, description, items }: Props) {
 
   return (
     <section
-      className="container max-w-6xl mx-auto my-8 px-4"
+      className="container max-w-6xl mx-auto my-3 px-4"
       itemScope
       itemProp="mainEntity"
       itemType="https://schema.org/FAQPage"
     >
-      <h2 className="text-3xl font-bold text-center text-[#1923B8] mb-4">
+      <h2 className="text-[26px] font-bold text-center text-[#1923B8] mb-4">
         {title}
       </h2>
       <div className="h-[3px] bg-gradient-to-r from-[#6a4bff] via-[#b232e9] to-[#ff1667] mx-auto mb-6" />
@@ -52,7 +52,7 @@ export default function HomePageFaq({ title, description, items }: Props) {
           >
             <button
               type="button"
-              className="border-b-[1px] border-indigo-50 py-2 px-5 mt-0 bg-indigo-50 text-black font-medium flex items-center text-[18px] sm:text-[18px] cursor-pointer relative mb-0 faq-question w-full text-left"
+              className="border-b-[1px] border-indigo-50 py-2 px-5 mt-0 bg-indigo-50 text-black font-medium flex items-center text-xl cursor-pointer relative mb-0 faq-question w-full text-left"
               data-index={idx}
               onClick={() => toggle(idx)}
             >

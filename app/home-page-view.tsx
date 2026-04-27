@@ -46,7 +46,7 @@ export async function MarketingPageView({
   const useMockApi = process.env.NEXT_PUBLIC_USE_MOCK_API === "true";
 
   return (
-    <div className="flex flex-col flex-1 bg-zinc-50 font-sans">
+    <div className="flex flex-col flex-1 bg-zinc-50">
       <Hero
         locale={locale}
         nav={c.nav}
@@ -57,8 +57,8 @@ export async function MarketingPageView({
 
       <HeroInstagramMarkup />
 
-      <section className="container max-w-6xl mx-auto my-8 px-4">
-        <h2 className="text-3xl font-bold text-center text-[#1923B8] mb-4">
+      <section className="container max-w-6xl mx-auto my-3 px-4">
+        <h2 className="text-[26px] font-bold text-center text-[#1923B8] mb-4">
           {c.introduction.title}
         </h2>
         <SectionRule />
@@ -71,8 +71,8 @@ export async function MarketingPageView({
         ))}
       </section>
 
-      <section className="container max-w-6xl mx-auto my-8 px-4">
-        <h2 className="text-3xl font-bold text-center text-[#1923B8] mb-4">
+      <section className="container max-w-6xl mx-auto my-3 px-4">
+        <h2 className="text-[26px] font-bold text-center text-[#1923B8] mb-4">
           {c.whatSection.title}
         </h2>
         <SectionRule />
@@ -85,12 +85,12 @@ export async function MarketingPageView({
         ))}
       </section>
 
-      <section className="container max-w-6xl mx-auto my-8 px-4">
-        <h2 className="text-3xl font-bold text-center text-[#1923B8] mb-4">
+      <section className="container max-w-6xl mx-auto my-3 px-4">
+        <h2 className="text-[26px] font-bold text-center text-[#1923B8] mb-4">
           {c.howToDownload.title}
         </h2>
         <SectionRule />
-        <p className="text-center text-lg text-gray-700 max-w-3xl mx-auto mb-10 leading-relaxed">
+        <p className="text-center text-base text-gray-700 max-w-3xl mx-auto mb-10 leading-relaxed">
           {c.howToDownload.description}
         </p>
         <div className="flex flex-col gap-10 items-center mt-10">
@@ -125,12 +125,12 @@ export async function MarketingPageView({
         </div>
       </section>
 
-      <section className="container max-w-6xl mx-auto my-8 px-4">
-        <h2 className="text-3xl font-bold text-center text-[#1923B8] mb-4">
+      <section className="container max-w-6xl mx-auto my-3 px-4">
+        <h2 className="text-[26px] font-bold text-center text-[#1923B8] mb-4">
           {c.whySection.title}
         </h2>
         <SectionRule />
-        <p className="text-center text-lg text-gray-700 max-w-3xl mx-auto mb-10 leading-relaxed">
+        <p className="text-center text-base text-gray-700 max-w-3xl mx-auto mb-10 leading-relaxed">
           {c.whySection.description}
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-6">
@@ -147,7 +147,7 @@ export async function MarketingPageView({
                 {item.title}
               </h3>
               <p
-                className="text-gray-700 text-lg text-justify"
+                className="text-gray-700 text-base text-justify"
                 dangerouslySetInnerHTML={{ __html: item.description }}
               />
             </div>
@@ -155,13 +155,13 @@ export async function MarketingPageView({
         </div>
       </section>
 
-      <section className="container max-w-6xl mx-auto my-8 px-4">
-        <h2 className="text-3xl font-bold text-center text-[#1923B8] mb-4">
+      <section className="container max-w-6xl mx-auto my-3 px-4">
+        <h2 className="text-[26px] font-bold text-center text-[#1923B8] mb-4">
           {c.features.title}
         </h2>
         <SectionRule />
         {c.features.description ? (
-          <p className="text-center text-lg text-gray-700 max-w-3xl mx-auto mb-10 leading-relaxed">
+          <p className="text-center text-base text-gray-700 max-w-3xl mx-auto mb-10 leading-relaxed">
             {c.features.description}
           </p>
         ) : null}

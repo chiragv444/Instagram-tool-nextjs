@@ -283,11 +283,11 @@ export default function Hero({
             )}
             {hero?.subtitleHtml ? (
               <p
-                className="mt-3 text-sm md:text-base text-white/90 max-w-3xl mx-auto"
+                className="mt-3 text-base text-white/90 max-w-3xl mx-auto"
                 dangerouslySetInnerHTML={{ __html: hero?.subtitle ?? "" }}
               />
             ) : (
-              <p className="mt-3 text-sm md:text-base text-white/90 max-w-3xl mx-auto">
+              <p className="mt-3 text-base text-white/90 max-w-3xl mx-auto">
                 {hero?.subtitle ?? ""}
               </p>
             )}
