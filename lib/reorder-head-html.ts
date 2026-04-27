@@ -122,6 +122,42 @@ function reorderMetaBlockBeforeAssets(inner: string): string | null {
 
   if (metaStart <= sheetIdx) return null;
 
+  function endOfTagStartingAt(start: number): number {
+    const endSelf = inner.indexOf("/>", start);
+    const endGt = inner.indexOf(">", start);
+    if (endSelf !== -1 && (endGt === -1 || endSelf < endGt)) return endSelf + 2;
+    if (endGt !== -1) return endGt + 1;
+    return -1;
+  }
+
+  /** Best-effort end position for the SEO metadata block. */
+  function guessSeoMetaEnd(startAt: number): number {
+    const needles = [
+      '<meta name="twitter:image"',
+      '<meta name="twitter:description"',
+      '<meta name="twitter:title"',
+      '<meta name="twitter:card"',
+      '<meta property="og:image"',
+      '<meta property="og:description"',
+      '<meta property="og:title"',
+      '<link rel="alternate"',
+      '<link rel="canonical"',
+    ] as const;
+
+    let lastEnd = -1;
+    for (const needle of needles) {
+      let pos = startAt;
+      while (pos < inner.length) {
+        const s = inner.indexOf(needle, pos);
+        if (s === -1) break;
+        const end = endOfTagStartingAt(s);
+        if (end !== -1) lastEnd = Math.max(lastEnd, end);
+        pos = s + 1;
+      }
+    }
+    return lastEnd;
+  }
+
   let metaEnd = -1;
   const appleIdx = inner.indexOf('<link rel="apple-touch-icon"', metaStart);
   if (appleIdx !== -1) {
@@ -132,6 +168,9 @@ function reorderMetaBlockBeforeAssets(inner: string): string | null {
       metaEnd = inner.indexOf("/>", shortcutIdx) + 2;
     }
   }
+  if (metaEnd === -1) {
+    metaEnd = guessSeoMetaEnd(metaStart);
+  }
   if (metaEnd === -1) return null;
 
   const preamble = inner.slice(0, sheetIdx);
@@ -140,6 +179,115 @@ function reorderMetaBlockBeforeAssets(inner: string): string | null {
   const tail = inner.slice(metaEnd);
 
   return preamble + metaBlock + assets + tail;
+}
+
+/**
+ * Moves Next.js framework assets (`/_next/static/*`) to after SEO tags.
+ *
+ * By default Next.js emits CSS + runtime scripts early in `<head>` for performance.
+ * This moves them later (still inside `<head>`) so canonical/hreflang/OG/Twitter tags
+ * are not preceded by framework assets in the document source.
+ */
+function moveNextAssetsAfterSeo(inner: string): string {
+  function endOfTagStartingAt(html: string, start: number): number {
+    const endSelf = html.indexOf("/>", start);
+    const endGt = html.indexOf(">", start);
+    if (endSelf !== -1 && (endGt === -1 || endSelf < endGt)) return endSelf + 2;
+    if (endGt !== -1) return endGt + 1;
+    return -1;
+  }
+
+  function endOfScriptStartingAt(html: string, start: number): number {
+    const close = html.indexOf("</script>", start);
+    if (close === -1) return -1;
+    return close + "</script>".length;
+  }
+
+  function findSeoEnd(html: string): number {
+    // Prefer "twitter:image" as the true end of SEO meta for marketing pages.
+    const needles = [
+      '<meta name="twitter:image"',
+      '<meta property="og:image"',
+      '<link rel="alternate"',
+      '<link rel="canonical"',
+    ] as const;
+
+    let lastEnd = -1;
+    for (const needle of needles) {
+      let pos = 0;
+      while (pos < html.length) {
+        const s = html.indexOf(needle, pos);
+        if (s === -1) break;
+        const end = endOfTagStartingAt(html, s);
+        if (end !== -1) lastEnd = Math.max(lastEnd, end);
+        pos = s + 1;
+      }
+    }
+    return lastEnd;
+  }
+
+  type Span = { start: number; end: number; html: string };
+
+  const seoEnd = findSeoEnd(inner);
+  if (seoEnd === -1) return inner;
+
+  const spans: Span[] = [];
+
+  // Collect Next CSS + preloads + scripts only in the area before SEO end.
+  let pos = 0;
+  while (pos < seoEnd) {
+    const nextLink = inner.indexOf("<link", pos);
+    const nextScript = inner.indexOf("<script", pos);
+    let start = -1;
+    let kind: "link" | "script" | null = null;
+    if (nextLink !== -1 && (nextScript === -1 || nextLink < nextScript)) {
+      start = nextLink;
+      kind = "link";
+    } else if (nextScript !== -1) {
+      start = nextScript;
+      kind = "script";
+    } else {
+      break;
+    }
+
+    if (start === -1) break;
+
+    if (kind === "link") {
+      const end = endOfTagStartingAt(inner, start);
+      if (end === -1) break;
+      const tag = inner.slice(start, end);
+      const isNextAsset =
+        (tag.includes('rel="stylesheet"') || tag.includes('rel="preload"')) &&
+        tag.includes("/_next/static/");
+      if (isNextAsset) spans.push({ start, end, html: tag });
+      pos = end;
+      continue;
+    }
+
+    const end = endOfScriptStartingAt(inner, start);
+    if (end === -1) break;
+    const tag = inner.slice(start, end);
+    const isNextAsset = tag.includes('src="/_next/static/');
+    if (isNextAsset) spans.push({ start, end, html: tag });
+    pos = end;
+  }
+
+  if (spans.length === 0) return inner;
+
+  // Remove spans (back to front).
+  let stripped = inner;
+  spans.sort((a, b) => a.start - b.start);
+  for (let i = spans.length - 1; i >= 0; i--) {
+    const s = spans[i]!;
+    stripped = stripped.slice(0, s.start) + stripped.slice(s.end);
+  }
+
+  // Insert after SEO end (recomputed after stripping).
+  const newSeoEnd = findSeoEnd(stripped);
+  if (newSeoEnd === -1) return inner;
+
+  const moved = spans.map((s) => s.html).join("");
+  return stripped.slice(0, newSeoEnd) + moved + stripped.slice(newSeoEnd);
 }
 
 const SITEMAP_LINK =
@@ -215,6 +363,7 @@ export function reorderHeadHtml(html: string): string {
     inner = assetsReordered;
   }
   inner = moveGlobalMetaBeforeCanonical(inner);
+  inner = moveNextAssetsAfterSeo(inner);
   inner = insertSitemapLinkAfterAlternates(inner);
   inner = insertGoogleTagAfterSitemap(inner);
 
