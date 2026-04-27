@@ -16,6 +16,7 @@ const MARKETING_PATH: Record<DictionaryPageKey, string> = {
  *
  * - Production: set `NEXT_PUBLIC_SITE_URL` (e.g. `https://saveinstavideo.io`)
  * - Vercel: falls back to `VERCEL_URL`
+ * - Production fallback: `https://saveinstavideo.io`
  * - Local: `http://localhost:$PORT` (default port 3000)
  */
 export function getDefaultMetadataBase(): URL {
@@ -28,6 +29,9 @@ export function getDefaultMetadataBase(): URL {
   if (vercel) {
     const host = vercel.replace(/^https?:\/\//, "").replace(/\/+$/, "");
     return new URL(`https://${host}/`);
+  }
+  if (process.env.NODE_ENV === "production") {
+    return new URL("https://saveinstavideo.io/");
   }
   const port = process.env.PORT || "3000";
   return new URL(`http://localhost:${port}/`);
