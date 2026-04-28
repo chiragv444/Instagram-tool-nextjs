@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { Open_Sans } from "next/font/google";
 import {
   getCachedPageDictionary,
   getDictionaryKeyForRequestPathname,
@@ -9,6 +10,12 @@ import { getRequestLocale, getRequestPathname } from "@/lib/request-locale";
 import Footer from "./components/footer";
 import Header from "./components/header";
 import "./globals.css";
+
+const openSans = Open_Sans({
+  subsets: ["latin"],
+  variable: "--font-open-sans",
+  display: "swap",
+});
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -60,7 +67,7 @@ export default async function RootLayout({
   return (
     <html
       lang={locale}
-      className={`h-full antialiased`}
+      className={`h-full antialiased ${openSans.variable}`}
     >
       <body className="min-h-full flex flex-col">
         <Header logoHref={logoHref} />

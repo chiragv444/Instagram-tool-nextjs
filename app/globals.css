@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap");
 @import "tailwindcss";
 
 /* Header: desktop nav visibility (matches legacy pinvideodown-menu IDs) */
@@ -31,7 +30,7 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif !important;
+  font-family: var(--font-open-sans), "Open Sans", sans-serif !important;
 }
 
 .internal-link {
@@ -43,3 +42,22 @@ body {
 .internal-link:hover {
   color: #6a4bff !important;
 }
+
+/* h1 {
+  font-size: 2.25rem !important;
+}
+h2 {
+  font-size: 1.875rem !important;
+}
+h3 {
+  font-size: 1.5rem !important;
+}
+h4 {
+  font-size: 1.25rem !important;
+}
+h5 {
+  font-size: 1.125rem !important;
+}
+h6 {
+  font-size: 1rem !important;
+} */
