@@ -44,6 +44,10 @@ function resolveLocaleAndMaybeRedirect(request: NextRequest): {
   return { locale, pathname };
 }
 
+function getHomePathForLocale(locale: string): string {
+  return locale === "en" ? "/" : `/${locale}/`;
+}
+
 export async function middleware(request: NextRequest) {
   if (request.headers.get(HEAD_REORDER_INTERNAL) === "1") {
     const { locale, pathname, redirect } = resolveLocaleAndMaybeRedirect(request);
@@ -93,8 +97,7 @@ export async function middleware(request: NextRequest) {
         // If upstream returned 404, redirect to home with 302.
         if (res.status === 404) {
           const url = request.nextUrl.clone();
-          // Prefer locale-aware home if a locale prefix is present.
-          url.pathname = locale ? `/${locale}/` : "/";
+          url.pathname = getHomePathForLocale(locale);
           return NextResponse.redirect(url, 302);
         }
 
