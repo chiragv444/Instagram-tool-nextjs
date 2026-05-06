@@ -63,19 +63,6 @@ export async function middleware(request: NextRequest) {
   requestHeaders.set("x-locale", locale);
   requestHeaders.set("x-pathname", pathname);
 
-  // Enforce trailing slash for non-file paths (site uses `trailingSlash: true`).
-  // If a user requests a page without the trailing slash, redirect with 302.
-  if (
-    isHtmlDocumentRequest(request) &&
-    pathname !== "/" &&
-    !pathname.endsWith("/") &&
-    !pathname.includes(".")
-  ) {
-    const url = request.nextUrl.clone();
-    url.pathname = pathname + "/";
-    return NextResponse.redirect(url, 302);
-  }
-
   if (isHtmlDocumentRequest(request)) {
     try {
       const internalHeaders = new Headers(request.headers);
@@ -90,14 +77,6 @@ export async function middleware(request: NextRequest) {
 
       const ct = res.headers.get("content-type") ?? "";
       if (ct.includes("text/html")) {
-        // If upstream returned 404, redirect to home with 302.
-        if (res.status === 404) {
-          const url = request.nextUrl.clone();
-          // Prefer locale-aware home if a locale prefix is present.
-          url.pathname = locale ? `/${locale}/` : "/";
-          return NextResponse.redirect(url, 302);
-        }
-
         const html = await res.text();
         const body = reorderHeadHtml(html);
         const out = new NextResponse(body, {
