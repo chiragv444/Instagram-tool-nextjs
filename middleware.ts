@@ -87,6 +87,13 @@ export async function middleware(request: NextRequest) {
       const ct = res.headers.get("content-type") ?? "";
       if (ct.includes("text/html")) {
         const html = await res.text();
+        
+        if (html.includes('id="not-found-intercept"')) {
+          const url = request.nextUrl.clone();
+          url.pathname = "/";
+          return NextResponse.redirect(url, 302);
+        }
+
         const body = reorderHeadHtml(html);
         const out = new NextResponse(body, {
           status: res.status,
