@@ -30,7 +30,8 @@
 }
 
 body {
-  font-family: var(--font-open-sans), "Open Sans", sans-serif !important;
+  /* font-family: var(--font-open-sans), "Open Sans", sans-serif !important; */
+  font-family: EB Garamond, serif !important;
 }
 
 .internal-link {
