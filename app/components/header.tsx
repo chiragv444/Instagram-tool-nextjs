@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useEffect, useRef, useState } from "react";
 import { stripLocaleFromPath } from "@/lib/i18n-config";
 
 const LANGUAGES: { code: string; label: string }[] = [
@@ -81,6 +82,23 @@ export default function Header({
 }: HeaderProps) {
   const pathname = usePathname();
   const currentRoute = currentRouteProp ?? pathname ?? "/";
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setIsMenuOpen(false);
+      }
+    }
+
+    if (isMenuOpen) {
+      document.addEventListener("mousedown", handleClickOutside);
+      return () => {
+        document.removeEventListener("mousedown", handleClickOutside);
+      };
+    }
+  }, [isMenuOpen]);
 
   return (
     <header className="bg-white z-50">
@@ -101,13 +119,15 @@ export default function Header({
           <div className="flex items-center gap-10">
             <div
               id="lang-dropdown"
+              ref={dropdownRef}
               className="relative has-dropdown group"
             >
               <button
                 id="lang-dropdown-trigger"
                 type="button"
                 aria-haspopup="true"
-                aria-expanded="false"
+                aria-expanded={isMenuOpen}
+                onClick={() => setIsMenuOpen(!isMenuOpen)}
                 className="flex items-center gap-2 bg-white drop-shadow-[0_0_24px_rgba(0,0,0,0.1)] px-2 md:px-5 py-2 md:py-3 rounded-full cursor-pointer"
               >
                 <Image
@@ -133,13 +153,16 @@ export default function Header({
               </button>
               <div
                 id="lang-dropdown-menu"
-                className="hidden group-hover:block absolute right-0 top-[36px] mt-2 bg-white border border-gray-200 shadow-md rounded-md p-1 md:p-2 w-[168px]"
+                className={`${
+                  isMenuOpen ? "block" : "hidden"
+                } group-hover:block absolute right-0 top-[36px] mt-2 bg-white border border-gray-200 shadow-md rounded-md p-1 md:p-2 w-[168px]`}
               >
                 <ul className="list-none">
                   {LANGUAGES.map(({ code, label }) => (
                     <li key={code}>
                       <Link
                         href={makeLanguageHref(code, currentRoute, getLanguageRoute)}
+                        onClick={() => setIsMenuOpen(false)}
                         className="block px-3 md:py-2 py-1 text-sm text-gray-700 hover:bg-gray-50 lang-item"
                       >
                         {label}
