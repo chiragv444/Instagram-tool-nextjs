@@ -1,6 +1,10 @@
 import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
-import { getLocaleHomePath, LOCALE_PREFIX_SET } from "@/lib/i18n-config";
+import {
+  getLocaleHomePath,
+  isKnownAppPath,
+  LOCALE_PREFIX_SET,
+} from "@/lib/i18n-config";
 import { reorderHeadHtml } from "@/lib/reorder-head-html";
 
 const HEAD_REORDER_INTERNAL = "x-head-reorder-internal";
@@ -58,6 +62,12 @@ export async function middleware(request: NextRequest) {
 
   const { locale, pathname, redirect } = resolveLocaleAndMaybeRedirect(request);
   if (redirect) return redirect;
+
+  if (!isKnownAppPath(pathname)) {
+    const url = request.nextUrl.clone();
+    url.pathname = getLocaleHomePath(pathname);
+    return NextResponse.redirect(url, 302);
+  }
 
   const requestHeaders = new Headers(request.headers);
   requestHeaders.set("x-locale", locale);

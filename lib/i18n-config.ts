@@ -48,3 +48,30 @@ export function getLocaleHomePath(pathname: string | undefined): string {
   const { locale } = stripLocaleFromPath(pathname ?? "/");
   return locale === "en" ? "/" : `/${locale}/`;
 }
+
+const KNOWN_PATHS = new Set([
+  "/",
+  "/about-us",
+  "/contact-us",
+  "/faq",
+  "/instagram-photo-downloader",
+  "/instagram-reels-downloader",
+  "/instagram-story-downloader",
+  "/instagram-story-viewer",
+  "/privacy-policy",
+  "/terms-of-service",
+]);
+
+function normalizeKnownPath(pathname: string | undefined): string {
+  const raw = (pathname ?? "/").trim();
+  const normalized = raw.startsWith("/") ? raw : `/${raw}`;
+  if (normalized.length > 1 && normalized.endsWith("/")) {
+    return normalized.slice(0, -1).toLowerCase();
+  }
+  return normalized.toLowerCase();
+}
+
+export function isKnownAppPath(pathname: string | undefined): boolean {
+  const { path } = stripLocaleFromPath(pathname ?? "/");
+  return KNOWN_PATHS.has(normalizeKnownPath(path));
+}
