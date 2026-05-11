@@ -43,3 +43,8 @@ export function stripLocaleFromPath(pathname: string): {
   }
   return { locale: "en", path: normalized === "" ? "/" : normalized };
 }
+
+export function getLocaleHomePath(pathname: string | undefined): string {
+  const { locale } = stripLocaleFromPath(pathname ?? "/");
+  return locale === "en" ? "/" : `/${locale}/`;
+}

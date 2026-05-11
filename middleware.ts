@@ -1,6 +1,6 @@
 import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
-import { LOCALE_PREFIX_SET } from "@/lib/i18n-config";
+import { getLocaleHomePath, LOCALE_PREFIX_SET } from "@/lib/i18n-config";
 import { reorderHeadHtml } from "@/lib/reorder-head-html";
 
 const HEAD_REORDER_INTERNAL = "x-head-reorder-internal";
@@ -76,10 +76,9 @@ export async function middleware(request: NextRequest) {
       });
 
       if (res.status === 404) {
-        const pathname = request.nextUrl.pathname;
         if (!pathname.startsWith("/api/")) {
           const url = request.nextUrl.clone();
-          url.pathname = "/";
+          url.pathname = getLocaleHomePath(pathname);
           return NextResponse.redirect(url, 302);
         }
       }
@@ -90,7 +89,7 @@ export async function middleware(request: NextRequest) {
         
         if (html.includes('id="not-found-intercept"')) {
           const url = request.nextUrl.clone();
-          url.pathname = "/";
+          url.pathname = getLocaleHomePath(pathname);
           return NextResponse.redirect(url, 302);
         }
 
