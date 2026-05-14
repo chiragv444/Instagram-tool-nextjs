@@ -226,7 +226,7 @@ function InstagramProfile() {
     <div id="instagram-profile" className="hidden mb-8">
       <div className="flex flex-col md:flex-row gap-6 items-start">
         <div className="flex justify-between gap-6">
-          <div className="flex-shrink-0 relative">
+          <div className="relative">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               id="profile-pic"
@@ -238,8 +238,8 @@ function InstagramProfile() {
               type="button"
               id="profile-download-btn"
               aria-label="Download profile picture"
-              className="hidden absolute bg-white rounded-full shadow-md p-2 border border-pink-100 text-[#cb2444] hover:text-[#b232e9] cursor-pointer flex items-center justify-center text-[0px] leading-none"
-              style={{ bottom: 10, right: 10 }}
+              className="absolute bg-white rounded-full shadow-md p-2 border border-pink-100 text-[#cb2444] hover:text-[#b232e9] cursor-pointer flex items-center justify-center text-[0px] leading-none"
+              style={{ bottom: 0, right: 0 }}
             >
               <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor">
                 <path d="M12 3v12" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
