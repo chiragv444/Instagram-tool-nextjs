@@ -250,6 +250,18 @@ function setText(id: string, text: string) {
   if (el) el.textContent = text;
 }
 
+function formatNumber(num: string): string {
+  const n = Number(num);
+  // console.log('num', n);
+  if (n >= 1000000) {
+    return (n / 1000000).toFixed(1) + 'M';
+  }
+  if (n >= 1000) {
+    return (n / 1000).toFixed(1) + 'K';
+  }
+  return num.toString();
+}
+
 const TAB_PANEL: Record<string, string> = {
   posts: "instagram-posts",
   reels: "instagram-reels",
@@ -1446,9 +1458,9 @@ export default function InstagramFormBridge() {
       show(profile);
       if (tabs) show(tabs);
       setText("profile-username", mapped.username);
-      setText("profile-posts", mapped.posts);
-      setText("profile-followers", mapped.followers);
-      setText("profile-following", mapped.following);
+      setText("profile-posts", formatCompactCount(Number(mapped.posts)));
+      setText("profile-followers", formatCompactCount(Number(mapped.followers)));
+      setText("profile-following", formatCompactCount(Number(mapped.following)));
       setText("profile-bio", mapped.biography);
 
       const link = document.getElementById("profile-link") as HTMLAnchorElement | null;
