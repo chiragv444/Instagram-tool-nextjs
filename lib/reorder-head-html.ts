@@ -313,11 +313,61 @@ function endIndexAfterSitemapLink(inner: string): number {
 /** Inserts gtag immediately after the sitemap `<link>`. */
 function insertGoogleTagAfterSitemap(inner: string): string {
   if (inner.includes("googletagmanager.com/gtag/js")) return inner;
+
   const afterSitemap = endIndexAfterSitemapLink(inner);
-  if (afterSitemap === -1) return inner;
-  return (
-    inner.slice(0, afterSitemap) + GOOGLE_TAG_SNIPPET + inner.slice(afterSitemap)
-  );
+  if (afterSitemap !== -1) {
+    return (
+      inner.slice(0, afterSitemap) + GOOGLE_TAG_SNIPPET + inner.slice(afterSitemap)
+    );
+  }
+
+  function endOfTagStartingAt(start: number): number {
+    const endSelf = inner.indexOf("/>", start);
+    const endGt = inner.indexOf(">", start);
+    if (endSelf !== -1 && (endGt === -1 || endSelf < endGt)) return endSelf + 2;
+    if (endGt !== -1) return endGt + 1;
+    return -1;
+  }
+
+  function findLastTagEnd(needle: string): number {
+    let lastEnd = -1;
+    let pos = 0;
+    while (pos < inner.length) {
+      const start = inner.indexOf(needle, pos);
+      if (start === -1) break;
+      const end = endOfTagStartingAt(start);
+      if (end === -1) break;
+      lastEnd = end;
+      pos = end;
+    }
+    return lastEnd;
+  }
+
+  const lastAlternateEnd = findLastTagEnd('<link rel="alternate"');
+  if (lastAlternateEnd !== -1) {
+    return (
+      inner.slice(0, lastAlternateEnd) + GOOGLE_TAG_SNIPPET + inner.slice(lastAlternateEnd)
+    );
+  }
+
+  const canonicalStart = inner.indexOf('<link rel="canonical"');
+  if (canonicalStart !== -1) {
+    const canonicalEnd = endOfTagStartingAt(canonicalStart);
+    if (canonicalEnd !== -1) {
+      return (
+        inner.slice(0, canonicalEnd) + GOOGLE_TAG_SNIPPET + inner.slice(canonicalEnd)
+      );
+    }
+  }
+
+  const titleClose = inner.indexOf("</title>");
+  if (titleClose !== -1) {
+    return (
+      inner.slice(0, titleClose + "</title>".length) + GOOGLE_TAG_SNIPPET + inner.slice(titleClose + "</title>".length)
+    );
+  }
+
+  return inner + GOOGLE_TAG_SNIPPET;
 }
 
 /** After last `link[rel="alternate"]` (hreflang); else after canonical. */
