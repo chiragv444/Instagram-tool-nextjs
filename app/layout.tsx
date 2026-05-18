@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import Script from "next/script";
 import { Open_Sans } from "next/font/google";
 import {
   getCachedPageDictionary,
@@ -69,6 +70,25 @@ export default async function RootLayout({
       lang={locale}
       className={`h-full antialiased ${openSans.variable}`}
     >
+      <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-B716H6W4TC"
+          strategy="afterInteractive"
+          async
+        />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              function gtag(){dataLayer.push(arguments)}
+              window.dataLayer=window.dataLayer||[];
+              gtag('js',new Date());
+              gtag('config','G-B716H6W4TC');
+            `,
+          }}
+        />
+      </head>
       <body className="min-h-full flex flex-col">
         <Header logoHref={logoHref} />
         {children}
