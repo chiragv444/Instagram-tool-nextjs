@@ -28,9 +28,9 @@ export default function HomePageFaq({ title, description, items }: Props) {
   return (
     <section
       className="container max-w-6xl mx-auto my-3 px-4"
-      itemScope
-      itemProp="mainEntity"
-      itemType="https://schema.org/FAQPage"
+      // itemScope
+      // itemProp="mainEntity"
+      // itemType="https://schema.org/FAQPage"
     >
       <h2 className="text-[26px] font-bold text-center text-[#1923B8] mb-4">
         {title}
@@ -46,9 +46,9 @@ export default function HomePageFaq({ title, description, items }: Props) {
           <div
             key={idx}
             className="border-[2px] border-indigo-50 mb-4"
-            itemScope
-            itemProp="mainEntity"
-            itemType="https://schema.org/Question"
+            // itemScope
+            // itemProp="mainEntity"
+            // itemType="https://schema.org/Question"
           >
             <button
               type="button"
@@ -66,9 +66,9 @@ export default function HomePageFaq({ title, description, items }: Props) {
                   ? "hidden text-[#494949] leading-6 text-justify my-md px-md py-4 px-5 faq-answer"
                   : "text-[#494949] leading-6 text-justify my-md px-md py-4 px-5 faq-answer"
               }
-              itemScope
-              itemProp="acceptedAnswer"
-              itemType="https://schema.org/Answer"
+              // itemScope
+              // itemProp="acceptedAnswer"
+              // itemType="https://schema.org/Answer"
             >
               <p className="text-gray-700 text-justify" itemProp="text">
                 {item.answer}
