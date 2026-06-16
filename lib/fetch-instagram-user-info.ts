@@ -40,3 +40,35 @@ export async function fetchInstagramUserInfoFromRapid(username: string): Promise
     clearTimeout(timeout);
   }
 }
+
+export async function fetchInstagramMediaByUrlOrCode(targetUrlOrCode: string): Promise<unknown> {
+  assertRapidConfig();
+
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 30_000);
+
+  try {
+    const response = await fetch(
+      `${INSTAGRAM_API_BASE_URL}/get_media_data.php?reel_post_code_or_url=${encodeURIComponent(
+        targetUrlOrCode,
+      )}&type=post`,
+      {
+        method: "GET",
+        headers: {
+          "x-rapidapi-host": RAPIDAPI_HOST,
+          "x-rapidapi-key": RAPIDAPI_KEY as string,
+        },
+        signal: controller.signal,
+      },
+    );
+
+    if (!response.ok) {
+      throw new Error(`Instagram API request failed: ${response.status} ${response.statusText}`);
+    }
+
+    return response.json();
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
