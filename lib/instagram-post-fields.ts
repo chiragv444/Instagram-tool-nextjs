@@ -80,7 +80,18 @@ export function pickCommentCount(item: Record<string, unknown>): number | null {
     typeof c === "object" && c !== null && "count" in c
       ? num((c as { count: unknown }).count)
       : null;
-  return num(item.comment_count) ?? num(item.comments) ?? cc;
+  const parentComment = item.edge_media_to_parent_comment;
+  const pcc =
+    typeof parentComment === "object" && parentComment !== null && "count" in parentComment
+      ? num((parentComment as { count: unknown }).count)
+      : null;
+  const previewComment = item.edge_media_preview_comment;
+  const prvcc =
+    typeof previewComment === "object" && previewComment !== null && "count" in previewComment
+      ? num((previewComment as { count: unknown }).count)
+      : null;
+
+  return num(item.comment_count) ?? num(item.comments) ?? cc ?? pcc ?? prvcc;
 }
 
 export function pickTakenTimestamp(item: Record<string, unknown>): number | null {

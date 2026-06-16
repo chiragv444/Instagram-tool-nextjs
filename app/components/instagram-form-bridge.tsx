@@ -11,9 +11,8 @@ import {
   pickHighlightId,
   pickHighlightTitle,
   pickPermalink,
-  pickThumbnail,
 } from "@/lib/instagram-normalize-media";
-import { pickCommentCount, pickLikeCount } from "@/lib/instagram-post-fields";
+import { pickCommentCount, pickLikeCount, pickDownloadUrl } from "@/lib/instagram-post-fields";
 import {
   buildFilenameBase,
   buildStoryFilenameBase,
@@ -42,6 +41,7 @@ const API = {
   highlights: "/api/v1/highlights/",
   /** RapidAPI `get_highlights_stories.php` — same contract as Fastify POST /v1/highlightStory */
   highlightStory: "/api/v1/highlightStory/",
+  mediaByUrl: "/api/v1/mediaByUrl/",
 } as const;
 
 type InstagramSessionAuth = {
@@ -50,6 +50,8 @@ type InstagramSessionAuth = {
   token: string;
   timestamp: string;
   secretToken: string;
+  type?: string;
+  shortcode?: string;
 };
 
 let sessionAuth: InstagramSessionAuth | null = null;
@@ -73,11 +75,12 @@ async function fetchSessionAuthFromInput(raw: string): Promise<{ ok: boolean; er
       token?: string;
       timestamp?: string;
       secretToken?: string;
+      type?: string;
+      shortcode?: string;
     };
     if (
       !res.ok ||
       !payload.success ||
-      !payload.username ||
       !payload.url ||
       !payload.token ||
       !payload.timestamp ||
@@ -89,11 +92,13 @@ async function fetchSessionAuthFromInput(raw: string): Promise<{ ok: boolean; er
       };
     }
     sessionAuth = {
-      username: payload.username,
+      username: payload.username ?? "",
       url: payload.url,
       token: payload.token,
       timestamp: payload.timestamp,
       secretToken: payload.secretToken,
+      type: payload.type,
+      shortcode: payload.shortcode,
     };
     return { ok: true };
   } catch {
@@ -148,6 +153,237 @@ function coerceNumber(value: unknown): number | null {
     return Number.isFinite(n) ? n : null;
   }
   return null;
+}
+
+function formatCommentDate(ts: number | string): string {
+  const num = Number(ts);
+  if (isNaN(num)) return "";
+  const date = new Date(num * 1000);
+  return date.toLocaleDateString(undefined, {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+  });
+}
+
+function renderSinglePost(raw: Record<string, unknown>) {
+  const item = flattenMediaItem(raw);
+  const singlePost = document.getElementById("instagram-single-post");
+  if (!singlePost) return;
+
+  // Show the single post container
+  show(singlePost);
+
+  // Set description
+  const caption = pickCaption(item);
+  setText("single-post-description", caption || "No caption");
+
+  // Set likes and comments
+  const likes = pickLikeCount(item);
+  const comments = pickCommentCount(item);
+  setText("single-post-likes", likes != null && likes >= 0 ? formatCompactCount(likes) : "0");
+  setText("single-post-comments", comments != null && comments >= 0 ? formatCompactCount(comments) : "0");
+
+  // Set time
+  setText("single-post-time", timeLabelFromPost(item));
+
+  // Render media
+  const mediaContainer = document.getElementById("single-post-media");
+  if (mediaContainer) {
+    const prevBtn = document.getElementById("single-post-carousel-prev");
+    const nextBtn = document.getElementById("single-post-carousel-next");
+    const indicator = document.getElementById("single-post-carousel-indicator");
+    const currentSpan = document.getElementById("single-post-carousel-current");
+    const totalSpan = document.getElementById("single-post-carousel-total");
+
+    // Clean up previous image/video elements
+    mediaContainer.querySelectorAll(".single-post-rendered-media").forEach((el) => el.remove());
+
+    const slides = getCarouselSlides(item);
+    const downloadBtn = document.getElementById("single-post-download") as HTMLButtonElement | null;
+
+    if (slides.length > 0) {
+      if (prevBtn) prevBtn.classList.remove("hidden");
+      if (nextBtn) nextBtn.classList.remove("hidden");
+      if (indicator) indicator.classList.remove("hidden");
+      if (totalSpan) totalSpan.textContent = String(slides.length);
+
+      let currentIndex = 0;
+
+      const showSlide = (index: number) => {
+        currentIndex = index;
+        if (currentSpan) currentSpan.textContent = String(index + 1);
+
+        if (prevBtn instanceof HTMLButtonElement) prevBtn.disabled = index === 0;
+        if (nextBtn instanceof HTMLButtonElement) nextBtn.disabled = index === slides.length - 1;
+
+        mediaContainer.querySelectorAll(".single-post-rendered-media").forEach((el) => el.remove());
+
+        const slide = slides[index];
+        const isVid = slide.kind === "video";
+        const filenameBase = buildFilenameBase(caption, pickPostCode(item));
+        const activeDownloadBtn = document.getElementById("single-post-download") as HTMLButtonElement | null;
+
+        if (isVid) {
+          const video = document.createElement("video");
+          video.className = "single-post-rendered-media w-full h-full object-contain bg-black";
+          video.src = proxiedVideoUrl(slide.url);
+          video.controls = true;
+          video.autoplay = true;
+          video.muted = true;
+          mediaContainer.appendChild(video);
+
+          if (activeDownloadBtn) {
+            activeDownloadBtn.dataset.url = slide.url;
+            activeDownloadBtn.dataset.type = "video";
+            activeDownloadBtn.dataset.filename = filenameBase;
+          }
+        } else {
+          const img = document.createElement("img");
+          img.className = "single-post-rendered-media w-full h-full object-contain bg-black";
+          img.src = proxiedImageUrl(slide.url);
+          mediaContainer.appendChild(img);
+
+          if (activeDownloadBtn) {
+            activeDownloadBtn.dataset.url = slide.url;
+            activeDownloadBtn.dataset.type = "image";
+            activeDownloadBtn.dataset.filename = filenameBase;
+          }
+        }
+      };
+
+      const onPrev = (ev: Event) => {
+        ev.stopPropagation();
+        if (currentIndex > 0) showSlide(currentIndex - 1);
+      };
+      const onNext = (ev: Event) => {
+        ev.stopPropagation();
+        if (currentIndex < slides.length - 1) showSlide(currentIndex + 1);
+      };
+
+      const newPrev = prevBtn?.cloneNode(true);
+      if (newPrev && prevBtn?.parentNode) {
+        prevBtn.parentNode.replaceChild(newPrev, prevBtn);
+        newPrev.addEventListener("click", onPrev);
+      }
+      const newNext = nextBtn?.cloneNode(true);
+      if (newNext && nextBtn?.parentNode) {
+        nextBtn.parentNode.replaceChild(newNext, nextBtn);
+        newNext.addEventListener("click", onNext);
+      }
+
+      showSlide(0);
+    } else {
+      if (prevBtn) prevBtn.classList.add("hidden");
+      if (nextBtn) nextBtn.classList.add("hidden");
+      if (indicator) indicator.classList.add("hidden");
+
+      const isVideo = isLikelyVideo(item);
+      const mediaUrl = pickDownloadUrl(item);
+      const filenameBase = buildFilenameBase(caption, pickPostCode(item));
+
+      if (isVideo) {
+        const video = document.createElement("video");
+        video.className = "single-post-rendered-media w-full h-full object-contain bg-black";
+        video.src = proxiedVideoUrl(mediaUrl);
+        video.controls = true;
+        video.autoplay = true;
+        video.muted = true;
+        mediaContainer.appendChild(video);
+
+        if (downloadBtn) {
+          downloadBtn.dataset.url = mediaUrl;
+          downloadBtn.dataset.type = "video";
+          downloadBtn.dataset.filename = filenameBase;
+        }
+      } else {
+        const img = document.createElement("img");
+        img.className = "single-post-rendered-media w-full h-full object-contain bg-black";
+        img.src = proxiedImageUrl(mediaUrl);
+        mediaContainer.appendChild(img);
+
+        if (downloadBtn) {
+          downloadBtn.dataset.url = mediaUrl;
+          downloadBtn.dataset.type = "image";
+          downloadBtn.dataset.filename = filenameBase;
+        }
+      }
+    }
+  }
+
+  // Set up download click listener
+  const downloadBtn = document.getElementById("single-post-download") as HTMLButtonElement | null;
+  if (downloadBtn) {
+    const newBtn = downloadBtn.cloneNode(true) as HTMLButtonElement;
+    if (downloadBtn.parentNode) {
+      downloadBtn.parentNode.replaceChild(newBtn, downloadBtn);
+      newBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const url = newBtn.dataset.url ?? "";
+        const type = (newBtn.dataset.type ?? "image") as "image" | "video" | "carousel";
+        const filename = newBtn.dataset.filename ?? "instagram-post";
+        downloadPostMedia(url, type, filename);
+      });
+    }
+  }
+
+  // Render comments list
+  const commentsSection = document.getElementById("single-post-comments-section");
+  const commentsList = document.getElementById("single-post-comments-list");
+  const commentsTotal = document.getElementById("single-post-comments-total");
+
+  if (commentsSection && commentsList) {
+    const parentComment = raw.edge_media_to_parent_comment as Record<string, unknown> | undefined;
+    const previewComment = raw.edge_media_preview_comment as Record<string, unknown> | undefined;
+    const commentsEdges =
+      (parentComment?.edges as unknown[]) ??
+      (previewComment?.edges as unknown[]) ??
+      [];
+
+    commentsList.replaceChildren();
+
+    if (commentsEdges.length > 0) {
+      commentsSection.classList.remove("hidden");
+      const frag = document.createDocumentFragment();
+
+      commentsEdges.forEach((edgeItem) => {
+        const edge = edgeItem as Record<string, unknown>;
+        const node = edge.node as Record<string, unknown> | undefined;
+        if (!node) return;
+
+        const row = document.createElement("div");
+        row.className = "flex gap-3 py-3 border-b border-gray-100 last:border-b-0 text-sm";
+
+        const owner = node.owner as Record<string, unknown> | undefined;
+        const picUrl = (owner?.profile_pic_url as string | undefined) || "";
+        const username = (owner?.username as string | undefined) || "anonymous";
+        const text = (node.text as string | undefined) || "";
+        const createdAt = (node.created_at as number | string | undefined) || "";
+
+        row.innerHTML = `
+          <img src="${picUrl ? proxiedImageUrl(picUrl) : ""}" class="w-8 h-8 rounded-full object-cover mt-0.5" alt="@${username}" />
+          <div class="flex-grow">
+            <div class="flex items-center justify-between mb-1">
+              <span class="font-semibold text-gray-900">@${username}</span>
+              <span class="text-xs text-gray-400">${formatCommentDate(createdAt)}</span>
+            </div>
+            <p class="text-gray-700 leading-normal">${escapeHtml(text)}</p>
+          </div>
+        `;
+        frag.appendChild(row);
+      });
+
+      commentsList.appendChild(frag);
+
+      const totalCount = comments != null && comments >= 0 ? comments : commentsEdges.length;
+      if (commentsTotal) {
+        commentsTotal.textContent = `View all ${formatCompactCount(totalCount)} comments`;
+        commentsTotal.classList.toggle("hidden", totalCount <= commentsEdges.length);
+      }
+    } else {
+      commentsSection.classList.add("hidden");
+    }
+  }
 }
 
 function pickUserRoot(data: unknown): Record<string, unknown> | null {
@@ -205,9 +441,9 @@ function mapUserInfoToProfile(data: unknown): {
   const hdInfo = u.hd_profile_pic_url_info;
   const hdFromInfo =
     typeof hdInfo === "object" &&
-    hdInfo !== null &&
-    "url" in hdInfo &&
-    typeof (hdInfo as { url: unknown }).url === "string"
+      hdInfo !== null &&
+      "url" in hdInfo &&
+      typeof (hdInfo as { url: unknown }).url === "string"
       ? (hdInfo as { url: string }).url
       : "";
 
@@ -248,18 +484,6 @@ function setHighlightsEmptyBanner(message: string | null) {
 function setText(id: string, text: string) {
   const el = document.getElementById(id);
   if (el) el.textContent = text;
-}
-
-function formatNumber(num: string): string {
-  const n = Number(num);
-  // console.log('num', n);
-  if (n >= 1000000) {
-    return (n / 1000000).toFixed(1) + 'M';
-  }
-  if (n >= 1000) {
-    return (n / 1000).toFixed(1) + 'K';
-  }
-  return num.toString();
 }
 
 const TAB_PANEL: Record<string, string> = {
@@ -362,7 +586,7 @@ function renderModalCarouselSlide(i: number) {
     imgEl.classList.add("hidden");
     vidEl.classList.remove("hidden");
     vidEl.src = proxiedVideoUrl(slide.url);
-    void vidEl.play().catch(() => {});
+    void vidEl.play().catch(() => { });
     modalDownloadTarget = { url: slide.url, isVideo: true, filenameBase: base };
   } else {
     vidEl.pause();
@@ -430,7 +654,7 @@ function openPostModal(raw: Record<string, unknown>, profileUrl: string) {
       const v = document.getElementById("instagram-modal-video-element") as HTMLVideoElement | null;
       if (v) {
         v.src = proxiedVideoUrl(resolved.mediaUrl);
-        void v.play().catch(() => {});
+        void v.play().catch(() => { });
       }
       modalDownloadTarget = { url: resolved.mediaUrl, isVideo: true, filenameBase };
     } else {
@@ -444,7 +668,7 @@ function openPostModal(raw: Record<string, unknown>, profileUrl: string) {
     const v = document.getElementById("instagram-modal-video-element") as HTMLVideoElement | null;
     if (v) {
       v.src = proxiedVideoUrl(resolved.mediaUrl);
-      void v.play().catch(() => {});
+      void v.play().catch(() => { });
     }
     modalDownloadTarget = {
       url: resolved.mediaUrl,
@@ -520,11 +744,10 @@ function buildPostCardElement(raw: Record<string, unknown>, profileUrl: string):
     </div>
     <div class="p-4 flex flex-col flex-grow">
       <div class="flex-grow">
-        ${
-          caption
-            ? `<p class="text-gray-700 text-sm mb-3 line-clamp-2">${escapeHtml(caption.substring(0, 100))}${caption.length > 100 ? "..." : ""}</p>`
-            : ""
-        }
+        ${caption
+      ? `<p class="text-gray-700 text-sm mb-3 line-clamp-2">${escapeHtml(caption.substring(0, 100))}${caption.length > 100 ? "..." : ""}</p>`
+      : ""
+    }
         <div class="flex items-center justify-between mb-3">
           <div class="flex items-center gap-4 text-sm text-gray-600">
             <span class="flex items-center gap-1">
@@ -670,11 +893,10 @@ function buildStoryCardElement(
     </div>
     <div class="p-4 flex flex-col flex-grow">
       <div class="flex-grow">
-        ${
-          caption
-            ? `<p class="text-gray-700 text-sm mb-3 line-clamp-2">${escapeHtml(caption.substring(0, 100))}${caption.length > 100 ? "..." : ""}</p>`
-            : ""
-        }
+        ${caption
+      ? `<p class="text-gray-700 text-sm mb-3 line-clamp-2">${escapeHtml(caption.substring(0, 100))}${caption.length > 100 ? "..." : ""}</p>`
+      : ""
+    }
       </div>
       <div class="flex items-center justify-end mb-3">
         <span class="text-xs text-gray-500">${escapeHtml(timeAgo)}</span>
@@ -1391,6 +1613,50 @@ export default function InstagramFormBridge() {
         hide(loading);
         show(errBox);
         if (errMsg) errMsg.textContent = "Session signing failed.";
+        return;
+      }
+
+      if (sessionAuth.type === "media") {
+        let response: Response;
+        try {
+          response = await fetch(API.mediaByUrl, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              url: sessionAuth.url,
+              token: sessionAuth.token,
+              timestamp: sessionAuth.timestamp,
+              secretToken: sessionAuth.secretToken,
+            }),
+          });
+        } catch {
+          clearSessionAuth();
+          hide(loading);
+          show(errBox);
+          if (errMsg) errMsg.textContent = "Network error. Check your connection and try again.";
+          return;
+        }
+
+        const payload = (await response.json().catch(() => null)) as
+          | { success?: boolean; data?: unknown; error?: string }
+          | null;
+
+        hide(loading);
+
+        if (!response.ok || !payload?.success || payload.data === undefined) {
+          clearSessionAuth();
+          show(errBox);
+          if (errMsg) {
+            errMsg.textContent =
+              typeof payload?.error === "string"
+                ? payload.error
+                : "Failed to fetch Instagram media.";
+          }
+          return;
+        }
+
+        renderSinglePost(payload.data as Record<string, unknown>);
+        results?.scrollIntoView({ behavior: "smooth", block: "start" });
         return;
       }
 

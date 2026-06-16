@@ -137,27 +137,53 @@ export type CarouselSlide = {
 
 export function getCarouselSlides(post: Record<string, unknown>): CarouselSlide[] {
   const cm = post.carousel_media;
-  if (!Array.isArray(cm) || cm.length === 0) return [];
-  const out: CarouselSlide[] = [];
-  for (const raw of cm) {
-    const m = flattenMediaItem(raw as Record<string, unknown>);
-    const fvv = m.video_versions as { url?: string }[] | undefined;
-    if (Array.isArray(fvv) && fvv.length > 0 && fvv[0]?.url) {
+  if (Array.isArray(cm) && cm.length > 0) {
+    const out: CarouselSlide[] = [];
+    for (const raw of cm) {
+      const m = flattenMediaItem(raw as Record<string, unknown>);
+      const fvv = m.video_versions as { url?: string }[] | undefined;
+      if (Array.isArray(fvv) && fvv.length > 0 && fvv[0]?.url) {
+        const iv2 = m.image_versions2 as { candidates?: { url?: string }[] } | undefined;
+        const thumb = iv2?.candidates?.[0]?.url;
+        out.push({
+          kind: "video",
+          url: String(fvv[0].url),
+          thumb: thumb ? String(thumb) : undefined,
+        });
+        continue;
+      }
       const iv2 = m.image_versions2 as { candidates?: { url?: string }[] } | undefined;
-      const thumb = iv2?.candidates?.[0]?.url;
-      out.push({
-        kind: "video",
-        url: String(fvv[0].url),
-        thumb: thumb ? String(thumb) : undefined,
-      });
-      continue;
+      if (iv2?.candidates?.[0]?.url) {
+        out.push({ kind: "image", url: String(iv2.candidates[0].url) });
+      }
     }
-    const iv2 = m.image_versions2 as { candidates?: { url?: string }[] } | undefined;
-    if (iv2?.candidates?.[0]?.url) {
-      out.push({ kind: "image", url: String(iv2.candidates[0].url) });
-    }
+    return out;
   }
-  return out;
+
+  const sidecar = post.edge_sidecar_to_children as { edges?: unknown[] } | undefined;
+  if (sidecar && Array.isArray(sidecar.edges) && sidecar.edges.length > 0) {
+    const out: CarouselSlide[] = [];
+    for (const edgeItem of sidecar.edges) {
+      const edge = edgeItem as Record<string, unknown>;
+      const node = edge.node as Record<string, unknown> | undefined;
+      if (!node) continue;
+
+      const isVideo = Boolean(node.is_video);
+      const url = String(node.video_url ?? node.display_url ?? "");
+      const thumb = node.display_url ? String(node.display_url) : undefined;
+
+      if (url) {
+        out.push({
+          kind: isVideo ? "video" : "image",
+          url,
+          thumb,
+        });
+      }
+    }
+    return out;
+  }
+
+  return [];
 }
 
 export function overlayCaptionLine(caption: string): string {
