@@ -153,20 +153,19 @@ export default function Header({
               </button>
               <div
                 id="lang-dropdown-menu"
-                className={`${
-                  isMenuOpen ? "block" : "hidden"
-                } group-hover:block absolute right-0 top-[36px] mt-2 bg-white border border-gray-200 shadow-md rounded-md p-1 md:p-2 w-[168px]`}
+                className={`${isMenuOpen ? "block" : "hidden"
+                  } group-hover:block absolute right-0 top-[36px] mt-2 bg-white border border-gray-200 shadow-md rounded-md p-1 md:p-2 w-[168px]`}
               >
                 <ul className="list-none">
                   {LANGUAGES.map(({ code, label }) => (
                     <li key={code}>
-                      <Link
+                      <a
                         href={makeLanguageHref(code, currentRoute, getLanguageRoute)}
                         onClick={() => setIsMenuOpen(false)}
                         className="block px-3 md:py-2 py-1 text-sm text-gray-700 hover:bg-gray-50 lang-item"
                       >
                         {label}
-                      </Link>
+                      </a>
                     </li>
                   ))}
                 </ul>
