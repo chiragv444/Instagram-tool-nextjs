@@ -210,6 +210,10 @@
         {
           "title": "Terms & Conditions",
           "url": "/terms-of-service/"
+        },
+        {
+          "title": "Blog",
+          "url": "/blog/"
         }
       ]
     },

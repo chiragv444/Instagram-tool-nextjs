@@ -210,6 +210,10 @@
         {
           "title": "Regulamin",
           "url": "/terms-of-service/"
+        },
+        {
+          "title": "Blog",
+          "url": "/blog/"
         }
       ]
     },

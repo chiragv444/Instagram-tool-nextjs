@@ -228,6 +228,10 @@
         {
           "title": "Şartlar ve Koşullar",
           "url": "/terms-of-service/"
+        },
+        {
+          "title": "Blog",
+          "url": "/blog/"
         }
       ]
     },
