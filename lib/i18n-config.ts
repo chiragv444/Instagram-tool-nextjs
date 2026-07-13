@@ -53,7 +53,6 @@ const KNOWN_PATHS = new Set([
   "/",
   "/about-us",
   "/blog",
-  "/blogs",
   "/contact-us",
   "/faq",
   "/instagram-photo-downloader",
@@ -76,5 +75,5 @@ function normalizeKnownPath(pathname: string | undefined): string {
 export function isKnownAppPath(pathname: string | undefined): boolean {
   const { path } = stripLocaleFromPath(pathname ?? "/");
   const normalized = normalizeKnownPath(path);
-  return KNOWN_PATHS.has(normalized) || normalized.startsWith("/blogs/");
+  return KNOWN_PATHS.has(normalized) || normalized.startsWith("/blog/");
 }

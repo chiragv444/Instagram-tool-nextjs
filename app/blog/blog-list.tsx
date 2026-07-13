@@ -3,14 +3,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import type { Blog } from "@/lib/blogs";
+import { getBlogImageSrc, getBlogRouteSlug, type Blog } from "@/lib/blogs";
 
 type BlogListProps = {
   blogs: Blog[];
   postsPerPage: number;
 };
-
-const BLOG_IMAGE_SRC = "/img/card_index.webp";
 
 export default function BlogList({ blogs, postsPerPage }: BlogListProps) {
   const [currentPage, setCurrentPage] = useState(1);
@@ -30,10 +28,10 @@ export default function BlogList({ blogs, postsPerPage }: BlogListProps) {
             key={blog.slug}
             className="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
           >
-            <Link href={`/blogs/${blog.slug}/`} className="block">
+            <Link href={`/blog/${getBlogRouteSlug(blog)}/`} className="block">
               <Image
-                src={BLOG_IMAGE_SRC}
-                alt=""
+                src={getBlogImageSrc(blog)}
+                alt="Instagram Downloader"
                 width={720}
                 height={405}
                 className="aspect-video w-full object-cover"
@@ -43,13 +41,13 @@ export default function BlogList({ blogs, postsPerPage }: BlogListProps) {
             <div className="p-5">
               <p className="text-sm font-medium text-[#cb2444]">{blog.date}</p>
               <h2 className="mt-2 text-xl font-bold leading-snug text-gray-950">
-                <Link href={`/blogs/${blog.slug}/`}>{blog.title}</Link>
+                <Link href={`/blog/${getBlogRouteSlug(blog)}/`}>{blog.title}</Link>
               </h2>
               <p className="mt-3 line-clamp-3 text-sm leading-6 text-gray-700">
                 {blog.description}
               </p>
               <Link
-                href={`/blogs/${blog.slug}/`}
+                href={`/blog/${getBlogRouteSlug(blog)}/`}
                 className="mt-4 inline-flex text-sm font-bold text-gray-950 hover:text-[#cb2444]"
               >
                 Read more
