@@ -31,7 +31,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const routeSlug = getBlogRouteSlug(blog);
   const blogImage = getBlogImageSrc(blog);
-  const blogImageUrl = typeof blogImage === "string" ? blogImage : blogImage.src;
+  const blogImageUrl =
+    typeof blogImage === "string" ? blogImage : blogImage.src;
 
   return {
     title: `${blog.title} - SaveInstaVideo`,
@@ -60,7 +61,6 @@ export default async function BlogDetailPage({ params }: Props) {
   return (
     <main className="bg-white">
       <article className="container max-w-6xl mx-auto px-4 py-8 md:py-12">
-
         <div className="mb-6 mt-2 text-[16px] font-bold bg-gray-50 rounded p-3">
           {/* breadcrumb here */}
           🏠︎{" "}
@@ -77,8 +77,8 @@ export default async function BlogDetailPage({ params }: Props) {
           </Link>
         </div>
 
-          <div>
-            <div className="flex justify-between">
+        <div>
+          {/* <div className="flex justify-between">
               <p className="text-sm font-semibold text-[#cb2444]">{blog.date}</p>
               <Link
                 href="/blog/"
@@ -86,29 +86,27 @@ export default async function BlogDetailPage({ params }: Props) {
               >
                 Back to blogs
               </Link>
-            </div>
-            <h1 className="mt-3 text-3xl font-extrabold leading-tight text-gray-950 md:text-5xl">
+            </div> */}
+          {/* <h1 className="mt-3 text-3xl font-extrabold leading-tight text-gray-950 md:text-5xl">
               {blog.title}
             </h1>
             <p className="mt-4 text-base leading-7 text-gray-700 md:text-lg">
               {blog.description}
-            </p>
+            </p> */}
 
-            <Image
-              src={blogImage}
-              alt="Instagram Downloader"
-              width={960}
-              height={540}
-              className="mt-8 aspect-video w-full rounded-lg object-cover"
-              priority
-            />
+          <Image
+            src={blogImage}
+            alt="Instagram Downloader"
+            width={1280}
+            height={720}
+            className="w-full max-w-[1280px] object-contain rounded mb-6"
+          />
 
-            <div
-              className="blog-content mt-8 text-gray-800"
-              dangerouslySetInnerHTML={{ __html: blog.content }}
-            />
-          </div>
-
+          <div
+            className="blog-content mt-8 text-gray-800"
+            dangerouslySetInnerHTML={{ __html: blog.content }}
+          />
+        </div>
       </article>
     </main>
   );
