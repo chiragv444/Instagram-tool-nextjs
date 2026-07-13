@@ -151,7 +151,7 @@ export default function BlogList({ blogs, postsPerPage }: BlogListProps) {
         {visibleBlogs.map((blog) => (
           <article
             key={blog.slug}
-            className="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
+            className="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-2xs transition hover:-translate-y-0.5 hover:shadow-sm"
           >
             <Link href={`/blog/${getBlogRouteSlug(blog)}/`} className="block">
               <Image
@@ -165,9 +165,9 @@ export default function BlogList({ blogs, postsPerPage }: BlogListProps) {
             </Link>
 
             <div className="p-5">
-              <p className="text-sm font-medium text-[#cb2444]">
+              {/* <p className="text-sm font-medium text-[#cb2444]">
                 {blog.date}
-              </p>
+              </p> */}
 
               <h2 className="mt-2 text-xl font-bold leading-snug text-gray-950">
                 <Link href={`/blog/${getBlogRouteSlug(blog)}/`}>
