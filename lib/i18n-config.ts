@@ -52,6 +52,7 @@ export function getLocaleHomePath(pathname: string | undefined): string {
 const KNOWN_PATHS = new Set([
   "/",
   "/about-us",
+  "/blog",
   "/contact-us",
   "/faq",
   "/instagram-photo-downloader",
@@ -73,5 +74,6 @@ function normalizeKnownPath(pathname: string | undefined): string {
 
 export function isKnownAppPath(pathname: string | undefined): boolean {
   const { path } = stripLocaleFromPath(pathname ?? "/");
-  return KNOWN_PATHS.has(normalizeKnownPath(path));
+  const normalized = normalizeKnownPath(path);
+  return KNOWN_PATHS.has(normalized) || normalized.startsWith("/blog/");
 }

@@ -51,6 +51,7 @@ function getRoutePath(currentRoute: string | undefined): string {
   const { path } = stripLocaleFromPath(currentRoute);
   const p = normalizePathForRoute(path);
   if (p === "/") return "";
+  if (p === "/blog" || p.startsWith("/blog/")) return "";
   if (STATIC_HOME_ONLY_ROUTES.has(p)) return "";
   return p;
 }
