@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     typeof blogImage === "string" ? blogImage : blogImage.src;
 
   return {
-    title: `${blog.title} - SaveInstaVideo`,
+    title: `${blog.title}`,
     description: blog.description,
     alternates: {
       canonical: `/blog/${routeSlug}/`,
