@@ -8,6 +8,7 @@ import {
   getBlogImageSrc,
   getBlogRouteSlug,
 } from "@/lib/blogs";
+import { buildBlogAlternates } from "@/lib/marketing-hreflang";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -37,9 +38,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${blog.title}`,
     description: blog.description,
-    alternates: {
-      canonical: `/blog/${routeSlug}/`,
-    },
+    alternates: buildBlogAlternates(`/blog/${routeSlug}/`),
     openGraph: {
       title: blog.title,
       description: blog.description,
@@ -49,7 +48,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default async function BlogDetailPage({ params }: Props) {
+export async function BlogDetailPageContent({ params }: Props) {
   const { slug } = await params;
   const blog = getBlogBySlug(slug);
 
@@ -68,13 +67,10 @@ export default async function BlogDetailPage({ params }: Props) {
             Home
           </Link>{" "}
           /{" "}
-          <Link href="/blog/" className="hover:text-red-600">
+          {/* <Link href="/blog/" className="hover:text-red-600"> */}
             Blog
-          </Link>{" "}
-          /{" "}
-          <Link href={`/blog/${routeSlug}/`} className="hover:text-red-600">
-            {blog?.title}
-          </Link>
+          {/* </Link> */}
+          {" "}
         </div>
 
         <div>
@@ -110,4 +106,8 @@ export default async function BlogDetailPage({ params }: Props) {
       </article>
     </main>
   );
+}
+
+export default async function BlogDetailPage(props: Props) {
+  return <BlogDetailPageContent {...props} />;
 }

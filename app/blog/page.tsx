@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 // import Link from "next/link";
 import { getAllBlogs } from "@/lib/blogs";
+import { buildBlogAlternates } from "@/lib/marketing-hreflang";
 import BlogList from "./blog-list";
 import Image from "next/image";
 
@@ -8,14 +9,12 @@ export const metadata: Metadata = {
   title: "SaveInstaVideo - Instagram Video, Photo, Story and Reels",
   description:
     "A free and fast tool to download Instagram videos online. Without any login or signup.",
-  alternates: {
-    canonical: "/blog/",
-  },
+  alternates: buildBlogAlternates("/blog/"),
 };
 
 const POSTS_PER_PAGE = 10;
 
-export default function BlogPage() {
+export function BlogPageContent() {
   const blogs = getAllBlogs();
 
   return (
@@ -58,4 +57,8 @@ export default function BlogPage() {
       </section>
     </main>
   );
+}
+
+export default function BlogPage() {
+  return <BlogPageContent />;
 }

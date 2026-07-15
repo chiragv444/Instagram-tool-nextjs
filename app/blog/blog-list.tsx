@@ -47,11 +47,11 @@ export default function BlogList({ blogs, postsPerPage }: BlogListProps) {
 
   return (
     <div>
-      <div className="grid gap-6 sm:grid-cols-2">
+      <div className="flex flex-wrap gap-[2%]">
         {visibleBlogs.map((blog) => (
           <article
             key={blog.slug}
-            className="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-2xs transition hover:-translate-y-0.5 hover:shadow-sm"
+            className="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-2xs transition hover:-translate-y-0.5 hover:shadow-sm w-full sm:w-[48%] lg:w-[32%] mb-4"
           >
             <Link href={`/blog/${getBlogRouteSlug(blog)}/`} className="block">
               <Image
