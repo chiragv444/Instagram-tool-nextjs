@@ -45,6 +45,56 @@ export function marketingPathForLocale(locale: string, pageKey: DictionaryPageKe
   return `/${locale}${suffix}`;
 }
 
+function normalizePathForAlternates(pathname: string): string {
+  const trimmed = pathname.trim();
+  if (!trimmed || trimmed === "/") return "/";
+  const withLeading = trimmed.startsWith("/") ? trimmed : `/${trimmed}`;
+  return withLeading.endsWith("/") ? withLeading : `${withLeading}/`;
+}
+
+/**
+ * Generic path-only canonical + hreflang alternates for locale-prefixed routes.
+ */
+export function buildPathAlternates(
+  locale: string,
+  pathname: string,
+): Metadata["alternates"] {
+  const normalizedPath = normalizePathForAlternates(pathname);
+  const canonical = locale === "en" ? normalizedPath : `/${locale}${normalizedPath}`;
+  const languages: Record<string, string> = {};
+
+  languages.en = normalizedPath;
+  for (const code of [...LOCALE_PREFIX_CODES].sort((a, b) => a.localeCompare(b))) {
+    languages[code] = `/${code}${normalizedPath}`;
+  }
+  languages["x-default"] = normalizedPath;
+
+  return {
+    canonical,
+    languages,
+  };
+}
+
+/**
+ * Blog pages only have English content, so hreflang entries point to locale
+ * homepages instead of blog URLs.
+ */
+export function buildBlogAlternates(pathname: string): Metadata["alternates"] {
+  const normalizedPath = normalizePathForAlternates(pathname);
+  const languages: Record<string, string> = {};
+
+  languages.en = "/";
+  for (const code of [...LOCALE_PREFIX_CODES].sort((a, b) => a.localeCompare(b))) {
+    languages[code] = `/${code}/`;
+  }
+  languages["x-default"] = "/";
+
+  return {
+    canonical: normalizedPath,
+    languages,
+  };
+}
+
 /**
  * Path-only canonical + hreflang alternates (resolved to absolute URLs via `metadataBase` in root layout).
  */
