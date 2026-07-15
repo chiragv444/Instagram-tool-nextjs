@@ -53,13 +53,16 @@ export default function BlogList({ blogs, postsPerPage }: BlogListProps) {
             key={blog.slug}
             className="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-2xs transition hover:-translate-y-0.5 hover:shadow-sm w-full sm:w-[48%] lg:w-[32%] mb-4"
           >
-            <Link href={`/blog/${getBlogRouteSlug(blog)}/`} className="block">
+            <Link
+              href={`/blog/${getBlogRouteSlug(blog)}/`}
+              className="block"
+            >
               <Image
                 src={getBlogImageSrc(blog)}
                 alt="Instagram Downloader"
-                width={464}
-                height={260}
-                className="aspect-video w-full object-cover"
+                width={460}
+                height={208}
+                className="h-auto w-[1280px] object-cover"
                 priority={blog === visibleBlogs[0]}
               />
             </Link>

@@ -40,15 +40,15 @@ export function BlogPageContent() {
             className="object-cover h-42.5 w-42.5 absolute top-6 right-10 xl:right-30 2xl:right-70 md:w-auto opacity-20 xl:opacity-60"
           />
           {/* Background */}
-          <div className="absolute inset-0 pointer-events-none opacity-55 xl:opacity-60">
+          <div className="absolute inset-0 pointer-events-none opacity-30 xl:opacity-60">
             {/* <div className="absolute top-8 left-16 h-10 w-10 rounded-full bg-purple-500/30" />
             <div className="absolute top-10 right-20 h-6 w-6 rounded-full bg-fuchsia-500/25" />
             <div className="absolute bottom-20 left-1/4 h-3 w-3 rounded-full bg-violet-600/20" />
             <div className="absolute bottom-10 right-1/4 h-8 w-8 rounded-full bg-indigo-500/20" /> */}
-            <div className="absolute top-8 left-16 h-10 w-10 rounded-full bg-gradient-to-br from-white via-purple-300 to-purple-600 shadow-[inset_-4px_-4px_8px_rgba(126,34,206,0.35),inset_4px_4px_8px_rgba(255,255,255,0.7),0_6px_16px_rgba(139,92,246,0.35)]" />
+            <div className="absolute top-8 left-10 sm:left-16 h-10 w-10 rounded-full bg-gradient-to-br from-white via-purple-300 to-purple-600 shadow-[inset_-4px_-4px_8px_rgba(126,34,206,0.35),inset_4px_4px_8px_rgba(255,255,255,0.7),0_6px_16px_rgba(139,92,246,0.35)]" />
             <div className="absolute top-10 right-20 h-6 w-6 rounded-full bg-gradient-to-br from-white via-fuchsia-300 to-fuchsia-600 shadow-[inset_-3px_-3px_6px_rgba(192,38,211,0.35),inset_3px_3px_6px_rgba(255,255,255,0.7),0_4px_10px_rgba(192,38,211,0.35)]" />
-            <div className="absolute bottom-20 left-1/4 h-3 w-3 rounded-full bg-gradient-to-br from-white via-violet-300 to-violet-600 shadow-[inset_-2px_-2px_4px_rgba(109,40,217,0.35),inset_2px_2px_4px_rgba(255,255,255,0.7),0_2px_6px_rgba(109,40,217,0.35)]" />
-            <div className="absolute bottom-10 right-1/4 h-8 w-8 rounded-full bg-gradient-to-br from-white via-fuchsia-300 to-fuchsia-400 shadow-[inset_-3px_-3px_6px_rgba(79,70,229,0.35),inset_3px_3px_6px_rgba(255,255,255,0.7),0_5px_14px_rgba(99,102,241,0.35)]" />
+            <div className="absolute bottom-24 left-1/4 h-3 w-3 rounded-full bg-gradient-to-br from-white via-violet-300 to-violet-600 shadow-[inset_-2px_-2px_4px_rgba(109,40,217,0.35),inset_2px_2px_4px_rgba(255,255,255,0.7),0_2px_6px_rgba(109,40,217,0.35)]" />
+            <div className="absolute hidden md:block bottom-6 right-1/4 h-8 w-8 rounded-full bg-gradient-to-br from-white via-fuchsia-300 to-fuchsia-400 shadow-[inset_-3px_-3px_6px_rgba(79,70,229,0.35),inset_3px_3px_6px_rgba(255,255,255,0.7),0_5px_14px_rgba(99,102,241,0.35)]" />
           </div>
         </div>
       </section>
