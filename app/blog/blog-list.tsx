@@ -137,7 +137,7 @@ export default function BlogList({ blogs, postsPerPage }: BlogListProps) {
           <button
             type="button"
             onClick={() => goToPage(currentPage - 1)}
-            className="flex h-9 items-center justify-center rounded-md border border-gray-200 bg-white px-3 text-sm font-bold text-gray-800 hover:border-[#cb2444] hover:text-[#cb2444]"
+            className="flex h-9 items-center justify-center rounded-full bg-white px-3 text-sm font-bold text-gray-800 hover:text-[#cb2444] cursor-pointer"
           >
             Previous
           </button>
@@ -149,9 +149,9 @@ export default function BlogList({ blogs, postsPerPage }: BlogListProps) {
             type="button"
             onClick={() => goToPage(index + 1)}
             aria-current={currentPage === index + 1 ? "page" : undefined}
-            className={`flex h-9 w-9 items-center justify-center rounded-md border text-sm font-bold ${
+            className={`flex h-9 w-9 items-center justify-center rounded-full border text-sm font-bold cursor-pointer ${
               currentPage === index + 1
-                ? "border-gray-950 bg-gray-950 text-white"
+                ? "border-[#6a4bff] bg-[#6a4bff] text-white"
                 : "border-gray-200 bg-white text-gray-800 hover:border-[#cb2444] hover:text-[#cb2444]"
             }`}
           >
@@ -165,7 +165,7 @@ export default function BlogList({ blogs, postsPerPage }: BlogListProps) {
             type="button"
             disabled={currentPage === pageCount}
             onClick={() => goToPage(currentPage + 1)}
-            className="flex h-9 items-center justify-center rounded-md border border-gray-200 bg-white px-3 text-sm font-bold text-gray-800 hover:border-[#cb2444] hover:text-[#cb2444] disabled:bg-gray-50 disabled:text-gray-400 disabled:hover:border-gray-200"
+            className="flex h-9 items-center justify-center rounded-full bg-white px-3 text-sm font-bold text-gray-800 hover:text-[#cb2444] disabled:bg-gray-50 disabled:text-gray-400 disabled:hover:border-gray-200 cursor-pointer"
           >
             Next
           </button>
