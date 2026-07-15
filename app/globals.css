@@ -31,7 +31,9 @@
 
 body {
   /* font-family: var(--font-open-sans), "Open Sans", sans-serif !important; */
-  font-family: EB Garamond, serif !important;
+  font-family:
+    EB Garamond,
+    serif !important;
 }
 
 .internal-link {
@@ -39,7 +41,7 @@ body {
   text-decoration: none;
   color: inherit;
   transition: color 0.2s ease;
-} 
+}
 .internal-link:hover {
   color: #6a4bff !important;
 }
@@ -79,6 +81,13 @@ body {
 .blog-content ul {
   margin: 1rem 0 1.25rem 1.25rem;
   list-style: disc;
+  padding-inline-start: 20px;
+}
+
+.blog-content ol {
+  margin: 1rem 0 1.25rem 1.25rem;
+  list-style: decimal;
+  padding-inline-start: 20px !important;
 }
 
 .blog-content li {
