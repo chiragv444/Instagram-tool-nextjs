@@ -53,13 +53,16 @@ export default function BlogList({ blogs, postsPerPage }: BlogListProps) {
             key={blog.slug}
             className="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-2xs transition hover:-translate-y-0.5 hover:shadow-sm w-full sm:w-[48%] lg:w-[32%] mb-4"
           >
-            <Link href={`/blog/${getBlogRouteSlug(blog)}/`} className="block">
+            <Link
+              href={`/blog/${getBlogRouteSlug(blog)}/`}
+              className="block"
+            >
               <Image
                 src={getBlogImageSrc(blog)}
                 alt="Instagram Downloader"
-                width={464}
-                height={260}
-                className="aspect-video w-full object-cover"
+                width={460}
+                height={208}
+                className="h-auto w-[1280px] object-cover"
                 priority={blog === visibleBlogs[0]}
               />
             </Link>
@@ -137,7 +140,7 @@ export default function BlogList({ blogs, postsPerPage }: BlogListProps) {
           <button
             type="button"
             onClick={() => goToPage(currentPage - 1)}
-            className="flex h-9 items-center justify-center rounded-md border border-gray-200 bg-white px-3 text-sm font-bold text-gray-800 hover:border-[#cb2444] hover:text-[#cb2444]"
+            className="flex h-9 items-center justify-center rounded-full bg-white px-3 text-sm font-bold text-gray-800 hover:text-[#cb2444] cursor-pointer"
           >
             Previous
           </button>
@@ -149,9 +152,9 @@ export default function BlogList({ blogs, postsPerPage }: BlogListProps) {
             type="button"
             onClick={() => goToPage(index + 1)}
             aria-current={currentPage === index + 1 ? "page" : undefined}
-            className={`flex h-9 w-9 items-center justify-center rounded-md border text-sm font-bold ${
+            className={`flex h-9 w-9 items-center justify-center rounded-full border text-sm font-bold cursor-pointer ${
               currentPage === index + 1
-                ? "border-gray-950 bg-gray-950 text-white"
+                ? "border-[#6a4bff] bg-[#6a4bff] text-white"
                 : "border-gray-200 bg-white text-gray-800 hover:border-[#cb2444] hover:text-[#cb2444]"
             }`}
           >
@@ -165,7 +168,7 @@ export default function BlogList({ blogs, postsPerPage }: BlogListProps) {
             type="button"
             disabled={currentPage === pageCount}
             onClick={() => goToPage(currentPage + 1)}
-            className="flex h-9 items-center justify-center rounded-md border border-gray-200 bg-white px-3 text-sm font-bold text-gray-800 hover:border-[#cb2444] hover:text-[#cb2444] disabled:bg-gray-50 disabled:text-gray-400 disabled:hover:border-gray-200"
+            className="flex h-9 items-center justify-center rounded-full bg-white px-3 text-sm font-bold text-gray-800 hover:text-[#cb2444] disabled:bg-gray-50 disabled:text-gray-400 disabled:hover:border-gray-200 cursor-pointer"
           >
             Next
           </button>
