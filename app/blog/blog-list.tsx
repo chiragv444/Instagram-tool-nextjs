@@ -50,7 +50,7 @@ export default function BlogList({ blogs, postsPerPage }: BlogListProps) {
       <div className="flex flex-wrap gap-[2%]">
         {visibleBlogs.map((blog) => (
           <article
-            key={blog.slug}
+            key={blog.blog_id}
             className="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-2xs transition hover:-translate-y-0.5 hover:shadow-sm w-full sm:w-[48%] lg:w-[32%] mb-4"
           >
             <Link
