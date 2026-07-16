@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   alternates: buildBlogAlternates("/blog/"),
 };
 
-const POSTS_PER_PAGE = 1;
+const POSTS_PER_PAGE = 10;
 
 export function BlogPageContent() {
   const blogs = getAllBlogs();
