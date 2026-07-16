@@ -50,7 +50,7 @@ function toRouteSlug(value: string): string {
 
 export function getBlogRouteSlug(blog: Blog | undefined | null): string {
   if (!blog) return "";
-  return `${blog.blog_id}-${toRouteSlug(blog.slug)}`;
+  return blog.slug;
 }
 
 export function getAllBlogs(): Blog[] {
@@ -65,7 +65,7 @@ export function getBlogBySlug(slug: string): Blog | undefined {
   const normalizedSlug = toRouteSlug(slug);
   return blogs.find((blog) => {
     const routeSlug = getBlogRouteSlug(blog);
-    return routeSlug === normalizedSlug || blog.blog_id === normalizedSlug;
+    return routeSlug === slug || toRouteSlug(routeSlug) === normalizedSlug;
   });
 }
 

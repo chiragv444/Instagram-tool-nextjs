@@ -67,10 +67,12 @@ export async function BlogDetailPageContent({ params }: Props) {
             Home
           </Link>{" "}
           /{" "}
-          {/* <Link href="/blog/" className="hover:text-red-600"> */}
+          <Link href="/blog/" className="hover:text-red-600">
             Blog
+          </Link> /{" "}
+          {/* <Link href={`/blog/${blog?.slug}/`} className="hover:text-red-600"> */}
+          {blog?.title}
           {/* </Link> */}
-          {" "}
         </div>
 
         <div>
