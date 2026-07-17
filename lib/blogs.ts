@@ -50,7 +50,7 @@ function toRouteSlug(value: string): string {
 
 export function getBlogRouteSlug(blog: Blog | undefined | null): string {
   if (!blog) return "";
-  return blog.slug;
+  return toRouteSlug(blog.slug);
 }
 
 export function getAllBlogs(): Blog[] {
