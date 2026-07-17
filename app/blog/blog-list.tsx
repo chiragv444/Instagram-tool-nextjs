@@ -46,7 +46,8 @@ export default function BlogList({ blogs, postsPerPage }: BlogListProps) {
             >
               <Image
                 src={getBlogImageSrc(blog)}
-                alt="Instagram Downloader"
+                alt={blog.imagealt}
+                // alt="Instagram Downloader"
                 fill
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 48vw, 33vw"
                 className="object-cover"
