@@ -8,25 +8,39 @@ import { getBlogImageSrc, getBlogRouteSlug, type Blog } from "@/lib/blogs";
 type BlogListProps = {
   blogs: Blog[];
   postsPerPage: number;
+  rememberPage?: boolean;
 };
 
-export default function BlogList({ blogs, postsPerPage }: BlogListProps) {
+export default function BlogList({
+  blogs,
+  postsPerPage,
+  rememberPage = true,
+}: BlogListProps) {
   const pageCount = Math.max(1, Math.ceil(blogs.length / postsPerPage));
 
   const [currentPage, setCurrentPage] = useState(1);
 
   useEffect(() => {
+    if (!rememberPage) {
+      setCurrentPage(1);
+      return;
+    }
+
     const savedPage = Number(localStorage.getItem("blogCurrentPage"));
 
     if (savedPage >= 1 && savedPage <= pageCount) {
       setCurrentPage(savedPage);
+    } else {
+      setCurrentPage(1);
     }
-  }, [pageCount]);
+  }, [pageCount, rememberPage]);
 
   function goToPage(page: number) {
     const newPage = Math.min(Math.max(page, 1), pageCount);
     setCurrentPage(newPage);
-    localStorage.setItem("blogCurrentPage", String(newPage));
+    if (rememberPage) {
+      localStorage.setItem("blogCurrentPage", String(newPage));
+    }
   }
 
   const startIndex = (currentPage - 1) * postsPerPage;
@@ -34,52 +48,58 @@ export default function BlogList({ blogs, postsPerPage }: BlogListProps) {
 
   return (
     <div>
-      <div className="flex flex-wrap gap-[2%]">
-        {visibleBlogs.map((blog) => (
-          <article
-            key={blog.blog_id}
-            className="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-2xs transition hover:-translate-y-0.5 hover:shadow-sm w-full sm:w-[48%] lg:w-[32%] mb-4"
-          >
-            <Link
-              href={`/blog/${getBlogRouteSlug(blog)}/`}
-              className="relative block aspect-[460/208] overflow-hidden bg-gray-100"
+      {blogs.length === 0 ? (
+        <div className="rounded-lg border border-gray-200 bg-gray-50 px-5 py-8 text-center text-sm font-semibold text-gray-700">
+          No blogs found.
+        </div>
+      ) : (
+        <div className="flex flex-wrap gap-[2%]">
+          {visibleBlogs.map((blog) => (
+            <article
+              key={blog.blog_id}
+              className="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-2xs transition hover:-translate-y-0.5 hover:shadow-sm w-full sm:w-[48%] lg:w-[32%] mb-4"
             >
-              <Image
-                src={getBlogImageSrc(blog)}
-                alt={blog.imagealt}
-                // alt="Instagram Downloader"
-                fill
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 48vw, 33vw"
-                className="object-cover"
-                preload={blog === visibleBlogs[0]}
-              />
-            </Link>
-
-            <div className="p-5">
-              {/* <p className="text-sm font-medium text-[#cb2444]">
-                {blog.date}
-              </p> */}
-
-              <h2 className="mt-2 text-xl font-bold leading-snug text-gray-950">
-                <Link href={`/blog/${getBlogRouteSlug(blog)}/`}>
-                  {blog.title}
-                </Link>
-              </h2>
-
-              <p className="mt-3 line-clamp-3 text-sm leading-6 text-gray-700">
-                {blog.description}
-              </p>
-
               <Link
                 href={`/blog/${getBlogRouteSlug(blog)}/`}
-                className="mt-4 inline-flex text-sm font-bold text-gray-950 hover:text-[#cb2444]"
+                className="relative block aspect-[460/208] overflow-hidden bg-gray-100"
               >
-                Read more
+                <Image
+                  src={getBlogImageSrc(blog)}
+                  alt={blog.imagealt}
+                  // alt="Instagram Downloader"
+                  fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 48vw, 33vw"
+                  className="object-cover"
+                  preload={blog === visibleBlogs[0]}
+                />
               </Link>
-            </div>
-          </article>
-        ))}
-      </div>
+
+              <div className="p-5">
+                {/* <p className="text-sm font-medium text-[#cb2444]">
+                  {blog.date}
+                </p> */}
+
+                <h2 className="mt-2 text-xl font-bold leading-snug text-gray-950">
+                  <Link href={`/blog/${getBlogRouteSlug(blog)}/`}>
+                    {blog.title}
+                  </Link>
+                </h2>
+
+                <p className="mt-3 line-clamp-3 text-sm leading-6 text-gray-700">
+                  {blog.description}
+                </p>
+
+                <Link
+                  href={`/blog/${getBlogRouteSlug(blog)}/`}
+                  className="mt-4 inline-flex text-sm font-bold text-gray-950 hover:text-[#cb2444]"
+                >
+                  Read more
+                </Link>
+              </div>
+            </article>
+          ))}
+        </div>
+      )}
 
       {/* <nav
         className="mt-8 flex items-center justify-center gap-2"
@@ -120,7 +140,9 @@ export default function BlogList({ blogs, postsPerPage }: BlogListProps) {
         </button>
       </nav> */}
       <nav
-        className="mt-8 flex items-center justify-center gap-2"
+        className={`mt-8 flex items-center justify-center gap-2 ${
+          blogs.length === 0 ? "hidden" : ""
+        }`}
         aria-label="Blog pagination"
       >
         {/* Hide Previous on first page */}

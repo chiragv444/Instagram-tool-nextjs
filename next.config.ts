@@ -4,6 +4,7 @@ const nextConfig: NextConfig = {
   output: "standalone",
   /** Redirect `/es` → `/es/`, `/pl/foo` → `/pl/foo/`, etc. */
   trailingSlash: true,
+  skipTrailingSlashRedirect: true,
   /**
    * Disable streaming metadata for all clients so `<title>`, `<meta>`, and
    * canonical/hreflang stay in `<head>` (not appended in `<body>`).

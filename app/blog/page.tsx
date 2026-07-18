@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 // import Link from "next/link";
-import { getAllBlogs } from "@/lib/blogs";
+import { getAllBlogs, getBlogsByTitleQuery, type Blog } from "@/lib/blogs";
 import { buildBlogAlternates } from "@/lib/marketing-hreflang";
 import BlogList from "./blog-list";
 import Image from "next/image";
@@ -14,8 +14,22 @@ export const metadata: Metadata = {
 
 const POSTS_PER_PAGE = 10;
 
-export function BlogPageContent() {
-  const blogs = getAllBlogs();
+type BlogPageContentProps = {
+  blogs?: Blog[];
+  searchQuery?: string;
+};
+
+type BlogPageProps = {
+  searchParams?: Promise<{
+    q?: string | string[];
+  }>;
+};
+
+export function BlogPageContent({
+  blogs = getAllBlogs(),
+  searchQuery = "",
+}: BlogPageContentProps = {}) {
+  const trimmedSearchQuery = searchQuery.trim();
 
   return (
     <main className="bg-white">
@@ -52,13 +66,84 @@ export function BlogPageContent() {
           </div>
         </div>
       </section>
+      <section className="container max-w-6xl mx-auto mt-10 px-4 py-10 border-2 border-gray-200 rounded-lg bg-gray-50">
+        <form
+            id="get_blog"
+            action="/blog/search"
+            name="formurl"
+            autoComplete="off"
+            method="get"
+            noValidate
+            className="flex justify-center"
+          >
+            <div className="flex flex-col md:flex-row w-full gap-3 max-w-3xl items-stretch">
+              <div className="flex flex-1 bg-white rounded-xl shadow overflow-hidden relative">
+                <span className="absolute top-1/2 left-3 -translate-y-1/2 text-gray-500 hidden md:block">
+                  <svg
+                    width={20}
+                    height={20}
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden
+                  >
+                    <path
+                      d="M10.75 3.75L12.75 1.75C13.75 0.75 15.75 0.75 16.75 1.75L17.75 2.75C18.75 3.75 18.75 5.75 17.75 6.75L12.75 11.75C11.75 12.75 9.75 12.75 8.75 11.75M8.75 15.75L6.75 17.75C5.75 18.75 3.75 18.75 2.75 17.75L1.75 16.75C0.75 15.75 0.75 13.75 1.75 12.75L6.75 7.75C7.75 6.75 9.75 6.75 10.75 7.75"
+                      stroke="black"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </span>
+
+                <input
+                  id="q"
+                  name="q"
+                  type="text"
+                  placeholder="Search any blog here"
+                  aria-label="Search blog by title"
+                  autoCapitalize="none"
+                  defaultValue={trimmedSearchQuery}
+                  className="flex-1 h-14 md:ml-5 md:px-5 px-3 text-base text-gray-800 placeholder:text-gray-500 focus:outline-none"
+                />
+              </div>
+
+              <button
+                id="search"
+                type="submit"
+                className="h-14 px-8 bg-[#2d8cff] text-white text-sm md:text-base font-semibold rounded-xl shadow flex items-center justify-center hover:opacity-90 cursor-pointer"
+              >
+                Search
+              </button>
+            </div>
+          </form>
+      </section>
       <section className="container max-w-6xl mx-auto px-4 py-10">
-        <BlogList blogs={blogs} postsPerPage={POSTS_PER_PAGE} />
+        {trimmedSearchQuery && (
+          <p className="mb-5 text-sm font-semibold text-gray-700">
+            {blogs.length} blog{blogs.length === 1 ? "" : "s"} found for &quot;
+            {trimmedSearchQuery}&quot;
+          </p>
+        )}
+        <BlogList
+          blogs={blogs}
+          postsPerPage={POSTS_PER_PAGE}
+          rememberPage={!trimmedSearchQuery}
+        />
       </section>
     </main>
   );
 }
 
-export default function BlogPage() {
-  return <BlogPageContent />;
+function getSearchQuery(q: string | string[] | undefined): string {
+  return Array.isArray(q) ? q[0] ?? "" : q ?? "";
+}
+
+export default async function BlogPage({ searchParams }: BlogPageProps) {
+  const params = await searchParams;
+  const searchQuery = getSearchQuery(params?.q);
+  const blogs = searchQuery ? getBlogsByTitleQuery(searchQuery) : getAllBlogs();
+
+  return <BlogPageContent blogs={blogs} searchQuery={searchQuery} />;
 }

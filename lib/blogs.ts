@@ -58,6 +58,15 @@ export function getAllBlogs(): Blog[] {
   return [...blogs];
 }
 
+export function getBlogsByTitleQuery(query: string): Blog[] {
+  const normalizedQuery = query.trim().toLowerCase();
+  if (!normalizedQuery) return getAllBlogs();
+
+  return blogs.filter((blog) =>
+    blog.title.toLowerCase().includes(normalizedQuery)
+  );
+}
+
 export function getAllBlogSlugs(): string[] {
   return blogs.map((blog) => getBlogRouteSlug(blog));
 }
