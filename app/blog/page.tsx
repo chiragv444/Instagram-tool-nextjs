@@ -66,7 +66,7 @@ export function BlogPageContent({
           </div>
         </div>
       </section>
-      <section className="container max-w-6xl mx-auto mt-10 px-4 py-10 border-2 border-gray-200 rounded-lg bg-gray-50">
+      <section className="container max-w-6xl mx-auto mt-10">
         <form
             id="get_blog"
             action="/blog/search"
@@ -78,7 +78,7 @@ export function BlogPageContent({
           >
             <div className="flex flex-col md:flex-row w-full gap-3 max-w-3xl items-stretch">
               <div className="flex flex-1 bg-white rounded-xl shadow overflow-hidden relative">
-                <span className="absolute top-1/2 left-3 -translate-y-1/2 text-gray-500 hidden md:block">
+                {/* <span className="absolute top-1/2 left-3 -translate-y-1/2 text-gray-500 hidden md:block">
                   <svg
                     width={20}
                     height={20}
@@ -95,7 +95,7 @@ export function BlogPageContent({
                       strokeLinejoin="round"
                     />
                   </svg>
-                </span>
+                </span> */}
 
                 <input
                   id="q"
@@ -105,7 +105,7 @@ export function BlogPageContent({
                   aria-label="Search blog by title"
                   autoCapitalize="none"
                   defaultValue={trimmedSearchQuery}
-                  className="flex-1 h-14 md:ml-5 md:px-5 px-3 text-base text-gray-800 placeholder:text-gray-500 focus:outline-none"
+                  className="flex-1 h-14 md:px-5 px-3 text-base text-gray-800 placeholder:text-gray-500 focus:outline-none"
                 />
               </div>
 
