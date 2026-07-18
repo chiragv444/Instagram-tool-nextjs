@@ -94,7 +94,8 @@ export async function BlogDetailPageContent({ params }: Props) {
 
           <Image
             src={blogImage}
-            alt="Instagram Downloader"
+            alt={blog.imagealt}
+            // alt="Instagram Downloader"
             width={1280}
             height={720}
             className="w-full max-w-[1280px] object-contain rounded mb-6"

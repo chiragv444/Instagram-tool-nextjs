@@ -14,33 +14,20 @@ export default function BlogList({ blogs, postsPerPage }: BlogListProps) {
   const pageCount = Math.max(1, Math.ceil(blogs.length / postsPerPage));
 
   const [currentPage, setCurrentPage] = useState(1);
-  const [isLoaded, setIsLoaded] = useState(false);
 
-  // Load saved page from localStorage
   useEffect(() => {
     const savedPage = Number(localStorage.getItem("blogCurrentPage"));
 
     if (savedPage >= 1 && savedPage <= pageCount) {
       setCurrentPage(savedPage);
     }
-
-    setIsLoaded(true);
   }, [pageCount]);
-
-  // Save page whenever it changes
-  useEffect(() => {
-    if (!isLoaded) return;
-
-    localStorage.setItem("blogCurrentPage", String(currentPage));
-  }, [currentPage, isLoaded]);
 
   function goToPage(page: number) {
     const newPage = Math.min(Math.max(page, 1), pageCount);
     setCurrentPage(newPage);
+    localStorage.setItem("blogCurrentPage", String(newPage));
   }
-
-  // Prevent initial render until localStorage is loaded
-  if (!isLoaded) return null;
 
   const startIndex = (currentPage - 1) * postsPerPage;
   const visibleBlogs = blogs.slice(startIndex, startIndex + postsPerPage);
@@ -55,15 +42,16 @@ export default function BlogList({ blogs, postsPerPage }: BlogListProps) {
           >
             <Link
               href={`/blog/${getBlogRouteSlug(blog)}/`}
-              className="block"
+              className="relative block aspect-[460/208] overflow-hidden bg-gray-100"
             >
               <Image
                 src={getBlogImageSrc(blog)}
-                alt="Instagram Downloader"
-                width={460}
-                height={208}
-                className="h-auto w-[1280px] object-cover"
-                priority={blog === visibleBlogs[0]}
+                alt={blog.imagealt}
+                // alt="Instagram Downloader"
+                fill
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 48vw, 33vw"
+                className="object-cover"
+                preload={blog === visibleBlogs[0]}
               />
             </Link>
 
