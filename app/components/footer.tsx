@@ -24,7 +24,7 @@ export default function Footer({
             <div className="flex mb-4 mx-auto md:mx-0">
               <Link href={logoHref} className="">
                 <Image
-                  src="/img/SaveInstaVideo.svg"
+                  src="/img/SaveInstaVideo.webp"
                   alt="logo"
                   width={120}
                   height={24}

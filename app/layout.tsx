@@ -37,9 +37,9 @@ export async function generateMetadata(): Promise<Metadata> {
     description:
       "Download and save your favorite Instagram videos easily. Fast, free, and simple to use.",
     icons: {
-      icon: "/img/favicon.png",
-      shortcut: "/img/favicon.png",
-      apple: "/img/favicon.png",
+      icon: "/img/favicon.webp",
+      shortcut: "/img/favicon.webp",
+      apple: "/img/favicon.webp",
     },
     robots: {
       index: true,
@@ -49,7 +49,7 @@ export async function generateMetadata(): Promise<Metadata> {
     publisher: "saveinstavideo.io",
     openGraph: {
       locale: openGraphLocaleForSiteLocale(locale),
-      images: [{ url: "/img/favicon.png" }],
+      images: [{ url: "/img/favicon.webp" }],
     },
   };
 }

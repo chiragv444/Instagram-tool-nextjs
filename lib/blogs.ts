@@ -1,12 +1,5 @@
 import type { StaticImageData } from "next/image";
 import blogsData from "@/data/blogs.json";
-// import firstBlogImage from "@/app/assets/1st-blog-webp.webp";
-// import secondBlogImage from "@/app/assets/2nd-blog-webp.webp";
-// import thirdBlogImage from "@/app/assets/3rd-blog-webp.webp";
-// import fourthBlogImage from "@/app/assets/4th-blog-webp.webp";
-// import fifthBlogImage from "@/app/assets/5th-blog-webp.webp";
-// import sixthBlogImage from "@/app/assets/6th-blog-webp.webp";
-// import seventhBlogImage from "@/app/assets/7th-blog-webp.webp";
 
 import blogImage01 from '@/app/assets/1st-blog-webp.webp';
 import blogImage02 from '@/app/assets/2nd-blog-webp.webp';

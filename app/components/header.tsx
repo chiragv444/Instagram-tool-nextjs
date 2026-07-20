@@ -107,7 +107,7 @@ export default function Header({
         <div className="flex items-center gap-4">
           <Link href={logoHref} className="text-xl font-bold flex items-center gap-2">
             <Image
-              src="/img/SaveInstaVideo.svg"
+              src="/img/SaveInstaVideo.webp"
               alt="logo"
               width={120}
               height={24}
