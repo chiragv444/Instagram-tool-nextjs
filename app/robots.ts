@@ -4,8 +4,8 @@ export default function robots(): MetadataRoute.Robots {
   return {
     rules: {
       userAgent: "*",
+      disallow: "/blog/search?*", 
       allow: "/",
-      disallow: "/blog/search?",
     },
     sitemap: "https://saveinstavideo.io/sitemap.xml",
   };
