@@ -5,7 +5,7 @@ import blogImage01 from '@/app/assets/1st-blog-webp.webp';
 import blogImage02 from '@/app/assets/2nd-blog-webp.webp';
 import blogImage03 from '@/app/assets/3rd-blog-webp.webp';
 import blogImage04 from '@/app/assets/4th-blog-webp.webp';
-// import blogImage05 from '@/app/assets/5th-blog-webp.webp';
+import blogImage05 from '@/app/assets/5th-blog-webp.webp';
 // import blogImage06 from '@/app/assets/6th-blog-webp.webp';
 // import blogImage07 from '@/app/assets/7th-blog-webp.webp';
 
@@ -27,7 +27,7 @@ const blogImageAssets: Record<string, StaticImageData> = {
   "2nd-blog-webp": blogImage02,
   "3rd-blog-webp": blogImage03,
   "4th-blog-webp": blogImage04,
-  // "5th-blog-webp": blogImage05,
+  "5th-blog-webp": blogImage05,
   // "6th-blog-webp": blogImage06,
   // "7th-blog-webp": blogImage07,
 };
@@ -77,6 +77,6 @@ export function getPopularBlogs(limit = 4): Blog[] {
 }
 
 export function getBlogImageSrc(blog: Blog | undefined | null): string | StaticImageData {
-  if (!blog) return "/img/card_index.webp";
-  return blogImageAssets[blog.image] ?? "/img/card_index.webp";
+  if (!blog) return "/img/blog-bg.png";
+  return blogImageAssets[blog.image] ?? "/img/blog-bg.png";
 }
