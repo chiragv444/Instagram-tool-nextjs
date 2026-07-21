@@ -25,7 +25,7 @@ export default function Footer({
               <Link href={logoHref} className="">
                 <Image
                   src="/img/SaveInstaVideo.webp"
-                  alt="logo"
+                  alt="Saveinstavideo"
                   width={120}
                   height={24}
                   className="h-4 sm:h-6 w-auto"

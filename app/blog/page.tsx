@@ -5,12 +5,13 @@ import { buildBlogAlternates } from "@/lib/marketing-hreflang";
 import BlogList from "./blog-list";
 import Image from "next/image";
 
-export const metadata: Metadata = {
-  title: "SaveInstaVideo - Instagram Video, Photo, Story and Reels",
-  description:
-    "A free and fast tool to download Instagram videos online. Without any login or signup.",
-  alternates: buildBlogAlternates("/blog/"),
-};
+const BLOG_PAGE_TITLE = "SaveInstaVideo - Instagram Video, Photo, Story and Reels";
+const BLOG_PAGE_DESCRIPTION =
+  "A free and fast tool to download Instagram videos online. Without any login or signup.";
+
+const BLOG_SEARCH_TITLE = "Instagram Downloader Guides & Tips | SaveInstaVideo Blog";
+const BLOG_SEARCH_DESCRIPTION =
+  "Search the SaveInstaVideo.io blog for Instagram downloader guides, Reels download tutorials, Story-saving tips, FAQs, and the latest updates.";
 
 const POSTS_PER_PAGE = 10;
 
@@ -24,6 +25,17 @@ type BlogPageProps = {
     q?: string | string[];
   }>;
 };
+
+export async function generateMetadata({ searchParams }: BlogPageProps): Promise<Metadata> {
+  const params = await searchParams;
+  const searchQuery = getSearchQuery(params?.q);
+
+  return {
+    title: searchQuery ? BLOG_SEARCH_TITLE : BLOG_PAGE_TITLE,
+    description: searchQuery ? BLOG_SEARCH_DESCRIPTION : BLOG_PAGE_DESCRIPTION,
+    alternates: buildBlogAlternates("/blog/"),
+  };
+}
 
 export function BlogPageContent({
   blogs = getAllBlogs(),
@@ -48,7 +60,7 @@ export function BlogPageContent({
           {/* absolute img */}
           <Image
             src="/img/blog-bg.png"
-            alt="Instagram Downloader Blog"
+            alt="Instagram Downloader"
             height={200}
             width={200}
             className="object-cover h-42.5 w-42.5 absolute top-6 right-10 xl:right-30 2xl:right-70 md:w-auto opacity-20 xl:opacity-60"

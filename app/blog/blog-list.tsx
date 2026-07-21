@@ -185,9 +185,9 @@ export default function BlogList({
         )}
       </nav>
       <div className="max-w-170 mt-8 mx-auto border border-[#dfdfdf] bg-[#f5f5f577] rounded-2xl p-8 text-center">
-        <h3 className="text-[20px] font-bold mb-3">
+        <span className="text-[20px] font-bold mb-3">
           Need to download Instagram stories, reels and videos?
-        </h3>
+        </span>
         <p className="text-[15px] leading-6 !mb-6">
           Save Instagram Reels, videos, photos, and Stories in seconds with the
           Instagram Downloader. No software or installation needed.

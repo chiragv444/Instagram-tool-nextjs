@@ -108,7 +108,7 @@ export default function Header({
           <Link href={logoHref} className="text-xl font-bold flex items-center gap-2">
             <Image
               src="/img/SaveInstaVideo.webp"
-              alt="logo"
+              alt="Saveinstavideo"
               width={120}
               height={24}
               className="h-4 sm:h-6 w-auto"
