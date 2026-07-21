@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 // import Link from "next/link";
 import { getAllBlogs, getBlogsByTitleQuery, type Blog } from "@/lib/blogs";
-import { buildBlogAlternates } from "@/lib/marketing-hreflang";
 import BlogList from "./blog-list";
 import Image from "next/image";
 
@@ -33,7 +32,9 @@ export async function generateMetadata({ searchParams }: BlogPageProps): Promise
   return {
     title: searchQuery ? BLOG_SEARCH_TITLE : BLOG_PAGE_TITLE,
     description: searchQuery ? BLOG_SEARCH_DESCRIPTION : BLOG_PAGE_DESCRIPTION,
-    alternates: buildBlogAlternates("/blog/"),
+    alternates: {
+      canonical: "/blog/",
+    },
   };
 }
 

@@ -8,7 +8,6 @@ import {
   getBlogImageSrc,
   getBlogRouteSlug,
 } from "@/lib/blogs";
-import { buildBlogAlternates } from "@/lib/marketing-hreflang";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -38,7 +37,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${blog.title}`,
     description: blog.description,
-    alternates: buildBlogAlternates(`/blog/${routeSlug}/`),
+    alternates: {
+      canonical: `/blog/${routeSlug}/`,
+    },
     openGraph: {
       title: blog.title,
       description: blog.description,
@@ -54,7 +55,6 @@ export async function BlogDetailPageContent({ params }: Props) {
 
   if (!blog) notFound();
 
-  const routeSlug = getBlogRouteSlug(blog);
   const blogImage = getBlogImageSrc(blog);
 
   return (

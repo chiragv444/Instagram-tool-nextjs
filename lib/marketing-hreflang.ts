@@ -76,26 +76,6 @@ export function buildPathAlternates(
 }
 
 /**
- * Blog pages only have English content, so hreflang entries point to locale
- * homepages instead of blog URLs.
- */
-export function buildBlogAlternates(pathname: string): Metadata["alternates"] {
-  const normalizedPath = normalizePathForAlternates(pathname);
-  const languages: Record<string, string> = {};
-
-  languages.en = "/";
-  for (const code of [...LOCALE_PREFIX_CODES].sort((a, b) => a.localeCompare(b))) {
-    languages[code] = `/${code}/`;
-  }
-  languages["x-default"] = "/";
-
-  return {
-    canonical: normalizedPath,
-    languages,
-  };
-}
-
-/**
  * Path-only canonical + hreflang alternates (resolved to absolute URLs via `metadataBase` in root layout).
  */
 export function buildMarketingHreflang(
