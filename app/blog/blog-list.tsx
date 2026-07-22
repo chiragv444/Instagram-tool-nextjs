@@ -61,7 +61,7 @@ export default function BlogList({
             >
               <Link
                 href={`/blog/${getBlogRouteSlug(blog)}/`}
-                className="relative block aspect-[460/208] overflow-hidden bg-gray-100"
+                className="relative block aspect-[460/223] overflow-hidden bg-gray-100"
               >
                 <Image
                   src={getBlogImageSrc(blog)}
