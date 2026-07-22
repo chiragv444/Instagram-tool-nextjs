@@ -6,7 +6,7 @@ import blogImage02 from '@/app/assets/2nd-blog-webp.webp';
 import blogImage03 from '@/app/assets/3rd-blog-webp.webp';
 import blogImage04 from '@/app/assets/4th-blog-webp.webp';
 import blogImage05 from '@/app/assets/5th-blog-webp.webp';
-// import blogImage06 from '@/app/assets/6th-blog-webp.webp';
+import blogImage06 from '@/app/assets/6th-blog-webp.webp';
 // import blogImage07 from '@/app/assets/7th-blog-webp.webp';
 
 export type Blog = {
@@ -28,7 +28,7 @@ const blogImageAssets: Record<string, StaticImageData> = {
   "3rd-blog-webp": blogImage03,
   "4th-blog-webp": blogImage04,
   "5th-blog-webp": blogImage05,
-  // "6th-blog-webp": blogImage06,
+  "6th-blog-webp": blogImage06,
   // "7th-blog-webp": blogImage07,
 };
 
