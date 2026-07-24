@@ -8,6 +8,7 @@ import blogImage04 from '@/app/assets/4th-blog-webp.webp';
 import blogImage05 from '@/app/assets/5th-blog-webp.webp';
 import blogImage06 from '@/app/assets/6th-blog-webp.webp';
 import blogImage07 from '@/app/assets/7th-blog-webp.webp';
+import blogImage08 from '@/app/assets/8th-blog-webp.webp';
 
 export type Blog = {
   blog_id: string;
@@ -30,6 +31,7 @@ const blogImageAssets: Record<string, StaticImageData> = {
   "5th-blog-webp": blogImage05,
   "6th-blog-webp": blogImage06,
   "7th-blog-webp": blogImage07,
+  "8th-blog-webp": blogImage08,
 };
 
 function toRouteSlug(value: string): string {
