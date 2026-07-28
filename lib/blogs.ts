@@ -10,6 +10,22 @@ import blogImage06 from '@/app/assets/6th-blog-webp.webp';
 import blogImage07 from '@/app/assets/7th-blog-webp.webp';
 import blogImage08 from '@/app/assets/8th-blog-webp.webp';
 import blogImage09 from '@/app/assets/9th-blog-webp.webp';
+import blogImage10 from '@/app/assets/10th-blog-webp.webp';
+// import blogImage11 from '@/app/assets/11th-blog-webp.webp';
+// import blogImage12 from '@/app/assets/12th-blog-webp.webp';
+// import blogImage13 from '@/app/assets/13th-blog-webp.webp';
+// import blogImage14 from '@/app/assets/14th-blog-webp.webp';
+// import blogImage15 from '@/app/assets/15th-blog-webp.webp';
+// import blogImage16 from '@/app/assets/16th-blog-webp.webp';
+// import blogImage17 from '@/app/assets/17th-blog-webp.webp';
+// import blogImage18 from '@/app/assets/18th-blog-webp.webp';
+// import blogImage19 from '@/app/assets/19th-blog-webp.webp';
+// import blogImage20 from '@/app/assets/20th-blog-webp.webp';
+// import blogImage21 from '@/app/assets/21th-blog-webp.webp';
+// import blogImage22 from '@/app/assets/22th-blog-webp.webp';
+// import blogImage23 from '@/app/assets/23th-blog-webp.webp';
+// import blogImage24 from '@/app/assets/24th-blog-webp.webp';
+// import blogImage25 from '@/app/assets/25th-blog-webp.webp';
 
 export type Blog = {
   blog_id: string;
@@ -34,6 +50,22 @@ const blogImageAssets: Record<string, StaticImageData> = {
   "7th-blog-webp": blogImage07,
   "8th-blog-webp": blogImage08,
   "9th-blog-webp": blogImage09,
+  "10th-blog-webp": blogImage10,
+  // "11th-blog-webp": blogImage11,
+  // "12th-blog-webp": blogImage12,
+  // "13th-blog-webp": blogImage13,
+  // "14th-blog-webp": blogImage14,
+  // "15th-blog-webp": blogImage15,
+  // "16th-blog-webp": blogImage16,
+  // "17th-blog-webp": blogImage17,
+  // "18th-blog-webp": blogImage18,
+  // "19th-blog-webp": blogImage19,
+  // "20th-blog-webp": blogImage20,
+  // "21th-blog-webp": blogImage21,
+  // "22th-blog-webp": blogImage22,
+  // "23th-blog-webp": blogImage23,
+  // "24th-blog-webp": blogImage24,
+  // "25th-blog-webp": blogImage25,
 };
 
 function toRouteSlug(value: string): string {
