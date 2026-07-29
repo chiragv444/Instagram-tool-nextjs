@@ -8,39 +8,52 @@ import { getBlogImageSrc, getBlogRouteSlug, type Blog } from "@/lib/blogs";
 type BlogListProps = {
   blogs: Blog[];
   postsPerPage: number;
-  rememberPage?: boolean;
+  initialPage?: number;
 };
+
+function clampPage(page: number, pageCount: number): number {
+  return Math.min(Math.max(page, 1), pageCount);
+}
 
 export default function BlogList({
   blogs,
   postsPerPage,
-  rememberPage = true,
+  initialPage = 1,
 }: BlogListProps) {
   const pageCount = Math.max(1, Math.ceil(blogs.length / postsPerPage));
-
-  const [currentPage, setCurrentPage] = useState(1);
+  const [currentPage, setCurrentPage] = useState(() =>
+    clampPage(initialPage, pageCount)
+  );
 
   useEffect(() => {
-    if (!rememberPage) {
-      setCurrentPage(1);
-      return;
-    }
+    setCurrentPage(clampPage(initialPage, pageCount));
+  }, [initialPage, pageCount]);
 
-    const savedPage = Number(localStorage.getItem("blogCurrentPage"));
+  useEffect(() => {
+    const handlePopState = () => {
+      const page = Number(new URLSearchParams(window.location.search).get("page"));
+      setCurrentPage(clampPage(page || 1, pageCount));
+    };
 
-    if (savedPage >= 1 && savedPage <= pageCount) {
-      setCurrentPage(savedPage);
-    } else {
-      setCurrentPage(1);
-    }
-  }, [pageCount, rememberPage]);
+    window.addEventListener("popstate", handlePopState);
+    return () => window.removeEventListener("popstate", handlePopState);
+  }, [pageCount]);
 
   function goToPage(page: number) {
-    const newPage = Math.min(Math.max(page, 1), pageCount);
+    const newPage = clampPage(page, pageCount);
     setCurrentPage(newPage);
-    if (rememberPage) {
-      localStorage.setItem("blogCurrentPage", String(newPage));
+
+    const url = new URL(window.location.href);
+    if (newPage === 1) {
+      url.searchParams.delete("page");
+    } else {
+      url.searchParams.set("page", String(newPage));
     }
+    window.history.pushState(null, "", url);
+    document.getElementById("blog-results")?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
   }
 
   const startIndex = (currentPage - 1) * postsPerPage;
@@ -53,10 +66,10 @@ export default function BlogList({
           No blogs found.
         </div>
       ) : (
-        <div className="flex flex-wrap gap-[2%]">
-          {visibleBlogs.map((blog) => (
+        <div id="blog-results" className="flex flex-wrap gap-[2%]">
+          {visibleBlogs.map((blog, index) => (
             <article
-              key={blog.blog_id}
+              key={`${blog.blog_id}-${blog.slug}-${startIndex + index}`}
               className="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-2xs transition hover:-translate-y-0.5 hover:shadow-sm w-full sm:w-[48%] lg:w-[32%] mb-4"
             >
               <Link

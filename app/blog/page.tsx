@@ -12,16 +12,18 @@ const BLOG_SEARCH_TITLE = "Instagram Downloader Guides & Tips | SaveInstaVideo B
 const BLOG_SEARCH_DESCRIPTION =
   "Search the SaveInstaVideo.io blog for Instagram downloader guides, Reels download tutorials, Story-saving tips, FAQs, and the latest updates.";
 
-const POSTS_PER_PAGE = 10;
+const POSTS_PER_PAGE = 12;
 
 type BlogPageContentProps = {
   blogs?: Blog[];
   searchQuery?: string;
+  initialPage?: number;
 };
 
 type BlogPageProps = {
   searchParams?: Promise<{
     q?: string | string[];
+    page?: string | string[];
   }>;
 };
 
@@ -41,6 +43,7 @@ export async function generateMetadata({ searchParams }: BlogPageProps): Promise
 export function BlogPageContent({
   blogs = getAllBlogs(),
   searchQuery = "",
+  initialPage = 1,
 }: BlogPageContentProps = {}) {
   const trimmedSearchQuery = searchQuery.trim();
 
@@ -82,7 +85,7 @@ export function BlogPageContent({
       <section className="container max-w-6xl mx-auto mt-10">
         <form
             id="get_blog"
-            action="/blog/search"
+            action="/blog"
             name="formurl"
             autoComplete="off"
             method="get"
@@ -142,7 +145,7 @@ export function BlogPageContent({
         <BlogList
           blogs={blogs}
           postsPerPage={POSTS_PER_PAGE}
-          rememberPage={!trimmedSearchQuery}
+          initialPage={initialPage}
         />
       </section>
     </main>
@@ -153,10 +156,26 @@ function getSearchQuery(q: string | string[] | undefined): string {
   return Array.isArray(q) ? q[0] ?? "" : q ?? "";
 }
 
+function getPageNumber(page: string | string[] | undefined, pageCount: number): number {
+  const value = Array.isArray(page) ? page[0] : page;
+  const parsedPage = Number(value);
+
+  if (!Number.isInteger(parsedPage) || parsedPage < 1) return 1;
+  return Math.min(parsedPage, pageCount);
+}
+
 export default async function BlogPage({ searchParams }: BlogPageProps) {
   const params = await searchParams;
   const searchQuery = getSearchQuery(params?.q);
   const blogs = searchQuery ? getBlogsByTitleQuery(searchQuery) : getAllBlogs();
+  const pageCount = Math.max(1, Math.ceil(blogs.length / POSTS_PER_PAGE));
+  const initialPage = getPageNumber(params?.page, pageCount);
 
-  return <BlogPageContent blogs={blogs} searchQuery={searchQuery} />;
+  return (
+    <BlogPageContent
+      blogs={blogs}
+      searchQuery={searchQuery}
+      initialPage={initialPage}
+    />
+  );
 }
