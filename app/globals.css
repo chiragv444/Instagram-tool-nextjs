@@ -38,12 +38,13 @@ body {
 
 .internal-link {
   font-weight: 700 !important;
-  text-decoration: none;
+  text-decoration: underline;
   color: inherit;
   transition: color 0.2s ease;
 }
 .internal-link:hover {
   color: #6a4bff !important;
+  text-decoration: none;
 }
 
 .blog-content {
