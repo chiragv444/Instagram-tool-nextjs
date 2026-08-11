@@ -87,13 +87,26 @@ export function getAllBlogs(): Blog[] {
   return [...blogs];
 }
 
-export function getBlogsByTitleQuery(query: string): Blog[] {
-  const normalizedQuery = query.trim().toLowerCase();
+function normalizeSearchText(value: string): string {
+  return value
+    .replace(/<[^>]*>/g, " ")
+    .replace(/&[a-zA-Z#0-9]+;/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .toLocaleLowerCase();
+}
+
+export function getBlogsByQuery(query: string): Blog[] {
+  const normalizedQuery = normalizeSearchText(query);
   if (!normalizedQuery) return getAllBlogs();
 
-  return blogs.filter((blog) =>
-    blog.title.toLowerCase().includes(normalizedQuery)
-  );
+  return blogs.filter((blog) => {
+    const searchableText = normalizeSearchText(
+      [blog.title, blog.description, blog.content, blog.slug].join(" ")
+    );
+
+    return searchableText.includes(normalizedQuery);
+  });
 }
 
 export function getAllBlogSlugs(): string[] {

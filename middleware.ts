@@ -9,41 +9,6 @@ import { reorderHeadHtml } from "@/lib/reorder-head-html";
 
 const HEAD_REORDER_INTERNAL = "x-head-reorder-internal";
 
-function getNormalizedPath(pathname: string): string {
-  return pathname.length > 1 && pathname.endsWith("/")
-    ? pathname.slice(0, -1)
-    : pathname;
-}
-
-function isBlogSearchPath(pathname: string): boolean {
-  return getNormalizedPath(pathname).endsWith("/blog/search");
-}
-
-function getBlogSearchRenderUrl(request: NextRequest, pathname: string): URL | null {
-  const normalizedPath = getNormalizedPath(pathname);
-
-  if (!isBlogSearchPath(pathname)) return null;
-
-  const url = request.nextUrl.clone();
-  url.pathname = (normalizedPath.slice(0, -"/search".length) || "/blog") + "/";
-  return url;
-}
-
-function resolveTrailingSlashRedirect(request: NextRequest, pathname: string): NextResponse | null {
-  if (isBlogSearchPath(pathname)) {
-    if (!pathname.endsWith("/")) return null;
-    const url = new URL(request.url);
-    url.pathname = getNormalizedPath(pathname);
-    return NextResponse.redirect(url, 308);
-  }
-
-  if (pathname === "/" || pathname.endsWith("/")) return null;
-
-  const url = request.nextUrl.clone();
-  url.pathname = `${pathname}/`;
-  return NextResponse.redirect(url, 308);
-}
-
 /** Only full document GETs; skip RSC / prefetch / actions (see app-router-headers). */
 function isHtmlDocumentRequest(request: NextRequest): boolean {
   if (request.method !== "GET") return false;
@@ -97,9 +62,6 @@ export async function middleware(request: NextRequest) {
 
   const { locale, pathname, redirect } = resolveLocaleAndMaybeRedirect(request);
   if (redirect) return redirect;
-  const blogSearchRenderUrl = getBlogSearchRenderUrl(request, pathname);
-  const trailingSlashRedirect = resolveTrailingSlashRedirect(request, pathname);
-  if (trailingSlashRedirect) return trailingSlashRedirect;
 
   if (!isKnownAppPath(pathname)) {
     const url = request.nextUrl.clone();
@@ -118,7 +80,7 @@ export async function middleware(request: NextRequest) {
       internalHeaders.set("x-locale", locale);
       internalHeaders.set("x-pathname", pathname);
 
-      const res = await fetch(blogSearchRenderUrl ?? request.url, {
+      const res = await fetch(request.url, {
         headers: internalHeaders,
         cache: "no-store",
       });
@@ -160,12 +122,6 @@ export async function middleware(request: NextRequest) {
     } catch {
       /* fall through */
     }
-  }
-
-  if (blogSearchRenderUrl) {
-    return NextResponse.rewrite(blogSearchRenderUrl, {
-      request: { headers: requestHeaders },
-    });
   }
 
   return NextResponse.next({

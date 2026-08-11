@@ -15,6 +15,11 @@ function clampPage(page: number, pageCount: number): number {
   return Math.min(Math.max(page, 1), pageCount);
 }
 
+function getPageStorageKey(): string {
+  const query = new URLSearchParams(window.location.search).get("q") ?? "";
+  return `blog-page:${window.location.pathname}:${query}`;
+}
+
 export default function BlogList({
   blogs,
   postsPerPage,
@@ -30,6 +35,18 @@ export default function BlogList({
   }, [initialPage, pageCount]);
 
   useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    if (params.has("page")) return;
+
+    const storedPage = Number(
+      window.sessionStorage.getItem(getPageStorageKey())
+    );
+    if (storedPage) {
+      setCurrentPage(clampPage(storedPage, pageCount));
+    }
+  }, [pageCount]);
+
+  useEffect(() => {
     const handlePopState = () => {
       const page = Number(new URLSearchParams(window.location.search).get("page"));
       setCurrentPage(clampPage(page || 1, pageCount));
@@ -42,14 +59,7 @@ export default function BlogList({
   function goToPage(page: number) {
     const newPage = clampPage(page, pageCount);
     setCurrentPage(newPage);
-
-    const url = new URL(window.location.href);
-    if (newPage === 1) {
-      url.searchParams.delete("page");
-    } else {
-      url.searchParams.set("page", String(newPage));
-    }
-    window.history.pushState(null, "", url);
+    window.sessionStorage.setItem(getPageStorageKey(), String(newPage));
     document.getElementById("blog-results")?.scrollIntoView({
       behavior: "smooth",
       block: "start",
@@ -205,12 +215,12 @@ export default function BlogList({
           Save Instagram Reels, videos, photos, and Stories in seconds with the
           Instagram Downloader. No software or installation needed.
         </p>
-        <a
+        <Link
           className="inline-flex items-center justify-center rounded-lg bg-gradient-to-r from-[#6a4bff] via-[#b232e9] to-[#ff1667] text-white text-[15px] font-semibold h-12 px-8 shadow-[0_4px_14px_rgba(255,0,0,0.22)] hover:bg-[#4a474e] hover:shadow-none transition-all"
           href="/"
         >
           Go to Downloader →
-        </a>
+        </Link>
       </div>
     </div>
   );

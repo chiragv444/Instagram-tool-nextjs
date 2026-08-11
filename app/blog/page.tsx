@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 // import Link from "next/link";
-import { getAllBlogs, getBlogsByTitleQuery, type Blog } from "@/lib/blogs";
+import { getAllBlogs, getBlogsByQuery, type Blog } from "@/lib/blogs";
 import BlogList from "./blog-list";
 import Image from "next/image";
 
@@ -118,7 +118,7 @@ export function BlogPageContent({
                   name="q"
                   type="text"
                   placeholder="Search any blog here"
-                  aria-label="Search blog by title"
+                  aria-label="Search blogs"
                   autoCapitalize="none"
                   defaultValue={trimmedSearchQuery}
                   className="flex-1 h-14 md:px-5 px-3 text-base text-gray-800 placeholder:text-gray-500 focus:outline-none"
@@ -167,7 +167,7 @@ function getPageNumber(page: string | string[] | undefined, pageCount: number): 
 export default async function BlogPage({ searchParams }: BlogPageProps) {
   const params = await searchParams;
   const searchQuery = getSearchQuery(params?.q);
-  const blogs = searchQuery ? getBlogsByTitleQuery(searchQuery) : getAllBlogs();
+  const blogs = searchQuery ? getBlogsByQuery(searchQuery) : getAllBlogs();
   const pageCount = Math.max(1, Math.ceil(blogs.length / POSTS_PER_PAGE));
   const initialPage = getPageNumber(params?.page, pageCount);
 
