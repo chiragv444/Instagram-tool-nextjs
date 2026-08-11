@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 // import Link from "next/link";
+import { redirect } from "next/navigation";
 import { getAllBlogs, getBlogsByQuery, type Blog } from "@/lib/blogs";
 import BlogList from "./blog-list";
 import Image from "next/image";
@@ -166,6 +167,11 @@ function getPageNumber(page: string | string[] | undefined, pageCount: number): 
 
 export default async function BlogPage({ searchParams }: BlogPageProps) {
   const params = await searchParams;
+
+  if (params?.page !== undefined) {
+    redirect("/blog/");
+  }
+
   const searchQuery = getSearchQuery(params?.q);
   const blogs = searchQuery ? getBlogsByQuery(searchQuery) : getAllBlogs();
   const pageCount = Math.max(1, Math.ceil(blogs.length / POSTS_PER_PAGE));

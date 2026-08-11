@@ -69,6 +69,17 @@ export async function middleware(request: NextRequest) {
     return NextResponse.redirect(url, 302);
   }
 
+  if (
+    (pathname === "/blog" || pathname === "/blog/") &&
+    isHtmlDocumentRequest(request) &&
+    request.nextUrl.searchParams.has("page")
+  ) {
+    const url = request.nextUrl.clone();
+    url.pathname = "/blog/";
+    url.search = "";
+    return NextResponse.redirect(url, 307);
+  }
+
   const requestHeaders = new Headers(request.headers);
   requestHeaders.set("x-locale", locale);
   requestHeaders.set("x-pathname", pathname);
