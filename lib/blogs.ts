@@ -23,7 +23,7 @@ import blogImage19 from '@/app/assets/19th-blog-webp.webp';
 import blogImage20 from '@/app/assets/20th-blog-webp.webp';
 import blogImage21 from '@/app/assets/21th-blog-webp.webp';
 import blogImage22 from '@/app/assets/22th-blog-webp.webp';
-// import blogImage23 from '@/app/assets/23th-blog-webp.webp';
+import blogImage23 from '@/app/assets/23th-blog-webp.webp';
 // import blogImage24 from '@/app/assets/24th-blog-webp.webp';
 // import blogImage25 from '@/app/assets/25th-blog-webp.webp';
 // import blogImage26 from '@/app/assets/26th-blog-webp.webp';
@@ -74,7 +74,7 @@ const blogImageAssets: Record<string, StaticImageData> = {
   "20th-blog-webp": blogImage20,
   "21th-blog-webp": blogImage21,
   "22th-blog-webp": blogImage22,
-  // "23th-blog-webp": blogImage23,
+  "23th-blog-webp": blogImage23,
   // "24th-blog-webp": blogImage24,
   // "25th-blog-webp": blogImage25,
   // '26th-blog-webp': blogImage26,
