@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { stripLocaleFromPath } from "@/lib/i18n-config";
 import {
   type HeroProps,
@@ -90,11 +90,32 @@ export default function Hero({
     story: path.includes("/instagram-story-downloader"),
     viewer: path.includes("/instagram-story-viewer"),
   };
+  const [inputValue, setInputValue] = useState("");
 
   useEffect(() => {
     window.__INSTAGRAM_FORM__ = { paste: form?.paste ?? "", clear: form?.clear ?? "" };
     window.__USE_MOCK_API__ = useMockApi;
   }, [form?.paste, form?.clear, useMockApi]);
+
+  const handlePaste = async () => {
+    const input = document.getElementById("url") as HTMLInputElement | null;
+    if (!input) return;
+
+    if (input.value) {
+      input.value = "";
+      setInputValue("");
+      input.focus();
+      return;
+    }
+
+    if (!navigator.clipboard) return;
+
+    try {
+      input.value = await navigator.clipboard.readText();
+      setInputValue(input.value);
+      input.focus();
+    } catch {}
+  };
 
   return (
     <>
@@ -330,6 +351,8 @@ export default function Hero({
                   placeholder={form?.placeholder ?? ""}
                   aria-label="Url"
                   autoCapitalize="none"
+                  value={inputValue}
+                  onChange={(event) => setInputValue(event.target.value)}
                   className="flex-1 h-14 md:ml-5 md:px-5 px-3 text-base text-gray-800 placeholder:text-gray-500 focus:outline-none"
                 />
                 <input
@@ -340,10 +363,15 @@ export default function Hero({
 
                 <button
                   type="button"
+                  onClick={handlePaste}
                   id="paste-mobile"
                   className="h-14 md:px-6 px-2 text-sm md:text-base font-medium text-gray-700 border-l border-gray-200 flex items-center justify-center gap-2 bg-[#f7f7f7] hover:bg-gray-200 hover:text-[#2d8cff] cursor-pointer"
                 >
-                  <span className="paste-text">{form?.paste ?? ""}</span>
+                  <span className="paste-text">
+                    {inputValue
+                      ? form?.clear ?? defaultForm?.clear
+                      : form?.paste ?? defaultForm?.paste}
+                  </span>
                 </button>
               </div>
 
